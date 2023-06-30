@@ -26,13 +26,13 @@ function pages() {
 
 function fonts() {
     return src('app/fonts/src/*.*')
-        .pipe(newer('app/fonts/*.*'))
+        .pipe(newer('app/fonts'))
         .pipe(fonter({
             formats: ['woff', 'ttf'],
             hinting: true
         }))
         .pipe(src('app/fonts/*.ttf'))
-        .pipe(newer('app/fonts/*.*'))
+        .pipe(newer('app/fonts'))
         .pipe(ttf2woff2())
         .pipe(dest('app/fonts'))
 }       
