@@ -132,4 +132,4 @@ exports.fonts = fonts;
 //exports.sprite = sprite;
 
 exports.build = series(cleanDist, building);
-exports.default = parallel(styles, scripts, imagesAvif, imagesWebp, imagesMin, fonts, watching);
+exports.default = parallel(styles, scripts, imagesAvif, imagesWebp, imagesMin, fonts, pages, watching);
