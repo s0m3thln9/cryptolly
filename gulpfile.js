@@ -28,7 +28,8 @@ function fonts() {
     return src('app/fonts/src/*.*')
         .pipe(newer('app/fonts'))
         .pipe(fonter({
-            formats: ['woff', 'ttf']
+            formats: ['woff', 'ttf'],
+            hinting: true
         }))
         .pipe(src('app/fonts/*.ttf'))
         .pipe(ttf2woff2())
