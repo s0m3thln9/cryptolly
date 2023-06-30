@@ -32,7 +32,7 @@ function fonts() {
             hinting: true
         }))
         .pipe(src('app/fonts/*.ttf'))
-        .pipe(newer('app/fonts'))
+        .pipe(newer('app/fonts/*.*'))
         .pipe(ttf2woff2())
         .pipe(dest('app/fonts'))
 }       
