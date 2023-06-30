@@ -39,7 +39,7 @@ function fonts() {
 
 function styles() {
     return src('app/scss/style.scss')
-        //.pipe(autoPrefixer({overrideBrowserlist: ['last 10 version']}))
+        .pipe(autoPrefixer({overrideBrowserlist: ['last 10 version']}))
         .pipe(concat('style.min.css'))
         .pipe(scss({ outputStyle: 'compressed' }))
         .pipe(dest('app/css'))
