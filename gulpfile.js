@@ -105,6 +105,7 @@ function building() {
             'app/img/dist/*.*',
             'app/css/style.min.css',
             'app/js/main.min.js',
+            'app/fonts/*.*',
             'app/**/*.html'
         ], {base: 'app'})
         .pipe(dest('dist'))
