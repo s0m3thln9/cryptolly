@@ -12,6 +12,7 @@ const newer = require('gulp-newer');
 const fonter = require('gulp-fonter');
 const ttf2woff2 = require('gulp-ttf2woff2');
 const include = require('gulp-include');
+const postcss = require('gulp-postcss');
 //const svgSprite = require('gulp-svg-sprite');
 
 const imgDist = 'app/img/dist';
@@ -39,7 +40,7 @@ function fonts() {
 
 function styles() {
     return src('app/scss/style.scss')
-        .pipe(autoPrefixer({overrideBrowserlist: ['last 10 version']}))
+        .pipe(postcss([autoPrefixer()]))
         .pipe(concat('style.min.css'))
         .pipe(scss({ outputStyle: 'compressed' }))
         .pipe(dest('app/css'))
