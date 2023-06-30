@@ -3,7 +3,7 @@ const scss = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify-es').default;
 const browserSync = require('browser-sync').create();
-const autoPrefixer = require('gulp-autoprefixer');
+const autoPrefixer = require('autoprefixer');
 const clean = require('gulp-clean');
 const avif = require('gulp-avif');
 const webp = require('gulp-webp');
@@ -40,7 +40,7 @@ function fonts() {
 
 function styles() {
     return src('app/scss/style.scss')
-        .pipe(postcss([autoPrefixer()]))
+        .pipe(postcss([ autoPrefixer() ]))
         .pipe(concat('style.min.css'))
         .pipe(scss({ outputStyle: 'compressed' }))
         .pipe(dest('app/css'))
