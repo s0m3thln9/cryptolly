@@ -1,0 +1,30 @@
+@mixin flex($justify-content: start, $align-items: start) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin font($font-family, $font-size, $font-weight, $line-height, $color) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $color;
+}
+@mixin button($paddint-top-bottom, $padding-left-right) {
+    padding: $paddint-top-bottom $padding-left-right;
+    background: linear-gradient(265.56deg, #246CF9 -0.27%, #1E68F6 -0.26%, #0047D0 98.59%);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+@mixin position-left($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+@mixin position-right($top, $right) {
+    position: absolute;
+    top: $top;
+    right: $right;
+}

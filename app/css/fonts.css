@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik/GraphikRegular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik/GraphikMedium.otf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url('../fonts/Graphik/GraphikSemibold.otf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Sofia';
+    src: url('../fonts/Sofia/Sofia-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/Sofia\ Pro/SofiaProBold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/Sofia\ Pro/SofiaProSemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../fonts/Sora/Sora-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
