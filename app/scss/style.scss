@@ -135,7 +135,7 @@ a {
         position: relative;
         img {
             @include position-left(64%, 58%);
-            /**/ transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
         }
     }
 }
