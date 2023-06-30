@@ -7,10 +7,825 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Graphik';
+    background: $bg;
+    color: $white;
+}
+
+h1 {
+    margin-top: 72px;
+    width: 638px;
+    @include font('Sofia Pro', 61px, 700, 110%, $white);
+}
+
+h2 {
+    @include font('Sofia Pro', 49px, 700, 110%, $white);
+}
+
+h3 {
+    @include font('Sofia Pro', 25px, 700, 120%, $white);
+}
+
 img {
     display: block;
 }
 
 a {
     text-decoration: none;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.button {
+    @include button(18px, 75px);
+    @include font('Sofia Pro', 18px, 600, 160%, $white);
+}
+.logo {
+    @include flex(start, center);
+    p {
+        @include font('Sora', 18px, 700, 23px, $white);
+        span {
+            color: $blue;
+        }
+    }
+}
+
+
+/* Hero section */
+
+.hero {
+    position: relative;
+    .grid__bg {
+        @include position-left(0, 50%);
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .line__hero {
+        @include position-left(0, 50%);
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+}
+
+/* Header */
+.header__wrap {
+    padding: 24px 0;
+    @include flex(space-between, center);
+    .header__menu {
+        display: flex;
+        ul {
+            height: 100%;
+            @include flex(space-between, center)
+        }
+        li {
+            display: inline-block;
+            &:not(:first-child) {
+                margin-left: 48px;
+            }
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }
+        .menu__button__container {
+            margin-left: 32px;
+            @include flex(start, center);
+            button {
+                height: 100%;
+                padding: 12px 24px;
+                border-radius: 100px;
+                color: $white;
+                @include font('Sofia Pro', 14px, 600, 22px, $white);
+                cursor: pointer;
+                &:first-child {
+                    background: transparent;
+                    border: 1px solid $white;
+                }
+                &:last-child {
+                    margin-left: 16px;
+                    @include button(12px, 24px);
+                }
+            }
+        }
+    }
+}
+
+
+/* Hero */
+.hero__container {
+    @include flex(space-between, center);
+    .hero__text {
+        p {
+            margin-top: 24px;
+            width: 521px;
+            @include font('Graphik', 18px, 400, 27px, $text-grey-20);
+        }
+        button {
+            margin-top: 48px;
+            @include font('Graphik', 18px, 400, 27px, $text-grey-20);
+        }
+    }
+    .hero__image {
+        width: 560px;
+        height: 416px;
+        position: relative;
+        img {
+            @include position-left(64%, 58%);// так надо потому что ебучая тень не симметрична НАХУЙ
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+/* Slider */
+
+.slider__main-container {
+    margin: 94px auto 0;
+    position: relative;
+    width: 1440px;
+    overflow: hidden;
+    height: 178px;
+    &:before {
+        content: '';
+        height: inherit;
+        width: 89px;
+        background: linear-gradient(90deg, $bg 0%, transparent 100%);
+        @include position-left(0, 0);
+        z-index: 2;
+    }
+    &:after {
+        content: '';
+        height: inherit;
+        width: 89px;
+        background: linear-gradient(270deg, $bg 0%, transparent 100%);
+        @include position-right(0, 0);
+        z-index: 2;
+    }
+    .slider__cover {
+        width: 100%;
+        height: 100%;
+        @include position-left(0, 0);
+        z-index: 2;
+    }
+}
+.slider {
+    @include position-left(0, 0);
+    display: flex;
+    width: fit-content;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.slider__item {
+    width: 346px;
+    height: 178px;
+    background: rgba(47, 50, 65, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    padding: 24px;
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+    .slider__info {
+        @include flex(space-between, start);
+    }
+    .slider__left {
+        p {
+            margin-top: 24px;
+            @include font('Graphik', 16px, 400, 24px, $text-grey-40);
+        }
+    }
+    .slider__indicator {
+        margin-top: 8px;
+        @include flex(end, center);
+        p {
+            margin-left: 10px;
+            @include font('Graphik', 18px, 600, 27px, $green-primary);
+        }
+        .slider__minus {
+            color: $text-red;
+        }
+    }
+    .slider__balance {
+        margin-top: 11px;
+        @include flex(space-between, center);
+        p {
+            color: $text-grey-60;
+        }
+        h3 {
+            font-weight: 600;
+            line-height: 27px;
+            font-family: 'Graphik';
+        }
+    }
+}
+
+// Features
+
+.features {
+    padding: 120px 0;
+}
+
+.features__wrap {
+    display: flex;
+}
+
+.features__card-container {
+    display: flex;
+    margin-right: 70px;
+    .features__column:last-child {
+        margin-left: 24px;
+    }
+    .features__card:not(:first-child) {
+        margin-top: 24px;
+    }
+    .features__column:last-child {
+        @include flex(center, center);
+    }
+    .features__card {
+        width: 285px;
+        background: $dark;
+        backdrop-filter: blur(2px);
+        border-radius: 12px;
+        @include flex(center, center);
+        flex-direction: column;
+        padding: 40px 28px;
+        .card__img-block {
+            width: 90px;
+            height: 90px;
+            background: #34384C;
+            backdrop-filter: blur(7px);
+            border-radius: 50%;
+            @include flex(center, center);  
+        }
+        h3 {
+            margin-top: 40px;
+        }
+        p {
+            @include font('Graphik', 16px, 400, 24px, $text-grey-40);
+            margin-top: 16px;
+            text-align: center;
+        }
+    }
+}
+
+.features__text-container {
+    display: flex;
+    @include flex(center, start);
+    flex-direction: column;
+    position: relative;
+    img {
+        @include position-left(277px, 100px);
+        z-index: -1;
+    }
+    p {
+        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        margin-top: 24px;
+        width: 448px;
+    }
+    button {
+        margin-top: 32px;
+        @include button(16px, 54.5px);
+        @include font('Sofia Pro', 16px, 600, 160%, $white);
+    }
+}
+
+// Exchange
+.exchange__container,
+.about__container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.about__image-container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.exchange {
+    position: relative;
+    .ellipse {
+        @include position-left(100px, 0);
+    }
+}
+
+.exchange__wrap {
+    display: flex;
+    @include flex(space-between, start);
+}
+
+.exchange__content {
+    p {
+        margin-top: 25px;
+        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        width: 500px;
+    }
+    .exchange-list__container {
+        margin: 40px 0 0 36px;
+        .exchange__item {
+            display: flex;
+            align-items: center;
+            .exchange__img-block {
+                @include flex(center, center);
+                width: 90px;
+                height: 90px;
+                background: $dark;
+                backdrop-filter: blur(7px);
+                border-radius: 50%;
+            }
+            h3 {
+                margin-left: 32px;
+            }
+            &:not(:first-child) {
+                margin-top: 32px;
+            }
+            &:nth-child(2) {
+                padding-left: 70px;
+            }
+            &:nth-child(3) {
+                padding-left: 140px;
+            }
+        }
+    }
+}
+
+.exchange__converter-container {
+    margin-left: 95px;
+    
+}
+.converter {
+    width: 450px;
+    background: $dark;
+    backdrop-filter: blur(6.5px);
+    border-radius: 20px;
+    padding: 27px 32px 40px 32px;
+    .converter__choice {
+        display: flex;
+        button {
+            @include font('Graphik', 20px, 600, 27px, $text-grey-60);
+            background: none;
+            width: 50%;
+            border: none;
+            outline: none;
+            &:first-child {
+                border-right: 1px solid $text-grey-80;
+            }
+            &.active {
+                color: $dark-blue;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    p {
+        margin-top: 48px;
+        @include font('Graphik', 16px, 400, 24px, $white);
+    }
+    .converter__rate {
+        margin-top: 8px;
+        display: flex;
+        h3 {
+            font-weight: 600;
+            line-height: 27px;
+            font-family: 'Graphik';
+        }
+        span {
+            margin-left: 14px;
+            @include font('Graphik', 18px, 400, 27px, $text-grey-60);
+        }
+        a {
+            margin-left: 39px;
+            @include font('Graphik', 16px, 400, 24px, $text-grey-40);
+            text-decoration: none;
+        }
+    }
+    .converter__row-container {
+        margin-top: 32px;
+        .converter__row {
+            margin-bottom: 24px;
+            width: 100%;
+            height: 60px;
+            @include flex(space-between, center);
+            border-bottom: 1px solid $text-grey-80;
+            .converter_wallet {
+                @include flex(space-between, center);
+            }
+            input {
+                @include font('Graphik', 18px, 400, 27px, $white);
+                background: none;
+                border: none;
+                outline: none;
+                height: 32px;
+                width: 276px;
+                border-right: 1px solid $text-grey-80;
+            }
+            .converter__item {
+                @include flex(start, center);
+                margin-left: 16px;
+                span {
+                    margin-left: 8px;
+                }
+            }
+            .converter__arrow {
+                margin-left: 8px;
+            }
+        }
+    }
+    .converter__button {
+        margin-top: 32px;
+        @include font('Sofia Pro', 18px, 600, 160%, $white);
+        @include button(18px, 156px);
+        width: 383px;
+        height: 65px;
+    }
+}
+// About
+
+.about {
+padding: 160px 0;
+    h2 {
+        width: 636px;
+    }
+    p {
+        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        margin-top: 24px;
+        width: 546px;
+    }
+}
+
+
+.about__wrap {
+    @include flex(space-between, center);
+}
+
+.about__line {
+    @include position-right(48px, 0);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.about__img-block {
+    transform: translateX(calc(-42px * 3));
+    width: 581px;
+}
+
+.about__list {
+    margin-top: 40px;
+    .about__item {
+        display: flex;
+        .about__item__img-block {
+            @include flex(center, center);
+            width: 110px;
+            height: 110px;
+            border-radius: 12px;
+            background: $dark;
+            backdrop-filter: blur(7px);
+        }
+        .about__text-block {
+            width: 309px;
+            margin-left: 32px;
+            p {
+                margin-top: 8px;
+                width: 100%;
+                color: $text-grey-40;
+            }
+        }
+        &:not(:first-child) {
+            margin-top: 32px;
+        }
+    }
+}
+
+
+/* Media */
+.media__wrap {
+    @include flex(space-between, start);
+}
+.media__text-container {
+    width: 539px;
+    h2 {
+        @include font('Sofia Pro', 49px, 700, 110%, $white);
+    }
+    .media__content {
+        margin-top: 40px;
+        position: relative;
+        height: 120px;
+        overflow: hidden;
+        .media__slider {
+            display: flex;
+            height: 100%;
+            width: 400%;
+            transition: all .3s;
+            @include position-left(0, 0);
+            .media__slider-item {
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+    }
+
+    #feedback {
+        @include font('Graphik', 25px, 400, 27px, $text-grey-20);
+    }
+    #author {
+        margin-top: 16px;
+        @include font('Graphik', 18px, 600, 27px, $text-grey-40);
+    }
+
+    .media__button-container {
+        margin-top: 40px;
+        button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            &:not(:first-child) {
+                margin-left: 24px;
+            }
+        }
+    }
+}
+.media_image-container {
+    position: relative;
+    height: 100%;
+    width: 512px;
+    height: 380px;
+    .media__company-circle {
+        .media__company-inner-circle {
+            width: 102%;
+            height: 102%;
+            @include flex(center, center);
+            background: $dark-hex;
+            border-radius: 50%;
+            transition: all .2s;
+        } 
+        position: absolute;
+        border-radius: 50%;
+        background: $blue;
+        overflow: hidden;
+        transition: all .2s;
+        @include font('Sofia Pro', 40px, 700, 110%, $text-grey-100);
+        @include flex(center, center);
+        &:nth-child(1) {
+            .media__company-inner-circle {
+                width: calc(100% - 4px);
+                height: calc(100% - 4px);
+            }
+            height: 245px;
+            width: 245px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: $text-red2;
+        }
+        &:nth-child(2) {
+            height: 111px;
+            width: 111px;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            font-size: 30px;
+        }
+        &:nth-child(3) {
+            height: 185px;
+            width: 185px;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 30px;
+        }
+        &:nth-child(4) {
+            height: 93px;
+            width: 93px;
+            left: 53%;
+            bottom: 0;
+            transform: translateX(-50%);
+            font-size: 15px;
+        }
+    }
+}
+
+// Mobile
+
+.mobile__container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    .grid__bg {
+        @include position-left(0, 50%);
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .vector111 {
+        @include position-left(-15%, 65%);
+        z-index: -1;
+    }
+}
+
+.mobile__wrap {
+    @include flex(start, center);
+    height: 825px;
+
+}
+
+.mobile__img-block {
+    img {
+        width: 549px;
+    }
+}
+
+.mobile__content {
+    width: 511px;
+    .mobile__paragraph {
+        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        margin: 24px 0 48px 0;
+        width: 402px;
+    }
+    .mobile__get-app {
+        @include font('Graphik', 16px, 600, 24px, $white);
+        margin-bottom: 24px;
+    }
+    .mobile__buttons {
+        @include flex(start, center);
+        button {
+            @include flex(center, center);
+            width: 248px;
+            height: 69px;
+            gap: 24px;
+            border: 1px solid $white;
+            border-radius: 100px;
+            background: transparent;
+            &:first-child {
+                margin-right: 16px;
+            }
+            .mobile__button__txt-block {
+                text-align: left;
+                .button__first-txt {
+                    @include font('Inter', 12px, 400, 150%, $white);
+                }
+                .button__second-txt {
+                    @include font('Sofia', 16px, 400, 120%, $white);
+                }
+            }
+        }
+    }
+}
+
+/* Contact */
+
+.contact__container {
+    width: 1440px;
+    margin: 35px auto 0;
+    position: relative;
+    .contact__line-bg {
+        @include position-left(106px, 0);
+        z-index: -1;
+    }
+    .contact__contant-container {
+        @include flex(space-between, center);
+        flex-direction: column;
+    }
+    p {
+        @include font('Graphik', 20px, 400, 27px, $text-grey-20);
+    }
+    h2 {
+        margin-top: 16px;
+        width: 841px;
+        text-align: center;
+        @include font('Sofia Pro', 49px, 700, 110%, $white);
+    }
+    form {
+        margin-top: 40px;
+    }
+    .contact__form {
+        width: 462px;
+        height: 67px;
+        padding: 4px 8px 4px 0;
+        border: 1px solid $text-grey-80;
+        border-radius: 100px;
+        @include flex(space-between, center);
+        input {
+            padding-left: 32px;
+            height: 100%;
+            width: 292px;
+            background: transparent;
+            outline: none;
+            border: none;
+            @include font('Graphik', 16px, 400, 24px, $white);
+            &::-webkit-input-placeholder {
+                color: $text-grey-60;
+            }
+        }
+        button {
+            margin-left: 10px;
+            @include button(16px, 32px);
+            @include font('Sofia Pro', 16px, 600, 160%, $white);
+        }
+    }
+}
+
+/* Footer */
+
+.footer__wrap {
+    margin-top: 100px;
+    .footer__main-container {
+        @include flex(space-between, start);
+        .footer__item {
+            &:nth-child(1) {
+                & > p {
+                    margin-top: 12px;
+                    @include font('Graphik', 18px, 400, 27px, $white);
+                }
+                .footer__socials {
+                    margin-top: 40px;
+                    display: flex;
+                    a {
+                        &:not(:first-child) {
+                            margin-left: 44px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .footer__links-container {
+                    margin-top: 24px;
+                    @include flex ();
+                    .footer__links-col {
+                        @include flex();
+                        flex-direction: column;
+                        &:not(:first-child) {
+                            margin-left: 100px;
+                        }
+                        a {
+                            @include font('Graphik', 16px, 400, 24px, $text-grey-40);
+                            &:not(:first-child) {
+                                margin-top: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                & > h4 {
+                    @include font('Sofia Pro', 20px, 700, 120%, $white);
+                }
+                & > p {
+                    margin-top: 24px;
+                    width: 354px;
+                    @include font('Graphik', 16px, 400, 24px, $text-grey-40);
+                }
+                form {
+                    margin-top: 24px;
+                }
+                .contact__form {
+                    width: 354px;
+                    height: 63px;
+                    padding: 8px 8px 8px 0;
+                    border: 1px solid $text-grey-80;
+                    border-radius: 100px;
+                    @include flex(space-between, center);
+                    input {
+                        padding-left: 24px;
+                        height: 100%;
+                        width: 211px;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        @include font('Graphik', 14px, 400, 22.4px, $white);
+                        &::-webkit-input-placeholder {
+                            color: $text-grey-60;
+                        }
+                    }
+                    button {
+                        margin-left: 10px;
+                        @include button(12px, 24px);
+                        @include font('Sofia Pro', 14px, 600, 22.4px, $white);
+                    }
+                }
+            }
+        }
+    }
+    .footer__copyright {
+        margin-top: 85px;
+        padding: 32px 0;
+        border-top: 1px solid $text-grey-60;
+        @include flex(space-between, center);
+        p {
+            @include font('Graphik', 16px, 400, 24px, $text-grey-60);
+        }
+        .copyright__left {
+            @include flex(start, center);
+            gap: 20px;
+            .vertical-line {
+                height: 24px;
+                width: 1px;
+                background: $text-grey-60;
+            }
+        }
+    }
 }
