@@ -11,9 +11,18 @@ const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 const fonter = require('gulp-fonter');
 const ttf2woff2 = require('gulp-ttf2woff2');
+const include = require('gulp-include');
 //const svgSprite = require('gulp-svg-sprite');
 
 const imgDist = 'app/img/dist';
+
+function pages() {
+    return src('app/pages/*.html')
+        .pipe(include({
+            includePaths: 'app/components'
+        }))
+        .pipe(dest('app'));
+}
 
 function fonts() {
     return src('app/fonts/src/*.*')
