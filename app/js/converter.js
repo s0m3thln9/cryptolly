@@ -8,6 +8,7 @@ let input1 = row1.querySelector("input");
 let input2 = row2.querySelector("input");
 let converterButton = document.querySelector(".converter__button");
 let change = false;
+const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
 
 
 const buyButtonClickHandler = () => {
@@ -44,7 +45,11 @@ const sellButtonClickHandler = () => {
     }
 }
 
-const valueInputHandler = () => {
+const valueInputHandler = (e) => {
+    console.log(e.data)
+    if (!nums.includes(e.data)) {
+        input1.value = input1.value.substring(0, input1.value.length - 1);
+    }
     input2.value = input1.value * rate;
 }
 
