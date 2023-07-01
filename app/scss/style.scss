@@ -439,7 +439,7 @@ a {
     .converter__button {
         margin-top: 32px;
         @include font('Sofia Pro', 18px, 600, 160%, $white);
-        @include button(18px, 156px);
+        @include button(18px, 32px);
         width: 383px;
         height: 65px;
     }
