@@ -29,7 +29,7 @@ const sellButtonClickHandler = () => {
     if (currentState) {
         currentState = false;
         rate = 28964.9;
-        input1.value = 1;
+        input1.value = 1.000.toFixed(3);
         input2.value = input1.value * rate;
         sellButton.classList.toggle("active");
         buyButton.classList.toggle("active");
