@@ -16,6 +16,7 @@ const postcss = require('gulp-postcss');
 //const svgSprite = require('gulp-svg-sprite');
 
 const imgDist = 'app/img/dist';
+const fontDist = 'app/fonts';
 
 function pages() {
     return src('app/pages/*.html')
@@ -27,15 +28,15 @@ function pages() {
 
 function fonts() {
     return src('app/fonts/src/*.*')
-        .pipe(newer('app/fonts'))
+        .pipe(newer(fontDist))
         .pipe(fonter({
             formats: ['woff', 'ttf'],
             hinting: true
         }))
         .pipe(src('app/fonts/*.ttf'))
-        .pipe(newer('app/fonts'))
+        .pipe(newer(fontDist))
         .pipe(ttf2woff2())
-        .pipe(dest('app/fonts'))
+        .pipe(dest(fontDist))
 }       
 
 function styles() {
