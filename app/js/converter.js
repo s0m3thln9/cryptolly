@@ -46,7 +46,6 @@ const sellButtonClickHandler = () => {
 
 const valueInputHandler = () => {
     input2.value = input1.value * rate;
-    change = false;
 }
 
 const firstInputClick = () => {
