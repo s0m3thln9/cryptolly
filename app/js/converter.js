@@ -23,6 +23,7 @@ const buyButtonClickHandler = () => {
         row2.querySelector("#wallet__logo").src = "img/Bitcoin.svg";
         row2.querySelector("span").innerHTML = "BTC";
         converterButton.innerHTML = "Buy Now";
+        change = false;
     }
 }
 
@@ -39,6 +40,7 @@ const sellButtonClickHandler = () => {
         row2.querySelector("#wallet__logo").src = "img/USD.svg";
         row2.querySelector("span").innerHTML = "USD";
         converterButton.innerHTML = "Sell Now";
+        change = false;
     }
 }
 
