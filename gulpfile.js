@@ -13,7 +13,6 @@ const fonter = require('gulp-fonter');
 const ttf2woff2 = require('gulp-ttf2woff2');
 const include = require('gulp-include');
 const postcss = require('gulp-postcss');
-//const svgSprite = require('gulp-svg-sprite');
 
 const imgDist = 'app/img/dist';
 const fontDist = 'app/fonts';
@@ -80,18 +79,6 @@ function imagesMin() {
         .pipe(dest(imgDist))
 }
 
-// function sprite() {
-//     return src(['app/img/dist/*.svg'])
-//         .pipe(svgSprite({
-//             mode: {
-//                 stack: {
-//                     sprite: "../sprite.svg"  //sprite file name
-//                 }
-//             },
-//         }))
-//         .pipe(dest(imgDist))
-// }
-
 function watching() {
     browserSync.init({
         server: {
@@ -135,7 +122,6 @@ exports.imagesAvif = imagesAvif;
 exports.imagesWebp = imagesWebp;
 exports.imagesMin = imagesMin;
 exports.fonts = fonts;
-//exports.sprite = sprite;
 
 exports.build = series(cleanDist, building);
-exports.default = parallel(styles, scripts, imagesAvif, imagesWebp, imagesMin, fonts, pages, watching);
+exports.default = parallel(styles, scripts, imagesAvif, imagesWebp, imagesMin, pages, watching);
