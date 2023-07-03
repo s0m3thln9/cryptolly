@@ -130,7 +130,7 @@ a {
 
 .burger__menu {
     height: 100vh;
-    padding: 95px 24px 24px 24px;
+    padding: 95px 24px 24px 48px;
     background: $bg;
     transition: all .3s;
     @include position-right(0, -100%);
