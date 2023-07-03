@@ -107,6 +107,8 @@ a {
 }
 .header__wrap .header__menu {
   display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .header__wrap .header__menu ul {
   height: 100%;

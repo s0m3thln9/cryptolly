@@ -77,7 +77,7 @@ a {
     padding: 24px 0;
     @include flex(space-between, center);
     .header__menu {
-        display: flex;
+        @include flex(start, center);
         ul {
             height: 100%;
             @include flex(space-between, center)
