@@ -168,6 +168,7 @@ a {
 }
 
 .burger__menu {
+  width: 100%;
   padding: 95px 24px 24px 24px;
   background: #1D1F25;
   transition: all 0.3s;
@@ -179,6 +180,9 @@ a {
 .burger__menu li {
   list-style: none;
   height: 46px;
+  display: flex;
+  justify-content: end;
+  align-items: start;
   display: flex;
   justify-content: start;
   align-items: center;
