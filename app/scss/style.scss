@@ -61,6 +61,10 @@ a {
 }
 
 .blur {
+    width: 100%;
+    height: 100vh;
+    background: $bg;
+
     z-index: -2;
     opacity: 0;
 }
