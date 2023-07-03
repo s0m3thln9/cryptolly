@@ -392,7 +392,7 @@ a {
 }
 
 .slider__indicator-container {
-  margin-top: 24px;
+  margin: 24px auto 0;
   width: -moz-fit-content;
   width: fit-content;
   display: flex;

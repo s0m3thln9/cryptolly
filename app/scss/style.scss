@@ -298,7 +298,7 @@ a {
     }
 }
 .slider__indicator-container {
-    margin-top: 24px;
+    margin: 24px auto 0;
     width: fit-content;
     @include flex(center, start);
     position: relative;
