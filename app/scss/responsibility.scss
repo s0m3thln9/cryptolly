@@ -7,15 +7,12 @@
   .hero > img {
       width: 95%;
   }
-  .hero__image img {
-      @include position-left(-10%, -10%);
-      transform: none;
-  }
   .slider__main-container {
     width: 100%;
   }
 
   .hero__container {
+    padding: 0 30px;
     .hero__image {
         img {
             @include position-left(-10%, -10%);
