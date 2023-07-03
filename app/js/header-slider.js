@@ -58,6 +58,7 @@ const mousemoveHandler = (e) => {
             left += sliderLength;
             slider.style.left = `${left}px`;
         }
+        indicatorActiveItem.left = `${Math.round(e.offsetX / 44)}px`;
     }
     previousOffset = e.offsetX;
 }
