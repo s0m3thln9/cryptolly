@@ -177,7 +177,7 @@ a {
 }
 .burger__menu li {
   list-style: none;
-  height: 38px;
+  height: 46px;
   display: flex;
   justify-content: start;
   align-items: center;

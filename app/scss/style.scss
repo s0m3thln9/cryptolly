@@ -132,7 +132,7 @@ a {
     z-index: 2;
     li {
         list-style: none;
-        height: 38px;
+        height: 46px;
         @include flex(start, center);
         a {
             @include font('Graphik', 14px, 400, 22.4px, $white);
