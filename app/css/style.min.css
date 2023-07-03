@@ -184,6 +184,7 @@ a {
   position: relative;
 }
 .hero__container .hero__image img {
+  display: none;
   position: absolute;
   top: 64%;
   left: 58%;
