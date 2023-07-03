@@ -158,7 +158,7 @@ a {
     }
 }
 .burger__menu-shown {
-    @include position-right(95px, 0);
+    right: 0;
 }
 
 

@@ -217,8 +217,6 @@ a {
 }
 
 .burger__menu-shown {
-  position: absolute;
-  top: 95px;
   right: 0;
 }
 
