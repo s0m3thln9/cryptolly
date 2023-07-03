@@ -849,7 +849,7 @@ padding: 160px 0;
     }
     .hero__image img {
         @include position-left(-10%, -10%);
-        transform: none !important;
+        transform: none;
     }
 }
 @media (max-width: 1110px) {
