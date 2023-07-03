@@ -167,6 +167,7 @@ a {
 }
 
 .burger__menu {
+  width: 100%;
   background: #1D1F25;
   position: absolute;
   top: 95px;
