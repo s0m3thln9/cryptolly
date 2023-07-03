@@ -95,6 +95,11 @@
         }
     }
   }
+  .hero {
+    .line__hero {
+        @include position-left(20%, 50%);
+    }
+}
 }
 @media screen and (max-width: 600px) {
   .hero__container {
