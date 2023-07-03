@@ -391,6 +391,12 @@ a {
   font-family: "Graphik";
 }
 
+.indicator-item {
+  height: 8px;
+  width: 8px;
+  background: #34384C;
+}
+
 .features {
   padding: 120px 0;
 }
