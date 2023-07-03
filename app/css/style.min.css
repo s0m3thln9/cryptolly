@@ -95,6 +95,11 @@ a {
   opacity: 0;
 }
 
+.blur-visible {
+  z-index: 1;
+  opacity: 1;
+}
+
 /* Hero section */
 .hero {
   width: 100%;
