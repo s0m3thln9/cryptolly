@@ -39,9 +39,10 @@ const mouseupHandler = (e) => {
             velocity /= 10;
         }
         velocityInterval = setInterval(velocityFunction, 20);
+    } else {
+        sliderIndicatorContainer.style.opacity = 0;
     }
     delta = 0;
-    sliderIndicatorContainer.style.opacity = 0;
 }
 
 const documentMouseupHandler = (e) => {
@@ -118,7 +119,8 @@ const velocityFunction = () => {
     indicatorActiveItem.style.left = `${(left + sliderLength) / 44}px`;
     if (Math.abs(velocity) < 2) {
         clearInterval(velocityInterval);
-        return 0;
+        sliderIndicatorContainer.style.opacity = 0;
+        return;
     }
 };
 
