@@ -139,6 +139,7 @@ a {
         @include flex(end, center);
         a {
             @include font('Graphik', 14px, 400, 22.4px, $white);
+            width: 100%;
             padding: 12px 0;
         }
     }

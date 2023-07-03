@@ -190,6 +190,7 @@ a {
   font-weight: 400;
   line-height: 22.4px;
   color: #ffffff;
+  width: 100%;
   padding: 12px 0;
 }
 .burger__menu .menu__button-container {
