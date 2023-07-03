@@ -229,6 +229,9 @@ a {
     .hero > img {
         width: 100%;
     }
+    .hero__image img {
+        transform: none;
+    }
 }
 @media (max-width: 1110px) {
     .wrapper {
