@@ -1126,7 +1126,7 @@ a {
   .hero__container {
     padding: 0 30px;
   }
-  .hero__container .hero__image img {
+  .hero__container .hero__image {
     display: none;
   }
 }
