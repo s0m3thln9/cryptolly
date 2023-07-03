@@ -1298,6 +1298,9 @@ a {
     width: 100%;
   }
   /* Features */
+  .features {
+    padding: 64px 0 0 0;
+  }
   .features__wrap {
     width: 70%;
     display: flex;
