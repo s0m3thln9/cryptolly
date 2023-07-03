@@ -111,13 +111,13 @@ a {
                     @include button(12px, 24px);
                 }
             }
-            .burger__button {
-                button {
-                    border: none;
-                    background: transparent;
-                }
-                //display: none;
+        }
+        .burger__button {
+            button {
+                border: none;
+                background: transparent;
             }
+            //display: none;
         }
     }
 }
