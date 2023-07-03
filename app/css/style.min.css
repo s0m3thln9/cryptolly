@@ -1396,6 +1396,7 @@ a {
   }
   .features__text-container h2, .features__text-container p {
     text-align: center;
+    width: 100%;
   }
   .features__text-container button {
     margin: 24px auto 0;

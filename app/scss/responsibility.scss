@@ -154,7 +154,8 @@
   }
   .features__text-container {
     h2, p {
-      text-align: center
+      text-align: center;
+      width: 100%;
     }
     button {
         margin: 24px auto 0;
