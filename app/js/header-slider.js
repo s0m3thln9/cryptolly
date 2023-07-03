@@ -14,7 +14,6 @@ let delta = 0;
 let previousOffset = 0;
 let velocityInterval;
 let autoscrollInterval;
-let pixel = 0;
 
 
 const mousedownHandler = (e) => {
@@ -81,13 +80,7 @@ const touchmoveHandler = (e) => {
 
 const autoScroll = () => {
     if (isTouch === false) {
-        pixel += 1/10;
-        console.log(pixel);
-        if (pixel < 1) {
-            return;
-        }
-        let left = parseInt(slider.style.left) - 1;
-        pixel = 0;
+        let left = parseInt(slider.style.left) - 1/2;
         slider.style.left = `${left}px`;
         if (left < -offset && left > -sliderLength - offset) {
             slider.style.left = `${left}px`;
