@@ -1217,11 +1217,6 @@ a {
     width: 100%;
   }
 }
-@media screen and (min-width: 981px) {
-  .burger__menu {
-    right: -100%;
-  }
-}
 @media screen and (max-width: 980px) {
   .header__wrap .header__menu {
     display: none;
