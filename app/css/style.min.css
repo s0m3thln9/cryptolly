@@ -1085,7 +1085,7 @@ a {
 }
 
 /* Responsibility */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1480px) {
   .hero__container {
     padding: 0 30px;
   }
