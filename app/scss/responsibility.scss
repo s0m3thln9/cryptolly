@@ -59,11 +59,8 @@
   }
   /* Features */
   .features__wrap {
+    width: 70%;
     flex-direction: column-reverse;
-    .features__text-container {
-      width: 70%;
-      margin: 0 auto;
-    }
   }
 }
 

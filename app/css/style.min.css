@@ -1263,11 +1263,8 @@ a {
   }
   /* Features */
   .features__wrap {
-    flex-direction: column-reverse;
-  }
-  .features__wrap .features__text-container {
     width: 70%;
-    margin: 0 auto;
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 980px) {
