@@ -1127,13 +1127,9 @@ a {
     display: none;
   }
 }
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1158px) {
   .wrapper {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 980wpx) {
-  .wrapper {
+    padding: 0 24px;
     width: 100%;
   }
 }
