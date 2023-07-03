@@ -190,10 +190,14 @@ a {
   font-weight: 400;
   line-height: 22.4px;
   color: #ffffff;
+  display: flex;
+  justify-content: end;
+  align-items: start;
   width: 100%;
   padding: 12px 0;
 }
 .burger__menu .menu__button-container {
+  margin-top: 24px;
   display: flex;
   justify-content: end;
   align-items: start;
