@@ -3,6 +3,17 @@
 
 
 
-@media (max-width: 1440px) {
-    /* Hero */
+@media screen and (max-width: 1440px) {
+  .hero > img {
+      width: 95%;
   }
+  .hero__image img {
+      @include position-left(-10%, -10%);
+      transform: none;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .wrapper {
+      width: 100%;
+  }
+}
