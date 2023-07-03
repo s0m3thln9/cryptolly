@@ -7,7 +7,9 @@ const burgerMenuToggler = () => {
 }
 
 
-window.onresize(() => {
-    console.log(window.innerWidth);
-    //if(window.innerWidth > 980)
-});
+window.addEventListener("resize", () => {
+    if(window.innerWidth < 981) {
+        return;
+    }
+    blur.classList.remove('blur-visible');
+})
