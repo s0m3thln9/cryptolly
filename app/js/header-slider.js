@@ -22,7 +22,7 @@ const mousedownHandler = (e) => {
 }
 
 const touchstartHandler = (e) => {
-    previousOffset = 0;
+    previousOffset = e.touches[0].clientX;
     isTouch = true;
     clearInterval(velocityInterval);
 }
