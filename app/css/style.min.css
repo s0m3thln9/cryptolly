@@ -1148,6 +1148,7 @@ a {
     padding: 0 10%;
   }
   .hero__container .hero__text h1 {
+    width: auto;
     text-align: center;
   }
   .hero__container .hero__text p {
