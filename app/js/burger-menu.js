@@ -14,3 +14,8 @@ window.addEventListener("resize", () => {
     burgerMenu.classList.remove('burger__menu-shown');
     blur.classList.remove('blur-visible');
 })
+
+blur.addEventListener("click", () => {
+    burgerMenu.classList.remove('burger__menu-shown');
+    blur.classList.remove('blur-visible');
+})
