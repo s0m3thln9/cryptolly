@@ -104,6 +104,7 @@ a {
 /* Hero section */
 .hero {
   width: 100%;
+  overflow: hidden;
   position: relative;
 }
 .hero .grid__bg {
