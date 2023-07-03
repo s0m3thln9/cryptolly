@@ -156,7 +156,6 @@ a {
         height: 46px;
         a {
             @include font('Graphik', 14px, 400, 22.4px, $white);
-            @include flex(end, start);
             width: 100%;
             padding: 12px 0;
         }
