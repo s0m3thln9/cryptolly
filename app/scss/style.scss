@@ -299,16 +299,22 @@ a {
 }
 .slider__indicator-container {
     margin-top: 24px;
+    width: fit-content;
     @include flex(center, start);
     position: relative;
-}
-.indicator-item {
-    height: 8px;
-    width: 8px;
-    background: $text-grey-80;
-    border-radius: 50%;
-    &:not(:first-child) {
-        margin-left: 4px;
+    .indicator-item {
+        height: 8px;
+        width: 8px;
+        background: $text-grey-80;
+        border-radius: 50%;
+        &:not(:first-child) {
+            margin-left: 4px;
+        }
+    }
+    .indicator-active-item {
+        width: 20px;
+        height: 8px;
+        background: $gradient;
     }
 }
 

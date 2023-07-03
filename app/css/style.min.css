@@ -393,20 +393,26 @@ a {
 
 .slider__indicator-container {
   margin-top: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: start;
   position: relative;
 }
-
-.indicator-item {
+.slider__indicator-container .indicator-item {
   height: 8px;
   width: 8px;
   background: #34384C;
   border-radius: 50%;
 }
-.indicator-item:not(:first-child) {
+.slider__indicator-container .indicator-item:not(:first-child) {
   margin-left: 4px;
+}
+.slider__indicator-container .indicator-active-item {
+  width: 20px;
+  height: 8px;
+  background: linear-gradient(265.56deg, #246CF9 -0.27%, #1E68F6 -0.26%, #0047D0 98.59%);
 }
 
 .features {
