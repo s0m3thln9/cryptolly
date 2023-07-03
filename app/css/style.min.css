@@ -1394,6 +1394,12 @@ a {
     top: 0;
     left: 0;
   }
+  .features__text-container h2, .features__text-container p {
+    text-align: center;
+  }
+  .features__text-container button {
+    margin: 24px auto 0;
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */

@@ -152,6 +152,14 @@
       @include position-left(0, 0);
     }
   }
+  .features__text-container {
+    h2, p {
+      text-align: center
+    }
+    button {
+        margin: 24px auto 0;
+    }
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */
