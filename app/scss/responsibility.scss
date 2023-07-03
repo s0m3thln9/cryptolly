@@ -65,7 +65,7 @@
   .features__text-container {
     margin: 0;
     img {
-      top: 0;
+      @include position-left(0, 50%);
     }
   }
   .features__card-container {
