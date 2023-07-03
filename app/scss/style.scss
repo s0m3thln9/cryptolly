@@ -59,6 +59,7 @@ a {
 /* Hero section */
 
 .hero {
+    width: 100%;
     position: relative;
     .grid__bg {
         @include position-left(0, 50%);
