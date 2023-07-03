@@ -1309,7 +1309,9 @@ a {
     margin: 0;
   }
   .features__text-container img {
+    position: absolute;
     top: 0;
+    left: 30%;
   }
   .features__card-container {
     margin-top: 40px;
