@@ -65,6 +65,8 @@ a {
     height: 100vh;
     background: $bg;
 
+    @include position-left(0, 0);
+
     z-index: -3;
     opacity: 0;
 }
