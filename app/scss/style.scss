@@ -133,7 +133,8 @@ a {
     li {
         list-style: none;
         a {
-            @include font('Graphik', 14px, 400, 22.4px, $white)
+            @include font('Graphik', 14px, 400, 22.4px, $white);
+            padding: 12px 0;
         }
     }
 }
