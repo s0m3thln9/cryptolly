@@ -148,7 +148,8 @@ a {
 .burger__menu {
     height: 100vh;
     padding: 95px 24px 24px 48px;
-    background: $bg;
+    background: rgba(47, 50, 65, 0.5);
+    backdrop-filter: blur(2px);
     transition: all .3s;
     @include position-right(0, -100%);
     z-index: 2;
