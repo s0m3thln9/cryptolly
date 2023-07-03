@@ -93,7 +93,7 @@ const autoScroll = () => {
         }
     }
 };
-autoscrollInterval = setInterval(autoScroll, 1)
+autoscrollInterval = setInterval(autoScroll, 10)
 
 const velocityFunction = () => {
     velocity *= velocityMultiplier;
