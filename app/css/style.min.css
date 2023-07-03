@@ -1166,7 +1166,7 @@ a {
     padding: 0;
   }
   .hero__container .hero__text h1 {
-    margin-top: 0;
+    margin-top: 16px;
     font-size: 50px;
   }
   .hero__container .hero__text p {
