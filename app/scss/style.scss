@@ -125,7 +125,9 @@ a {
 }
 
 .burger__menu {
-    position: absolute;
+    background: $bg;
+    @include position-right(0, 0);
+    z-index: 2;
 }
 
 
