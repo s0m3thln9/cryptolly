@@ -336,7 +336,6 @@ a {
 
 .features__card-container {
     display: flex;
-    margin-right: 70px;
     .features__column:last-child {
         margin-left: 24px;
     }
@@ -375,6 +374,7 @@ a {
 
 .features__text-container {
     display: flex;
+    margin-left: 70px;
     @include flex(center, start);
     flex-direction: column;
     position: relative;
