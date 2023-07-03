@@ -169,6 +169,7 @@ a {
 .burger__menu {
   padding: 24px;
   background: #1D1F25;
+  transition: all 0.3s;
   position: absolute;
   top: 95px;
   right: -100%;
@@ -212,6 +213,12 @@ a {
   border-radius: 100px;
   border: none;
   cursor: pointer;
+}
+
+.burger__menu-shown {
+  position: absolute;
+  top: 95px;
+  right: 0;
 }
 
 /* Hero */
