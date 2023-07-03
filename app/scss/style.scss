@@ -316,7 +316,6 @@ a {
         height: 8px;
         border-radius: 4px;
         background: $gradient;
-        transition: all .01s;
         @include position-left(0, 0);
     }
 }
