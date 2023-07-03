@@ -156,8 +156,9 @@ a {
   border: none;
   cursor: pointer;
 }
-.header__wrap .header__menu .menu__button-container .burger__button {
-  display: none;
+.header__wrap .header__menu .menu__button-container .burger__button button {
+  border: none;
+  background: transparent;
 }
 
 /* Hero */

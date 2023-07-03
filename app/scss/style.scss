@@ -112,7 +112,11 @@ a {
                 }
             }
             .burger__button {
-                display: none;
+                button {
+                    border: none;
+                    background: transparent;
+                }
+                //display: none;
             }
         }
     }
