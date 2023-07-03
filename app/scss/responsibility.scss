@@ -52,6 +52,9 @@
 
 @media screen and (max-width: 980px) {
   .header__wrap {
+    .header__menu {
+      display: none;
+    }
     .burger__button {
         display: block;
     }
