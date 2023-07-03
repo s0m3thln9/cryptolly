@@ -82,6 +82,7 @@ const touchmoveHandler = (e) => {
 const autoScroll = () => {
     if (isTouch === false) {
         pixel += 1/10;
+        console.log(pixel);
         if (pixel < 1) {
             return;
         }
