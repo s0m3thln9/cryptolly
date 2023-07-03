@@ -1,7 +1,8 @@
-@mixin flex($justify-content: start, $align-items: start) {
+@mixin flex($justify-content: start, $align-items: start, $flex-direction: row) {
     display: flex;
     justify-content: $justify-content;
     align-items: $align-items;
+    flex-direction: $flex-direction;
 }
 
 @mixin font($font-family, $font-size, $font-weight, $line-height, $color) {
