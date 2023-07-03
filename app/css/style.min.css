@@ -1409,6 +1409,20 @@ a {
   }
 }
 @media screen and (max-width: 540px) {
+  h2 {
+    font-family: "Sofia Pro";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: "Sofia Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #ffffff;
+  }
   /* Hero */
   .hero__container .hero__text h1 {
     font-size: 34px;
@@ -1428,13 +1442,6 @@ a {
   }
   .hero .line__hero {
     width: 500px;
-  }
-  .features__text-container h2 {
-    font-family: "Graphik";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 110%;
-    color: #ffffff;
   }
   .features__text-container p {
     font-family: "Graphik";

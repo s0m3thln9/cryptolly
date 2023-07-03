@@ -169,6 +169,12 @@
   }
 }
 @media screen and (max-width: 540px) {
+  h2 {
+    @include font('Sofia Pro', 28px, 700, 110%, $white);
+  }
+  h3 {
+    @include font('Sofia Pro', 18px, 700, 120%, $white);
+  }
   /* Hero */
   .hero__container {
     .hero__text {
@@ -196,9 +202,6 @@
   }
 
   .features__text-container {
-    h2 {
-      @include font('Graphik', 28px, 700, 110%, $white);
-    }
     p {
         @include font('Graphik', 14px, 400, 24px, $text-grey-20);
         margin-top: 16px;
