@@ -1086,7 +1086,7 @@ a {
 }
 
 /* Responsibility */
-@media screen and (min-width: 1110px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .hero > img {
     width: 95%;
   }
