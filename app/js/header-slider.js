@@ -21,12 +21,14 @@ let autoscrollInterval;
 const mousedownHandler = (e) => {
     isTouch = true;
     clearInterval(velocityInterval);
+    sliderIndicatorContainer.style.opacity = 1;
 }
 
 const touchstartHandler = (e) => {
     previousOffset = e.touches[0].clientX;
     isTouch = true;
     clearInterval(velocityInterval);
+    sliderIndicatorContainer.style.opacity = 1;
 }
 
 const mouseupHandler = (e) => {
