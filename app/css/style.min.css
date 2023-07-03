@@ -1151,7 +1151,8 @@ a {
     text-align: center;
   }
   .hero__container .hero__text p {
-    width: 100%;
+    width: 80%;
+    margin: 24px auto;
     text-align: center;
   }
   .hero__container .hero__text button {
