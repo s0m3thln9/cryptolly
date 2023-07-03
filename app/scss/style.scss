@@ -139,6 +139,22 @@ a {
             padding: 12px 0;
         }
     }
+    button {
+        height: 100%;
+        padding: 12px 24px;
+        border-radius: 100px;
+        color: $white;
+        @include font('Sofia Pro', 14px, 600, 22px, $white);
+        cursor: pointer;
+        &:first-child {
+            background: transparent;
+            border: 1px solid $white;
+        }
+        &:last-child {
+            margin-left: 16px;
+            @include button(12px, 24px);
+        }
+    }
 }
 
 
