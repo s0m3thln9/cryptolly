@@ -225,20 +225,7 @@ a {
     }
 }
 
-@media (max-width: 1440px) {
-    .hero > img {
-        width: 100%;
-    }
-    .hero__image img {
-        @include position-left(-10%, -10%);
-        transform: none !important;
-    }
-}
-@media (max-width: 1110px) {
-    .wrapper {
-        width: 100%;
-    }
-}
+
 
 // Features
 
@@ -844,5 +831,29 @@ padding: 160px 0;
                 background: $text-grey-60;
             }
         }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+    .hero > img {
+        width: 100%;
+    }
+    .hero__image img {
+        @include position-left(-10%, -10%);
+        transform: none !important;
+    }
+}
+@media (max-width: 1110px) {
+    .wrapper {
+        width: 100%;
     }
 }
