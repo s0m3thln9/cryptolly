@@ -1256,6 +1256,9 @@ a {
     padding: 24px;
     width: 100%;
   }
+  .features__wrap {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 980px) {
   .header__wrap .header__menu {
