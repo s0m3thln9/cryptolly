@@ -395,6 +395,7 @@ a {
   margin: 24px auto 0;
   width: -moz-fit-content;
   width: fit-content;
+  transition: all 0.2s;
   opacity: 0;
   display: flex;
   justify-content: center;
