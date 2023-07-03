@@ -169,7 +169,7 @@ a {
 .burger__menu {
   background: #1D1F25;
   position: absolute;
-  top: 0;
+  top: 95px;
   right: 0;
   z-index: 2;
 }
