@@ -177,6 +177,8 @@ a {
 }
 .burger__menu li {
   list-style: none;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .burger__menu li a {
   font-family: "Graphik";
