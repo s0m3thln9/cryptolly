@@ -63,6 +63,7 @@
     @include flex(center, center, column-reverse);
   }
   .features__text-container {
+    margin: 0;
     img {
       top: 0;
     }
