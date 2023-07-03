@@ -21,6 +21,12 @@ const mousedownHandler = (e) => {
     clearInterval(velocityInterval);
 }
 
+const touchstartHandler = (e) => {
+    previousOffset = 0;
+    isTouch = true;
+    clearInterval(velocityInterval);
+}
+
 const mouseupHandler = (e) => {
     isTouch = false;
     if (delta != 0) {
