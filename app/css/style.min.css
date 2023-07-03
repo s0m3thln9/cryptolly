@@ -405,7 +405,7 @@ a {
   background: #34384C;
   border-radius: 50%;
 }
-z .indicator-item:not(:first-child) {
+.indicator-item:not(:first-child) {
   margin-left: 4px;
 }
 
