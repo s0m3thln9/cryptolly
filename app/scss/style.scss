@@ -843,7 +843,7 @@ padding: 160px 0;
 
 
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .hero > img {
         width: 95%;
     }
@@ -852,7 +852,7 @@ padding: 160px 0;
         transform: none;
     }
 }
-@media (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
     .wrapper {
         width: 100%;
     }
