@@ -31,12 +31,7 @@
     }
 }
 
-
-}
-@media screen and (max-width: 1110px) {
-  .wrapper {
-      width: 100%;
-  }
+@media screen and (max-width: 1345px) {
   .hero__container {
     padding: 0 30px;
     .hero__image {
@@ -44,5 +39,12 @@
             display: none;
         }
     }
+  }
+}
+
+}
+@media screen and (max-width: 1110px) {
+  .wrapper {
+      width: 100%;
   }
 }
