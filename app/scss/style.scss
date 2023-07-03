@@ -314,6 +314,7 @@ a {
     .indicator-active-item {
         width: 20px;
         height: 8px;
+        border-radius: 4px;
         background: $gradient;
         @include position-left(0, 0);
     }

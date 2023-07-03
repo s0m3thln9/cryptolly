@@ -412,6 +412,7 @@ a {
 .slider__indicator-container .indicator-active-item {
   width: 20px;
   height: 8px;
+  border-radius: 4px;
   background: linear-gradient(265.56deg, #246CF9 -0.27%, #1E68F6 -0.26%, #0047D0 98.59%);
   position: absolute;
   top: 0;
