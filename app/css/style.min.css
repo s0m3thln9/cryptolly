@@ -156,10 +156,10 @@ a {
   border: none;
   cursor: pointer;
 }
-.header__wrap .header__menu .burger__button {
+.header__wrap .burger__button {
   display: none;
 }
-.header__wrap .header__menu .burger__button button {
+.header__wrap .burger__button button {
   border: none;
   background: transparent;
 }
