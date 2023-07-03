@@ -1147,32 +1147,10 @@ a {
     width: 100%;
     padding: 0 20%;
   }
+  .hero__container .hero__text h1 {
+    text-align: center;
+  }
   .hero__container .hero__text p {
-    margin-top: 24px;
-    width: 521px;
-    font-family: "Graphik";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #E5E6ED;
-  }
-  .hero__container .hero__text button {
-    margin-top: 48px;
-    font-family: "Graphik";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #E5E6ED;
-  }
-  .hero__container .hero__image {
-    width: 560px;
-    height: 416px;
-    position: relative;
-  }
-  .hero__container .hero__image img {
-    position: absolute;
-    top: 64%;
-    left: 58%;
-    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
