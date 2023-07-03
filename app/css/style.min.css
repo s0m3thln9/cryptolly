@@ -395,6 +395,7 @@ a {
   margin: 24px auto 0;
   width: -moz-fit-content;
   width: fit-content;
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -417,7 +418,6 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
 }
 
 .features {
