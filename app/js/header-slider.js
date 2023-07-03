@@ -77,7 +77,6 @@ const touchmoveHandler = (e) => {
             left += sliderLength;
             slider.style.left = `${left}px`;
         }
-        //indicatorActiveItem.style.left = `${Math.round(e.touches[0].clientX / 44)}px`;
     indicatorActiveItem.style.left = `${(left + sliderLength) / 44}px`;
     }
     previousOffset = e.touches[0].clientX;
