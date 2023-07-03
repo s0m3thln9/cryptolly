@@ -1137,7 +1137,7 @@ a {
   }
 }
 @media screen and (max-width: 980px) {
-  .header__wrap .header__menu .burger__button {
+  .header__wrap .burger__button {
     display: block;
   }
 }
