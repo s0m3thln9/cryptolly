@@ -130,6 +130,9 @@
   /* Hero */
   .features__card-container {
     flex-direction: column;
+    .features__column:last-child {
+      margin-top: 16px;
+    }
   }
 }
 @media screen and (max-width: 600px) {
