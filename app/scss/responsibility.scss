@@ -61,9 +61,9 @@
   .features__wrap {
     width: 70%;
     @include flex(center, center, column-reverse);
-    .features__card-container {
-      margin-right: 0;
-    }
+  }
+  .features__card-container {
+    margin-right: 0;
   }
 }
 
