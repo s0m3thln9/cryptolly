@@ -1211,6 +1211,7 @@ a {
 
 /* Responsibility */
 @media screen and (max-width: 1480px) {
+  /* Hero */
   .hero__container {
     padding: 0 30px;
   }
@@ -1220,6 +1221,7 @@ a {
     left: -50%;
     transform: none;
   }
+  /* Features */
   .features__text-container img {
     left: auto;
     right: 0;
@@ -1227,6 +1229,7 @@ a {
   }
 }
 @media screen and (max-width: 1440px) {
+  /* Hero */
   .hero > img {
     width: 95%;
   }
@@ -1244,6 +1247,7 @@ a {
   }
 }
 @media screen and (max-width: 1440px) and (max-width: 1345px) {
+  /* Hero */
   .hero__container {
     padding: 0 30px;
   }
@@ -1252,6 +1256,7 @@ a {
   }
 }
 @media screen and (max-width: 1158px) {
+  /* Hero */
   .wrapper {
     padding: 24px;
     width: 100%;
@@ -1261,6 +1266,7 @@ a {
   }
 }
 @media screen and (max-width: 980px) {
+  /* Hero */
   .header__wrap .header__menu {
     display: none;
   }
@@ -1285,6 +1291,7 @@ a {
   }
 }
 @media screen and (max-width: 840px) {
+  /* Hero */
   .hero__container .hero__text {
     width: 100%;
     padding: 0;
@@ -1313,11 +1320,13 @@ a {
   }
 }
 @media screen and (max-width: 600px) {
+  /* Hero */
   .hero__container {
     padding: 0;
   }
 }
 @media screen and (max-width: 540px) {
+  /* Hero */
   .hero__container .hero__text h1 {
     font-size: 34px;
   }
@@ -1339,6 +1348,7 @@ a {
   }
 }
 @media screen and (max-width: 375px) {
+  /* Hero */
   .logo p {
     display: none;
   }

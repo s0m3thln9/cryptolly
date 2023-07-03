@@ -2,6 +2,7 @@
 @import '_mixins';
 
 @media screen and (max-width: 1480px) {
+  /* Hero */
   .hero__container {
     padding: 0 30px;
     .hero__image {
@@ -11,6 +12,7 @@
         }
     }
   }
+  /* Features */
   .features__text-container {
     img {
       left:auto;
@@ -21,13 +23,13 @@
 }
 
 @media screen and (max-width: 1440px) {
+  /* Hero */
   .hero > img {
       width: 95%;
   }
   .slider__main-container {
     width: 100%;
   }
-
   .hero__container {
     padding: 0 30px;
     .hero__image {
@@ -39,6 +41,7 @@
 }
 
 @media screen and (max-width: 1345px) {
+  /* Hero */
   .hero__container {
     padding: 0 30px;
     .hero__image {
@@ -49,6 +52,7 @@
 
 }
 @media screen and (max-width: 1158px) {
+  /* Hero */
   .wrapper {
     padding: 24px;
     width: 100%;
@@ -59,6 +63,7 @@
 }
 
 @media screen and (max-width: 980px) {
+  /* Hero */
   .header__wrap {
     .header__menu {
       display: none;
@@ -87,6 +92,7 @@
   }
 }
 @media screen and (max-width: 840px) {
+  /* Hero */
   .hero__container {
     .hero__text {
       width: 100%;
@@ -115,11 +121,13 @@
   }
 }
 @media screen and (max-width: 600px) {
+  /* Hero */
   .hero__container {
     padding: 0;
   }
 }
 @media screen and (max-width: 540px) {
+  /* Hero */
   .hero__container {
     .hero__text {
         h1 {
@@ -146,6 +154,7 @@
   }
 }
 @media screen and (max-width: 375px) {
+  /* Hero */
   .logo {
     p {
       display: none;
