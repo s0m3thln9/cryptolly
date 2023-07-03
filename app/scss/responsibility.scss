@@ -200,7 +200,13 @@
         @include button(16px, 54.5px);
         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
-}
+  }
+  .features__text-container {
+    img {
+      @include position-left(0, 30%);
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */

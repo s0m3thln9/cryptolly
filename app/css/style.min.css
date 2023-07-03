@@ -1451,6 +1451,12 @@ a {
     line-height: 22.4px;
     color: #ffffff;
   }
+  .features__text-container img {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
