@@ -92,7 +92,7 @@ a {
                 color: $white;
             }
         }
-        .menu__button__container {
+        .menu__button-container {
             margin-left: 32px;
             @include flex(start, center);
             button {
