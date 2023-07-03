@@ -1364,6 +1364,12 @@ a {
     transform: none;
   }
 }
+@media screen and (max-width: 680px) {
+  /* Hero */
+  .features__card-container {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 600px) {
   /* Hero */
   .hero__container {
