@@ -31,6 +31,12 @@ img {
     display: block;
 }
 
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
@@ -114,10 +120,6 @@ a {
         }
     }
     .burger__button {
-        button {
-            border: none;
-            background: transparent;
-        }
         display: none;
     }
 }
