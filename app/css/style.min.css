@@ -1160,3 +1160,21 @@ a {
     width: 100%;
   }
 }
+@media screen and (max-width: 860px) {
+  .hero__container .hero__text {
+    width: 100%;
+    padding: 0;
+  }
+  .hero__container .hero__text h1 {
+    width: auto;
+    text-align: center;
+  }
+  .hero__container .hero__text p {
+    width: 80%;
+    margin: 24px auto 0;
+    text-align: center;
+  }
+  .hero__container .hero__text button {
+    width: 100%;
+  }
+}
