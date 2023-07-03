@@ -225,6 +225,7 @@ a {
   padding: 12px 24px;
   border-radius: 100px;
   color: #ffffff;
+  outline: none;
   font-family: "Sofia Pro";
   font-size: 14px;
   font-weight: 600;

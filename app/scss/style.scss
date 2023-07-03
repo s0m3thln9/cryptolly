@@ -171,6 +171,7 @@ a {
             padding: 12px 24px;
             border-radius: 100px;
             color: $white;
+            outline: none;
             @include font('Sofia Pro', 14px, 600, 22px, $white);
             cursor: pointer;
             &:first-child {
