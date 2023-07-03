@@ -107,6 +107,7 @@ a {
 /* Header */
 .header__wrap {
   padding: 24px 0;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -164,7 +165,6 @@ a {
 }
 .header__wrap .burger__button {
   display: none;
-  z-index: 2;
 }
 
 .burger__menu {
