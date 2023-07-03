@@ -169,6 +169,7 @@ a {
 
 .burger__menu {
   width: 100%;
+  height: 100vh;
   padding: 95px 24px 24px 24px;
   background: #1D1F25;
   transition: all 0.3s;
