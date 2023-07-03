@@ -391,6 +391,10 @@ a {
   font-family: "Graphik";
 }
 
+.slider__indicator-container {
+  margin: 24px auto 0;
+}
+
 .indicator-item {
   height: 8px;
   width: 8px;
