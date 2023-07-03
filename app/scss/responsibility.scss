@@ -96,8 +96,10 @@
     }
   }
   .hero {
+    overflow: hidden;
     .line__hero {
-        @include position-left(20%, 50%);
+      width: 750px;
+      @include position-left(20%, 50%);
     }
 }
 }

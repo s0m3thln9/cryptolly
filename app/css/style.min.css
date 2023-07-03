@@ -1179,7 +1179,11 @@ a {
   .hero__container .hero__text button {
     margin-top: 32px;
   }
+  .hero {
+    overflow: hidden;
+  }
   .hero .line__hero {
+    width: 750px;
     position: absolute;
     top: 20%;
     left: 50%;
