@@ -178,6 +178,9 @@ a {
 .burger__menu li {
   list-style: none;
   height: 38px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .burger__menu li a {
   font-family: "Graphik";
