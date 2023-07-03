@@ -175,6 +175,9 @@ a {
   right: 0;
   z-index: 2;
 }
+.burger__menu li {
+  list-style: none;
+}
 
 /* Hero */
 .hero__container {
