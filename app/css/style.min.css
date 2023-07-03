@@ -1196,6 +1196,9 @@ a {
   .slider__main-container {
     margin-top: 36px;
   }
+  .slider__main-container::before, .slider__main-container::after {
+    width: 24px;
+  }
 }
 @media screen and (max-width: 375px) {
   .logo p {
