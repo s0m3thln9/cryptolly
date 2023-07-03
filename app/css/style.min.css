@@ -164,6 +164,7 @@ a {
 }
 .header__wrap .burger__button {
   display: none;
+  z-index: 2;
 }
 
 .burger__menu {
