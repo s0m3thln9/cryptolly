@@ -80,7 +80,7 @@ const touchmoveHandler = (e) => {
 
 const autoScroll = () => {
     if (isTouch === false) {
-        let left = parseInt(slider.style.left) - 1;
+        let left = parseInt(slider.style.left) - 1/2;
         slider.style.left = `${left}px`;
         if (left < -offset && left > -sliderLength - offset) {
             slider.style.left = `${left}px`;
