@@ -11,6 +11,9 @@
       @include position-left(-10%, -10%);
       transform: none;
   }
+  .slider__main-container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1110px) {
   .wrapper {
