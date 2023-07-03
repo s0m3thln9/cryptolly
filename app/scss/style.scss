@@ -300,12 +300,13 @@ a {
 .slider__indicator-container {
     margin-top: 24px;
     @include flex(center, start);
+    position: relative;
 }
 .indicator-item {
     height: 8px;
     width: 8px;
     background: $text-grey-80;
-    border-radius: 50%;
+    border-radius: 50%;z
     &:not(:first-child) {
         margin-left: 4px;
     }

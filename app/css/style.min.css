@@ -396,6 +396,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: start;
+  position: relative;
 }
 
 .indicator-item {
@@ -404,7 +405,7 @@ a {
   background: #34384C;
   border-radius: 50%;
 }
-.indicator-item:not(:first-child) {
+z .indicator-item:not(:first-child) {
   margin-left: 4px;
 }
 
