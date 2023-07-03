@@ -1167,6 +1167,7 @@ a {
   }
   .hero__container .hero__text h1 {
     margin-top: 0;
+    font-size: 50px;
     width: auto;
     text-align: center;
   }
