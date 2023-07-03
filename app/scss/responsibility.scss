@@ -11,6 +11,12 @@
         }
     }
   }
+  .features__text-container {
+    img {
+        @include position-left(277px, 0);
+        z-index: -1;
+    }
+  }
 }
 
 @media screen and (max-width: 1440px) {

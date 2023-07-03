@@ -1220,6 +1220,12 @@ a {
     left: -50%;
     transform: none;
   }
+  .features__text-container img {
+    position: absolute;
+    top: 277px;
+    left: 0;
+    z-index: -1;
+  }
 }
 @media screen and (max-width: 1440px) {
   .hero > img {
