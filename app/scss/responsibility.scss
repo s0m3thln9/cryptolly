@@ -58,5 +58,29 @@
     .burger__button {
         display: block;
     }
+  }
+  .hero__container {
+    .hero__text {
+      width: 100%;
+      padding: 0 20%;
+        p {
+            margin-top: 24px;
+            width: 521px;
+            @include font('Graphik', 18px, 400, 27px, $text-grey-20);
+        }
+        button {
+            margin-top: 48px;
+            @include font('Graphik', 18px, 400, 27px, $text-grey-20);
+        }
+    }
+    .hero__image {
+        width: 560px;
+        height: 416px;
+        position: relative;
+        img {
+            @include position-left(64%, 58%);
+            transform: translate(-50%, -50%);
+        }
+    }
 }
 }
