@@ -182,9 +182,6 @@ a {
   height: 46px;
   display: flex;
   justify-content: end;
-  align-items: start;
-  display: flex;
-  justify-content: start;
   align-items: center;
 }
 .burger__menu li a {

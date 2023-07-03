@@ -135,8 +135,7 @@ a {
     li {
         list-style: none;
         height: 46px;
-        @include flex(end, start);
-        @include flex(start, center);
+        @include flex(end, center);
         a {
             @include font('Graphik', 14px, 400, 22.4px, $white);
             padding: 12px 0;
