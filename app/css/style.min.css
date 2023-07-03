@@ -178,6 +178,13 @@ a {
 .burger__menu li {
   list-style: none;
 }
+.burger__menu li a {
+  font-family: "Graphik";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #ffffff;
+}
 
 /* Hero */
 .hero__container {

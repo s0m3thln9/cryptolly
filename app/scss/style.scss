@@ -132,6 +132,9 @@ a {
     z-index: 2;
     li {
         list-style: none;
+        a {
+            @include font('Graphik', 14px, 400, 22.4px, $white)
+        }
     }
 }
 
