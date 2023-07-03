@@ -1305,6 +1305,9 @@ a {
     align-items: center;
     flex-direction: column-reverse;
   }
+  .features__text-container img {
+    top: 0;
+  }
   .features__card-container {
     margin-top: 40px;
   }

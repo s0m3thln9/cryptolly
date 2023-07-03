@@ -62,6 +62,11 @@
     width: 70%;
     @include flex(center, center, column-reverse);
   }
+  .features__text-container {
+    img {
+      top: 0;
+    }
+  }
   .features__card-container {
     margin-top: 40px;
   }
