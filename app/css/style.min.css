@@ -168,11 +168,11 @@ a {
 }
 
 .burger__menu {
-  padding: 24px;
+  padding: 95px 24px 24px 24px;
   background: #1D1F25;
   transition: all 0.3s;
   position: absolute;
-  top: 95px;
+  top: 0;
   right: -100%;
   z-index: 2;
 }

@@ -126,10 +126,10 @@ a {
 }
 
 .burger__menu {
-    padding: 24px;
+    padding: 95px 24px 24px 24px;
     background: $bg;
     transition: all .3s;
-    @include position-right(95px, -100%);
+    @include position-right(0, -100%);
     z-index: 2;
     li {
         list-style: none;
