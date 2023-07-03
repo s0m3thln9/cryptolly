@@ -193,7 +193,12 @@ a {
   color: #ffffff;
   padding: 12px 0;
 }
-.burger__menu button {
+.burger__menu .menu__button-container {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.burger__menu .menu__button-container button {
   height: 100%;
   padding: 12px 24px;
   border-radius: 100px;
@@ -205,11 +210,11 @@ a {
   color: #ffffff;
   cursor: pointer;
 }
-.burger__menu button:first-child {
+.burger__menu .menu__button-container button:first-child {
   background: transparent;
   border: 1px solid #ffffff;
 }
-.burger__menu button:last-child {
+.burger__menu .menu__button-container button:last-child {
   margin-left: 16px;
   padding: 12px 24px;
   background: linear-gradient(265.56deg, #246CF9 -0.27%, #1E68F6 -0.26%, #0047D0 98.59%);
