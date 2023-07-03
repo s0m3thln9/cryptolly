@@ -1265,6 +1265,10 @@ a {
   .features__wrap {
     flex-direction: column-reverse;
   }
+  .features__wrap .features__text-container {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */

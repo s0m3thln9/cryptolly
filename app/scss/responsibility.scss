@@ -60,6 +60,10 @@
   /* Features */
   .features__wrap {
     flex-direction: column-reverse;
+    .features__text-container {
+      width: 70%;
+      margin: 0 auto;
+    }
   }
 }
 
