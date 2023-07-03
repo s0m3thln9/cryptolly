@@ -1,2 +1,9 @@
 @import '_vars';
 @import '_mixins';
+
+@media screen and (max-width: 1440px) {
+    /* Hero */
+    .hero {
+        width: 100%;
+    }
+}
