@@ -225,6 +225,13 @@ a {
     }
 }
 
+@media (max-width: 1440px) {
+    /* Hero */
+    .hero > img {
+        width: 100%;
+    }
+}
+
 // Features
 
 .features {
