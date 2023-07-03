@@ -1106,4 +1106,10 @@ a {
   .wrapper {
     width: 100%;
   }
+  .hero__container {
+    padding: 0 30px;
+  }
+  .hero__container .hero__image img {
+    display: none;
+  }
 }
