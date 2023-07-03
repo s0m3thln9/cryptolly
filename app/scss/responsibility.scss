@@ -185,6 +185,19 @@
       width: 500px;
     }
   }
+
+  .features__text-container {
+    p {
+        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        margin-top: 16px;
+        width: 100%;
+    }
+    button {
+        margin-top: 32px;
+        @include button(16px, 54.5px);
+        @include font('Sofia Pro', 16px, 600, 160%, $white);
+    }
+}
 }
 @media screen and (max-width: 375px) {
   /* Hero */

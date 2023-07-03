@@ -1422,6 +1422,28 @@ a {
   .hero .line__hero {
     width: 500px;
   }
+  .features__text-container p {
+    font-family: "Graphik";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #E5E6ED;
+    margin-top: 16px;
+    width: 100%;
+  }
+  .features__text-container button {
+    margin-top: 32px;
+    padding: 16px 54.5px;
+    background: linear-gradient(265.56deg, #246CF9 -0.27%, #1E68F6 -0.26%, #0047D0 98.59%);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-family: "Sofia Pro";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
