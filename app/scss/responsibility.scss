@@ -188,14 +188,14 @@
 
   .features__text-container {
     p {
-        @include font('Graphik', 16px, 400, 24px, $text-grey-20);
+        @include font('Graphik', 14px, 400, 24px, $text-grey-20);
         margin-top: 16px;
         width: 100%;
     }
     button {
-        margin-top: 32px;
+        margin-top: 24px;
         @include button(16px, 54.5px);
-        @include font('Sofia Pro', 16px, 600, 160%, $white);
+        @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
 }
 }
