@@ -1221,6 +1221,7 @@ a {
     transform: none;
   }
   .features__text-container img {
+    left: auto;
     right: 0;
     z-index: -1;
   }
