@@ -91,13 +91,14 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+  transition: all 0.2s;
   z-index: -3;
   opacity: 0;
 }
 
 .blur-visible {
   z-index: 1;
-  opacity: 1;
+  opacity: 0.75;
 }
 
 /* Hero section */
