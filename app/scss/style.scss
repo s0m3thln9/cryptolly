@@ -73,7 +73,7 @@ a {
 }
 .blur-visible {
     z-index: 1;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 
@@ -154,7 +154,6 @@ a {
     li {
         list-style: none;
         height: 46px;
-        @include flex(end, center);
         a {
             @include font('Graphik', 14px, 400, 22.4px, $white);
             @include flex(end, start);

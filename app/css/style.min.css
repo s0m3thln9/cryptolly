@@ -98,7 +98,7 @@ a {
 
 .blur-visible {
   z-index: 1;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 /* Hero section */
@@ -200,9 +200,6 @@ a {
 .burger__menu li {
   list-style: none;
   height: 46px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
 }
 .burger__menu li a {
   font-family: "Graphik";
