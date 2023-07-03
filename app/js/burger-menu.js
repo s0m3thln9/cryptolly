@@ -11,5 +11,6 @@ window.addEventListener("resize", () => {
     if(window.innerWidth < 981) {
         return;
     }
+    burgerMenu.classList.remove('burger__menu-shown');
     blur.classList.remove('blur-visible');
 })
