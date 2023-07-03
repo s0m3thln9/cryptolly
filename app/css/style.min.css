@@ -1154,6 +1154,6 @@ a {
     text-align: center;
   }
   .hero__container .hero__text button {
-    margin: 48px auto 0;
+    width: 100%;
   }
 }
