@@ -84,6 +84,11 @@ a {
   color: #1A82FF;
 }
 
+.blur {
+  z-index: -2;
+  opacity: 0;
+}
+
 /* Hero section */
 .hero {
   width: 100%;
