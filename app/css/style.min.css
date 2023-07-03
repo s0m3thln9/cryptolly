@@ -1092,7 +1092,7 @@ a {
   .hero__container .hero__image img {
     position: absolute;
     top: -10%;
-    left: -65%;
+    left: -55%;
     transform: none;
   }
 }
