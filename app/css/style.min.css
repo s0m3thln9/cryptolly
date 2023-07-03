@@ -1152,7 +1152,7 @@ a {
   }
   .hero__container .hero__text p {
     width: 80%;
-    margin: 24px auto;
+    margin: 24px auto 0;
     text-align: center;
   }
   .hero__container .hero__text button {
