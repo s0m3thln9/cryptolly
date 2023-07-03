@@ -111,6 +111,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.header__wrap .logo {
+  z-index: 2;
+}
 .header__wrap .header__menu {
   display: flex;
   justify-content: start;
