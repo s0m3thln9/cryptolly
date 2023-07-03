@@ -315,6 +315,7 @@ a {
         width: 20px;
         height: 8px;
         background: $gradient;
+        @include position-left(0, 0);
     }
 }
 
