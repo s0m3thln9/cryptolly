@@ -15,7 +15,7 @@
     padding: 0 30px;
     .hero__image {
         img {
-            @include position-left(-10%, -10%);
+            @include position-left(-10%, -50%);
             transform: none;
         }
     }
