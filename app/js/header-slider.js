@@ -1,5 +1,6 @@
 let slider = document.querySelector(".slider");
 let sliderCover = document.querySelector(".slider__cover");
+let indicatorActiveItem = document.querySelector(".indicator-active-item");
 
 let gap = 24;
 const sliderLength = (slider.offsetWidth + gap) / 2;
