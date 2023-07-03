@@ -99,8 +99,8 @@
     overflow: hidden;
     .line__hero {
       width: 100%;
-      @include position-left(20%, 50%);
-      transform: translateX(-30%);
+      @include position-left(20%, 0);
+      transform: none;
     }
 }
 }
