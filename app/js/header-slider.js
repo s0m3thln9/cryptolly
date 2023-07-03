@@ -47,6 +47,7 @@ const documentMouseupHandler = (e) => {
 const mousemoveHandler = (e) => {
     if(isTouch) {
         delta = e.offsetX - previousOffset;
+        console.log(`delta = ${delta}`);
         let left = parseInt(slider.style.left) + delta;
         if (left < -offset && left > -sliderLength - offset) {
             slider.style.left = `${left}px`;
