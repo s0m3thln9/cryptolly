@@ -1086,6 +1086,16 @@ a {
 
 /* Responsibility */
 @media screen and (max-width: 1440px) {
+  .hero__container {
+    padding: 0 30px;
+  }
+  .hero__container .hero__image img {
+    position: absolute;
+    top: -10%;
+    left: -60%;
+  }
+}
+@media screen and (max-width: 1440px) {
   .hero > img {
     width: 95%;
   }
