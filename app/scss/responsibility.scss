@@ -7,7 +7,6 @@
     .hero__image {
         img {
           @include position-left(-10%, -65%);
-          transform: translate(-50%, -50%);
         }
     }
   }
