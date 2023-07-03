@@ -60,7 +60,7 @@
   /* Features */
   .features__wrap {
     width: 70%;
-    flex-direction: column-reverse;
+    @include flex(center, center, column-reverse);
   }
 }
 
