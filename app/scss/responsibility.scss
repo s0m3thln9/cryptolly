@@ -175,6 +175,9 @@
   h3 {
     @include font('Sofia Pro', 18px, 700, 120%, $white);
   }
+  p {
+    @include font('Graphik', 14px, 400, 24px, $text-grey-40);
+  }
   /* Hero */
   .hero__container {
     .hero__text {
