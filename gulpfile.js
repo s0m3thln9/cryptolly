@@ -89,7 +89,7 @@ function watching() {
     watch(['app/img/src'], imagesWebp);
     watch(['app/img/src'], imagesMin);
     watch(['app/img/fonts/src'], fonts);
-    watch(['app/scss/style.scss'], styles);
+    watch(['app/scss/*.scss'], styles);
     watch(['app/js/*.js', '!app/js/main.min.js'], scripts);
     watch(['app/components/*.html', 'app/pages/*.html'], pages);
     watch(['app/*.html']).on('change', browserSync.reload);
