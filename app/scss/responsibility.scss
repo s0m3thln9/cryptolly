@@ -98,11 +98,11 @@
   .hero {
     overflow: hidden;
     .line__hero {
-      width: 500px;
+      width: 100%;
       @include position-left(20%, 0);
       transform: none;
     }
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .hero__container {
@@ -126,6 +126,14 @@
     &::before,
     &::after {
       width: 24px;
+    }
+  }
+  .hero {
+    overflow: hidden;
+    .line__hero {
+      width: 500px;
+      @include position-left(20%, 0);
+      transform: none;
     }
   }
 }

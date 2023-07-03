@@ -1183,7 +1183,7 @@ a {
     overflow: hidden;
   }
   .hero .line__hero {
-    width: 500px;
+    width: 100%;
     position: absolute;
     top: 20%;
     left: 0;
@@ -1208,6 +1208,16 @@ a {
   }
   .slider__main-container::before, .slider__main-container::after {
     width: 24px;
+  }
+  .hero {
+    overflow: hidden;
+  }
+  .hero .line__hero {
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    transform: none;
   }
 }
 @media screen and (max-width: 375px) {
