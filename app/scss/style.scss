@@ -111,6 +111,9 @@ a {
                     @include button(12px, 24px);
                 }
             }
+            .burger__button {
+                display: none;
+            }
         }
     }
 }
