@@ -1183,7 +1183,7 @@ a {
     overflow: hidden;
   }
   .hero .line__hero {
-    width: 750px;
+    width: 100%;
     position: absolute;
     top: 20%;
     left: 50%;
