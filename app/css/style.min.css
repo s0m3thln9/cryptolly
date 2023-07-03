@@ -1187,7 +1187,7 @@ a {
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: none;
+    transform: translateX(-30%);
   }
 }
 @media screen and (max-width: 600px) {
