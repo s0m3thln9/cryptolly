@@ -39,16 +39,18 @@ const documentMouseupHandler = (e) => {
 }
 
 const mousemoveHandler = (e) => {
-    delta = e.offsetX - previousOffset;
-    let left = parseInt(slider.style.left) + delta;
-    if (left < -offset && left > -sliderLength - offset) {
-        slider.style.left = `${left}px`;
-    } else if (left >= -offset) {
-        left -= sliderLength;
-        slider.style.left = `${left}px`;
-    } else if (left <= -sliderLength -offset) {
-        left += sliderLength;
-        slider.style.left = `${left}px`;
+    if(isTouch) {
+        delta = e.offsetX - previousOffset;
+        let left = parseInt(slider.style.left) + delta;
+        if (left < -offset && left > -sliderLength - offset) {
+            slider.style.left = `${left}px`;
+        } else if (left >= -offset) {
+            left -= sliderLength;
+            slider.style.left = `${left}px`;
+        } else if (left <= -sliderLength -offset) {
+            left += sliderLength;
+            slider.style.left = `${left}px`;
+        }
     }
     previousOffset = e.offsetX;
 }
