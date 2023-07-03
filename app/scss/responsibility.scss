@@ -100,6 +100,7 @@
     .line__hero {
       width: 750px;
       @include position-left(20%, 50%);
+      transform: none;
     }
 }
 }
