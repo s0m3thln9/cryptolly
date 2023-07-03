@@ -1098,6 +1098,12 @@ a {
   .slider__main-container {
     width: 100%;
   }
+  .hero__container .hero__image img {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    transform: none;
+  }
 }
 @media screen and (max-width: 1110px) {
   .wrapper {
