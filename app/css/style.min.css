@@ -171,7 +171,7 @@ a {
   background: #1D1F25;
   position: absolute;
   top: 95px;
-  right: 0;
+  right: -100%;
   z-index: 2;
 }
 .burger__menu li {
