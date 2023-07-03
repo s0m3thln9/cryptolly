@@ -78,7 +78,7 @@ const touchmoveHandler = (e) => {
             slider.style.left = `${left}px`;
         }
         //indicatorActiveItem.style.left = `${Math.round(e.touches[0].clientX / 44)}px`;
-        indicatorActiveItem.style.left = `${left / 44}px`;
+    indicatorActiveItem.style.left = `${left + sliderLength / 44}px`;
     }
     previousOffset = e.touches[0].clientX;
 }
@@ -112,7 +112,7 @@ const velocityFunction = () => {
         left += sliderLength;
         slider.style.left = `${left}px`;
     }
-        
+    indicatorActiveItem.style.left = `${left + sliderLength / 44}px`;
     if (Math.abs(velocity) < 2) {
         clearInterval(velocityInterval);
         return 0;
