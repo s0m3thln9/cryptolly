@@ -81,7 +81,6 @@ a {
 /* Header */
 .header__wrap {
     padding: 24px 0;
-    z-index: 3;
     @include flex(space-between, center);
     .header__menu {
         @include flex(start, center);
@@ -122,6 +121,7 @@ a {
     }
     .burger__button {
         display: none;
+        z-index: 2;
     }
 }
 
