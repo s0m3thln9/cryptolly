@@ -41,6 +41,7 @@ const mouseupHandler = (e) => {
         velocityInterval = setInterval(velocityFunction, 20);
     }
     delta = 0;
+    sliderIndicatorContainer.style.opacity = 0;
 }
 
 const documentMouseupHandler = (e) => {
