@@ -1084,6 +1084,7 @@ a {
   background: #5D6588;
 }
 
+/* Responsibility */
 @media screen and (min-width: 1110px) and (max-width: 1440px) {
   .hero > img {
     width: 95%;
