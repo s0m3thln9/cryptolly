@@ -43,6 +43,8 @@ function styles() {
         .pipe(postcss([ autoPrefixer() ]))
         .pipe(concat('style.min.css'))
         .pipe(scss({ outputStyle: 'compressed' }))
+        .pipe('app/scss/style.scss')
+        .pipe(concat('style.css'))
         .pipe(dest('app/css'))
         .pipe(browserSync.stream());
 }
