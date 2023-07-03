@@ -166,6 +166,10 @@ a {
   display: none;
 }
 
+.burger__menu {
+  position: absolute;
+}
+
 /* Hero */
 .hero__container {
   display: flex;
