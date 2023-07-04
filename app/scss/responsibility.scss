@@ -266,6 +266,23 @@
       margin-top: 16px !important;
     }
   }
+  //Exchange
+  .exchange__content {
+    h2 {
+      @include font('Sofia Pro', 28px, 700, 110%, $white);
+    }
+    p {
+      @include font('Graphik', 14px, 400, 24px, $text-grey-20);
+    }
+    h3 {
+      font-size: 18px;
+      margin: 0 0 0 16px !important;
+    }
+    .exchange__item {
+      padding: 0 !important;
+    }
+  }
+  
 }
 
 @media screen and (max-width: 375px) {
