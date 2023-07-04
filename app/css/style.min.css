@@ -1353,9 +1353,14 @@ a {
   }
   .features__text-container h2 {
     text-align: center;
+    width: auto;
   }
   .features__text-container p {
     text-align: center;
+    width: auto;
+  }
+  .features__text-container button {
+    width: 100%;
   }
 }
 @media screen and (max-width: 840px) {

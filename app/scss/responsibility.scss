@@ -110,9 +110,14 @@
     flex-direction: column;
     h2 {
       text-align: center;
+      width: auto;
     }
     p {
       text-align: center;
+      width: auto;
+    }
+    button {
+      width: 100%;
     }
   }
 }
