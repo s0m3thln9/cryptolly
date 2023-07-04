@@ -155,9 +155,6 @@
       width: auto;
     }
   }
-  .exchange__converter-container {
-    margin-left: 0;
-  }
 }
 
 @media screen and (max-width: 840px) {
@@ -277,6 +274,12 @@
         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
   }
+  .features__text-container {
+    img {
+      @include position-left(0, 25%);
+      width: 100%;
+    }
+  }
   .features__card {
     padding: 32px 28px !important; //хз почему свойства не применяются без "!important", так что поменяй если знаешь
     h3 {
@@ -304,10 +307,9 @@
       padding: 0 !important;
     }
   }
-
   .converter {
     width: 330px;
-    padding: 16px 16px 24px;
+    padding: 24px 16px;
     .convert {
       font-size: 14px !important;
       line-height: 24px !important;
@@ -340,9 +342,6 @@
     .converter__button {
       margin-top: 64px !important;
       width: 100% !important;
-    }
-    .converter__row-container {
-      margin-top: 24px !important;
     }
   }
   

@@ -1395,9 +1395,6 @@ a {
     text-align: center;
     width: auto;
   }
-  .exchange__converter-container {
-    margin-left: 0;
-  }
 }
 @media screen and (max-width: 840px) {
   /* Hero */
@@ -1529,6 +1526,12 @@ a {
     line-height: 22.4px;
     color: #ffffff;
   }
+  .features__text-container img {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 100%;
+  }
   .features__card {
     padding: 32px 28px !important;
   }
@@ -1563,7 +1566,7 @@ a {
   }
   .converter {
     width: 330px;
-    padding: 16px 16px 24px;
+    padding: 24px 16px;
   }
   .converter .convert {
     font-size: 14px !important;
@@ -1595,9 +1598,6 @@ a {
   .converter .converter__button {
     margin-top: 64px !important;
     width: 100% !important;
-  }
-  .converter .converter__row-container {
-    margin-top: 24px !important;
   }
 }
 @media screen and (max-width: 375px) {
