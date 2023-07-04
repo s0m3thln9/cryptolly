@@ -155,6 +155,9 @@
       width: auto;
     }
   }
+  .exchange__converter-container {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 840px) {
@@ -301,6 +304,7 @@
       padding: 0 !important;
     }
   }
+
   .converter {
     width: 330px;
     padding: 16px 16px 24px;
