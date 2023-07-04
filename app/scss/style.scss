@@ -301,7 +301,7 @@ a {
     margin: 24px auto 0;
     width: fit-content;
     transition: all .5s;
-    opacity: 0;
+    opacity: 1;
     @include flex(center, start);
     position: relative;
     .indicator-item {
