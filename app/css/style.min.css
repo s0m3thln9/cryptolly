@@ -1291,9 +1291,7 @@ a {
     display: none;
   }
   .ellipse {
-    position: absolute;
-    top: 10%;
-    left: 50%;
+    left: 10px !important;
     transform: none;
   }
 }

@@ -50,7 +50,7 @@
   }
   //Exchange
   .ellipse {
-    @include position-left(10%, 50%);
+    left: 10px !important;
     transform: none;
   }
 }
