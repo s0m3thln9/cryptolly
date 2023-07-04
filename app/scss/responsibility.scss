@@ -204,7 +204,7 @@
       width: 500px;
     }
   }
-
+  //Features
   .features__text-container {
     h2 {
       @include font('Sofia Pro', 28px, 700, 110%, $white);
@@ -219,7 +219,15 @@
         @include button(16px, 54.5px);
         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
-}
+  }
+  .features__card {
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
@@ -239,7 +247,8 @@
       width: auto;
     }
     button {
-      width: 100%;
+      width: 197px;
+      padding: 12px 24px;
     }
   }
 }

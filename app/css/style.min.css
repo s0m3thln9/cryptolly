@@ -1472,6 +1472,12 @@ a {
     line-height: 22.4px;
     color: #ffffff;
   }
+  .features__card h3 {
+    font-size: 18px;
+  }
+  .features__card p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
@@ -1487,6 +1493,7 @@ a {
     width: auto;
   }
   .features__text-container button {
-    width: 100%;
+    width: 197px;
+    padding: 12px 24px;
   }
 }
