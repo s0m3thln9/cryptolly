@@ -1557,7 +1557,7 @@ a {
   .converter .converter__wallet span {
     font-size: 14px !important;
   }
-  .converter button {
+  .converter .converter__button {
     margin-top: 64px !important;
     width: 100% !important;
   }
