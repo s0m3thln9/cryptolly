@@ -1338,6 +1338,9 @@ a {
     width: 600px;
     margin-bottom: 20px;
   }
+  .exchange__converter-container {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */
