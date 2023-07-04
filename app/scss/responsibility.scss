@@ -79,7 +79,7 @@
   .features__text-container {
     margin: 0;
     img {
-      @include position-left(0, 10%);
+      @include position-left(0, 0);
     }
     button {
       align-self: center;
