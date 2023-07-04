@@ -1530,6 +1530,27 @@ a {
   .exchange__content .exchange__item {
     padding: 0 !important;
   }
+  .converter {
+    width: 330px;
+    padding: 24px 16px;
+  }
+  .converter .convert {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .converter p {
+    font-size: 14px;
+  }
+  .converter h3 {
+    font-size: 18px;
+  }
+  .converter span {
+    font-size: 16px !important;
+    margin: 0 0 0 6px !important;
+  }
+  .converter a {
+    font-size: 12px !important;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
