@@ -104,6 +104,17 @@
         }
     }
   }
+  // Features
+  .features__text-container {
+    @include flex(center, center);
+    flex-direction: column;
+    h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
 }
 @media screen and (max-width: 840px) {
   /* Hero */
