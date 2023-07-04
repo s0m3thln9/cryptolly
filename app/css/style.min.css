@@ -1560,7 +1560,7 @@ a {
   }
   .converter {
     width: 330px;
-    padding: 24px 16px;
+    padding: 16px 16px 24px;
   }
   .converter .convert {
     font-size: 14px !important;
