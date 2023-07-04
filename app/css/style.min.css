@@ -1444,7 +1444,7 @@ a {
     width: 500px;
   }
   .features__text-container h2 {
-    font-family: "Graphik";
+    font-family: "Sofia Pro";
     font-size: 28px;
     font-weight: 700;
     line-height: 110%;
@@ -1477,5 +1477,16 @@ a {
   /* Hero */
   .logo p {
     display: none;
+  }
+  .features__text-container h2 {
+    text-align: center;
+    width: 327px;
+  }
+  .features__text-container p {
+    text-align: center;
+    width: auto;
+  }
+  .features__text-container button {
+    width: 100%;
   }
 }
