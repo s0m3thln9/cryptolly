@@ -614,7 +614,7 @@ a {
   -webkit-backdrop-filter: blur(6.5px);
   backdrop-filter: blur(6.5px);
   border-radius: 20px;
-  padding: 27px 24px 40px 32px;
+  padding: 27px 32px 40px 32px;
 }
 .converter .converter__choice {
   display: flex;
@@ -733,7 +733,7 @@ a {
   border-radius: 100px;
   border: none;
   cursor: pointer;
-  width: 383px;
+  width: 386px;
   height: 65px;
 }
 
