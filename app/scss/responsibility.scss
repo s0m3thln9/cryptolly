@@ -87,6 +87,11 @@
   //Exchange
   .exchange__wrap {
     flex-direction: column;
+    align-items: center;
+    .exchange__content {
+      width: 600px;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -132,6 +137,18 @@
     }
     button {
       width: 100%;
+    }
+  }
+  //Exchange
+  .exchange__content {
+    width: 100% !important;
+    h2 {
+      text-align: center;
+      width: auto;
+    }
+    p {
+      text-align: center;
+      width: auto;
     }
   }
 }
