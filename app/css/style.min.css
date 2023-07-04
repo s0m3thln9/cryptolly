@@ -197,8 +197,8 @@ a {
   height: 100vh;
   padding: 95px 24px 24px 48px;
   background: rgba(29, 31, 37, 0.95);
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
   position: absolute;
@@ -1261,6 +1261,10 @@ a {
     left: -50%;
     transform: none;
   }
+  .exchange__container {
+    width: 100%;
+    padding: 0 30px;
+  }
   /* Features */
   .features__text-container img {
     left: auto;
@@ -1444,6 +1448,13 @@ a {
     top: 0;
     left: 0;
   }
+  .features__text-container h2, .features__text-container p {
+    text-align: center;
+    width: 100%;
+  }
+  .features__text-container button {
+    margin: 24px auto 0;
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */
@@ -1452,6 +1463,27 @@ a {
   }
 }
 @media screen and (max-width: 540px) {
+  h2 {
+    font-family: "Sofia Pro";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: "Sofia Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #ffffff;
+  }
+  p {
+    font-family: "Graphik";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A5ADCF;
+  }
   /* Hero */
   .hero__container .hero__text h1 {
     font-size: 34px;
@@ -1472,6 +1504,8 @@ a {
   .hero .line__hero {
     width: 500px;
   }
+<<<<<<< HEAD
+=======
   .features__text-container h2 {
     font-family: "Sofia Pro";
     font-size: 28px;
@@ -1479,6 +1513,7 @@ a {
     line-height: 110%;
     color: #ffffff;
   }
+>>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
   .features__text-container p {
     font-family: "Graphik";
     font-size: 14px;
@@ -1501,6 +1536,13 @@ a {
     line-height: 22.4px;
     color: #ffffff;
   }
+<<<<<<< HEAD
+  .features__text-container img {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 100%;
+=======
   .features__card {
     padding: 32px 28px !important;
   }
@@ -1567,6 +1609,7 @@ a {
   .converter .converter__button {
     margin-top: 64px !important;
     width: 100% !important;
+>>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
   }
   .converter .converter__row-container {
     margin-top: 24px !important;
