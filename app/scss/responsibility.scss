@@ -383,6 +383,10 @@
                 background: $dark;
                 backdrop-filter: blur(7px);
                 border-radius: 50%;
+                img {
+                  width: 32px;
+                  height: 32px;
+                }
             }
         }
     }

@@ -1633,6 +1633,10 @@ a {
     backdrop-filter: blur(7px);
     border-radius: 50%;
   }
+  .exchange__content .exchange-list__container .exchange__item .exchange__img-block img {
+    width: 32px;
+    height: 32px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
