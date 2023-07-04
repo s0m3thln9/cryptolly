@@ -263,9 +263,6 @@
   }
   //Features
   .features__text-container {
-    h2 {
-      @include font('Sofia Pro', 28px, 700, 110%, $white);
-    }
     p {
         @include font('Graphik', 14px, 400, 24px, $text-grey-20);
         margin-top: 16px;
