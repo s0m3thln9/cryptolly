@@ -373,7 +373,20 @@
       width: 100% !important;
     }
   }
-  
+  .exchange__content {
+    .exchange-list__container {
+        .exchange__item {
+            .exchange__img-block {
+                @include flex(center, center);
+                width: 64px;
+                height: 64px;
+                background: $dark;
+                backdrop-filter: blur(7px);
+                border-radius: 50%;
+            }
+        }
+    }
+}
 }
 
 @media screen and (max-width: 375px) {

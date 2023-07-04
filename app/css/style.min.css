@@ -1622,6 +1622,17 @@ a {
     margin-top: 64px !important;
     width: 100% !important;
   }
+  .exchange__content .exchange-list__container .exchange__item .exchange__img-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 64px;
+    height: 64px;
+    background: rgba(47, 50, 65, 0.5019607843);
+    backdrop-filter: blur(7px);
+    border-radius: 50%;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
