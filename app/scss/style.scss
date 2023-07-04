@@ -411,7 +411,7 @@ a {
     position: relative;
     .ellipse {
         @include position-left(100px, 0);
-        z-index: -10;
+        z-index: -1;
     }
 }
 
@@ -457,7 +457,6 @@ a {
 
 .exchange__converter-container {
     margin-left: 95px;
-    
 }
 .converter {
     width: 450px;

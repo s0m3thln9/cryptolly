@@ -552,7 +552,7 @@ a {
   position: absolute;
   top: 100px;
   left: 0;
-  z-index: -10;
+  z-index: -1;
 }
 
 .exchange__wrap {
@@ -1464,6 +1464,12 @@ a {
   }
   .exchange__content .exchange-list__container .exchange__item:nth-child(3) {
     padding: 0;
+  }
+  .exchange .ellipse {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    z-index: -1;
   }
 }
 @media screen and (max-width: 600px) {
