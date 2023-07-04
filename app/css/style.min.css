@@ -665,7 +665,7 @@ a {
   color: #5D6588;
 }
 .converter .converter__rate a {
-  margin-left: 39px;
+  margin-left: auto;
   font-family: "Graphik";
   font-size: 16px;
   font-weight: 400;
@@ -1551,8 +1551,15 @@ a {
   .converter a {
     font-size: 12px !important;
   }
+  .converter input {
+    width: 200px !important;
+  }
   .converter .converter__wallet span {
     font-size: 14px !important;
+  }
+  .converter button {
+    margin-top: 64px !important;
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 375px) {

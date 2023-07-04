@@ -302,10 +302,17 @@
     a {
       font-size: 12px !important;
     }
+    input {
+      width: 200px !important;
+    }
     .converter__wallet {
       span {
         font-size: 14px !important;
       }
+    }
+    button:las {
+      margin-top: 64px !important;
+      width: 100% !important;
     }
   }
   
