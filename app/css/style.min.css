@@ -1305,6 +1305,12 @@ a {
   .hero__container .hero__image {
     display: none;
   }
+  .about__wrap {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }
 @media screen and (max-width: 1158px) {
   .wrapper {

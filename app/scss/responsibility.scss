@@ -65,7 +65,10 @@
             display: none;
         }
     }
-    //Exchange
+    //About
+    .about__wrap {
+        @include flex(start, center, column-reverse);
+    }
 }
 
 
@@ -391,22 +394,22 @@
     }
     .exchange__content {
         .exchange-list__container {
-                .exchange__item {
-                        .exchange__img-block {
-                                @include flex(center, center);
-                                width: 64px;
-                                height: 64px;
-                                background: $dark;
-                                backdrop-filter: blur(7px);
-                                border-radius: 50%;
-                                img {
-                                    width: 32px;
-                                    height: 32px;
-                                }
-                        }
+            .exchange__item {
+                .exchange__img-block {
+                    @include flex(center, center);
+                    width: 64px;
+                    height: 64px;
+                    background: $dark;
+                    backdrop-filter: blur(7px);
+                    border-radius: 50%;
+                    img {
+                        width: 32px;
+                        height: 32px;
+                    }
                 }
+            }
         }
-}
+    }
 }
 
 
