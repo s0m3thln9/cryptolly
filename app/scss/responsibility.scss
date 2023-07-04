@@ -48,6 +48,11 @@
       display: none;
     }
   }
+  //Exchange
+  .ellipse {
+    @include position-left(10%, 50%);
+    transform: none;
+  }
 }
 
 }

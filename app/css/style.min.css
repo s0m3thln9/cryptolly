@@ -1290,6 +1290,12 @@ a {
   .hero__container .hero__image {
     display: none;
   }
+  .ellipse {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: none;
+  }
 }
 @media screen and (max-width: 1158px) {
   /* Hero */
