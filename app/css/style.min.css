@@ -552,6 +552,7 @@ a {
   position: absolute;
   top: 100px;
   left: 0;
+  z-index: -10;
 }
 
 .exchange__wrap {
@@ -1263,6 +1264,9 @@ a {
     right: 0;
     z-index: -1;
   }
+  .exchange__container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1440px) {
   /* Hero */
@@ -1282,17 +1286,13 @@ a {
     transform: none;
   }
 }
-@media screen and (max-width: 1440px) and (max-width: 1345px) {
+@media screen and (max-width: 1345px) {
   /* Hero */
   .hero__container {
     padding: 0 30px;
   }
   .hero__container .hero__image {
     display: none;
-  }
-  .ellipse {
-    left: 10% !important;
-    transform: none;
   }
 }
 @media screen and (max-width: 1158px) {

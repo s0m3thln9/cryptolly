@@ -20,6 +20,10 @@
       z-index: -1;
     }
   }
+  //Exchange 
+  .exchange__container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -38,6 +42,9 @@
             transform: none;
         }
     }
+  }
+  //Exchange
+  
 }
 
 @media screen and (max-width: 1345px) {
@@ -49,13 +56,8 @@
     }
   }
   //Exchange
-  .ellipse {
-    left: 10% !important;
-    transform: none;
-  }
 }
 
-}
 @media screen and (max-width: 1158px) {
   /* Hero */
   .wrapper {
@@ -126,6 +128,7 @@
     }
   }
 }
+
 @media screen and (max-width: 840px) {
   /* Hero */
   .hero__container {
@@ -155,6 +158,7 @@
     }
   }
 }
+
 @media screen and (max-width: 680px) {
   /* Features */
   .features__card-container {
@@ -177,12 +181,14 @@
     }
   }
 }
+
 @media screen and (max-width: 600px) {
   /* Hero */
   .hero__container {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 540px) {
   /* Hero */
   .hero__container {
@@ -237,6 +243,7 @@
     }
   }
 }
+
 @media screen and (max-width: 375px) {
   /* Hero */
   .logo {
@@ -259,5 +266,5 @@
       padding: 12px 24px;
     }
   }
-  //поменяй расположение линии на фоне
+  //поменяй расположение линии на фоне и сетку(она должна заканчиваться после слайдера)
 }
