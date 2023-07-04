@@ -24,6 +24,10 @@
       z-index: -1;
     }
   }
+  //Exchange 
+  .exchange__container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -42,6 +46,9 @@
             transform: none;
         }
     }
+  }
+  //Exchange
+  
 }
 
 @media screen and (max-width: 1345px) {
@@ -52,9 +59,9 @@
       display: none;
     }
   }
+  //Exchange
 }
 
-}
 @media screen and (max-width: 1158px) {
   /* Hero */
   .wrapper {
@@ -74,9 +81,21 @@
     img {
       @include position-left(0, 10%);
     }
+    button {
+      align-self: center;
+    }
   }
   .features__card-container {
     margin-top: 40px;
+  }
+  //Exchange
+  .exchange__wrap {
+    flex-direction: column;
+    align-items: center;
+    .exchange__content {
+      width: 600px;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -108,7 +127,36 @@
         }
     }
   }
+  // Features
+  .features__text-container {
+    @include flex(center, center);
+    flex-direction: column;
+    h2 {
+      text-align: center;
+      width: auto;
+    }
+    p {
+      text-align: center;
+      width: auto;
+    }
+    button {
+      width: 100%;
+    }
+  }
+  //Exchange
+  .exchange__content {
+    width: 100% !important;
+    h2 {
+      text-align: center;
+      width: auto;
+    }
+    p {
+      text-align: center;
+      width: auto;
+    }
+  }
 }
+
 @media screen and (max-width: 840px) {
   /* Hero */
   .hero__container {
@@ -138,12 +186,16 @@
     }
   }
 }
+
 @media screen and (max-width: 680px) {
   /* Features */
   .features__card-container {
     flex-direction: column;
     .features__column:last-child {
       margin: 16px 0 0 0;
+    }
+    .features__card:not(:first-child) {
+      margin-top: 16px;
     }
   }
   .features__wrap {
@@ -166,12 +218,14 @@
     }
   }
 }
+
 @media screen and (max-width: 600px) {
   /* Hero */
   .hero__container {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 540px) {
   h2 {
     @include font('Sofia Pro', 28px, 700, 110%, $white);
@@ -207,8 +261,14 @@
       width: 500px;
     }
   }
-
+  //Features
   .features__text-container {
+<<<<<<< HEAD
+=======
+    h2 {
+      @include font('Sofia Pro', 28px, 700, 110%, $white);
+    }
+>>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
     p {
         @include font('Graphik', 14px, 400, 24px, $text-grey-20);
         margin-top: 16px;
@@ -220,6 +280,7 @@
         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
   }
+<<<<<<< HEAD
   .features__text-container {
     img {
       @include position-left(0, 25%);
@@ -227,6 +288,75 @@
     }
   }
 }
+=======
+  .features__card {
+    padding: 32px 28px !important; //хз почему свойства не применяются без "!important", так что поменяй если знаешь
+    h3 {
+      font-size: 18px;
+      margin-top: 32px !important;
+    }
+    p {
+      font-size: 14px !important;
+      margin-top: 16px !important;
+    }
+  }
+  //Exchange
+  .exchange__content {
+    h2 {
+      @include font('Sofia Pro', 28px, 700, 110%, $white);
+    }
+    p {
+      @include font('Graphik', 14px, 400, 24px, $text-grey-20);
+    }
+    h3 {
+      font-size: 18px;
+      margin: 0 0 0 16px !important;
+    }
+    .exchange__item {
+      padding: 0 !important;
+    }
+  }
+  .converter {
+    width: 330px;
+    padding: 24px 16px;
+    .convert {
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+    .converter__rate {
+      margin: 0;
+    }
+    p {
+      font-size: 14px;
+      margin-top: 24px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    span {
+      font-size: 16px !important;
+      margin: 0 0 0 6px !important;
+    }
+    a {
+      font-size: 12px !important;
+    }
+    input {
+      width: 200px !important;
+    }
+    .converter__wallet {
+      span {
+        font-size: 14px !important;
+      }
+    }
+    .converter__button {
+      margin-top: 64px !important;
+      width: 100% !important;
+    }
+  }
+  
+}
+
+>>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
 @media screen and (max-width: 375px) {
   /* Hero */
   .logo {
@@ -234,4 +364,20 @@
       display: none;
     }
   }
+  //Features
+  .features__text-container {
+    h2 {
+      text-align: center;
+      width: 327px;
+    }
+    p {
+      text-align: center;
+      width: auto;
+    }
+    button {
+      width: 197px;
+      padding: 12px 24px;
+    }
+  }
+  //поменяй расположение линии на фоне и сетку(она должна заканчиваться после слайдера)
 }
