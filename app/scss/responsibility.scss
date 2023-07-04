@@ -218,6 +218,18 @@
         margin: 24px auto 0;
     }
   }
+  .exchange__content {
+    .exchange-list__container {
+      .exchange__item {
+        &:nth-child(2) {
+          padding: 0;
+        }
+        &:nth-child(3) {
+          padding: 0;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
