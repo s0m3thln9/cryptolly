@@ -263,12 +263,6 @@
   }
   //Features
   .features__text-container {
-<<<<<<< HEAD
-=======
-    h2 {
-      @include font('Sofia Pro', 28px, 700, 110%, $white);
-    }
->>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
     p {
         @include font('Graphik', 14px, 400, 24px, $text-grey-20);
         margin-top: 16px;
@@ -280,15 +274,6 @@
         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
     }
   }
-<<<<<<< HEAD
-  .features__text-container {
-    img {
-      @include position-left(0, 25%);
-      width: 100%;
-    }
-  }
-}
-=======
   .features__card {
     padding: 32px 28px !important; //хз почему свойства не применяются без "!important", так что поменяй если знаешь
     h3 {
@@ -356,7 +341,6 @@
   
 }
 
->>>>>>> b4228f4d3f0a652406f50b6f43836b6941465374
 @media screen and (max-width: 375px) {
   /* Hero */
   .logo {
