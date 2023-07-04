@@ -1303,10 +1303,13 @@ a {
   }
 }
 @media screen and (max-width: 1158px) {
-  /* Hero */
   .wrapper {
-    padding: 24px;
+    padding: 0 24px;
     width: 100%;
+  }
+  /* Hero */
+  .header__wrap {
+    padding: 24px;
   }
   /* Features */
   .features {
