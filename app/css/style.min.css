@@ -1395,6 +1395,9 @@ a {
   .features__card-container .features__column:last-child {
     margin: 16px 0 0 0;
   }
+  .features__card-container .features__card:not(:first-child) {
+    margin-top: 16px;
+  }
   .features__wrap {
     width: 100%;
     overflow: hidden;

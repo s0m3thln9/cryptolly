@@ -152,6 +152,9 @@
     .features__column:last-child {
       margin: 16px 0 0 0;
     }
+    .features__card:not(:first-child) {
+      margin-top: 16px;
+    }
   }
   .features__wrap {
     width: 100%;
