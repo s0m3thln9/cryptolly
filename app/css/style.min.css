@@ -1472,11 +1472,16 @@ a {
     line-height: 22.4px;
     color: #ffffff;
   }
+  .features__card {
+    padding: 32px 28px !important;
+  }
   .features__card h3 {
     font-size: 18px;
+    margin-top: 32px !important;
   }
   .features__card p {
-    font-size: 14px;
+    font-size: 14px !important;
+    margin-top: 16px !important;
   }
 }
 @media screen and (max-width: 375px) {

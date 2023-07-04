@@ -221,11 +221,14 @@
     }
   }
   .features__card {
+    padding: 32px 28px !important; //хз почему свойства не применяются без "!important", так что поменяй если знаешь
     h3 {
       font-size: 18px;
+      margin-top: 32px !important;
     }
     p {
-      font-size: 14px;
+      font-size: 14px !important;
+      margin-top: 16px !important;
     }
   }
 }
@@ -251,4 +254,5 @@
       padding: 12px 24px;
     }
   }
+  //поменяй расположение линии на фоне
 }
