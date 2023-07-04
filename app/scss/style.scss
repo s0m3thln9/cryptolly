@@ -536,6 +536,9 @@ a {
             .converter__arrow {
                 margin-left: 8px;
             }
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
     .converter__button {

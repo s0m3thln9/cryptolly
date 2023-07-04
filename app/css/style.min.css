@@ -718,6 +718,9 @@ a {
 .converter .converter__row-container .converter__row .converter__arrow {
   margin-left: 8px;
 }
+.converter .converter__row-container .converter__row:last-child {
+  margin-bottom: 0;
+}
 .converter .converter__button {
   margin-top: 32px;
   font-family: "Sofia Pro";
