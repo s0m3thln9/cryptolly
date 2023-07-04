@@ -1568,6 +1568,9 @@ a {
     margin-top: 64px !important;
     width: 100% !important;
   }
+  .converter .converter__row-container {
+    margin-top: 24px !important;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
