@@ -1320,8 +1320,14 @@ a {
     top: 0;
     left: 10%;
   }
+  .features__text-container button {
+    align-self: center;
+  }
   .features__card-container {
     margin-top: 40px;
+  }
+  .exchange__wrap {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 980px) {

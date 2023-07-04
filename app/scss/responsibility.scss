@@ -77,9 +77,16 @@
     img {
       @include position-left(0, 10%);
     }
+    button {
+      align-self: center;
+    }
   }
   .features__card-container {
     margin-top: 40px;
+  }
+  //Exchange
+  .exchange__wrap {
+    flex-direction: column;
   }
 }
 
