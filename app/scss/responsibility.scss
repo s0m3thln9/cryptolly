@@ -249,7 +249,8 @@
 
   .exchange__content {
     .exchange-list__container {
-      margin: 24px 0 0 0;
+      margin: 24px auto 0;
+      width: fit-content;
     }
   }
 }

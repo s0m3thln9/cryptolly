@@ -1478,7 +1478,8 @@ a {
     padding: 0;
   }
   .exchange__content .exchange-list__container {
-    margin: 24px 0 0 0;
+    margin: 24px auto 0;
+    width: fit-content;
   }
 }
 @media screen and (max-width: 540px) {
