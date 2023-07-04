@@ -81,9 +81,6 @@
     img {
       @include position-left(0, 0);
     }
-    button {
-      align-self: center;
-    }
   }
   .features__card-container {
     margin-top: 40px;
@@ -141,6 +138,7 @@
     }
     button {
       width: 100%;
+      align-self: center;
     }
   }
   //Exchange

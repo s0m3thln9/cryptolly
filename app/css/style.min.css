@@ -1327,9 +1327,6 @@ a {
     top: 0;
     left: 0;
   }
-  .features__text-container button {
-    align-self: center;
-  }
   .features__card-container {
     margin-top: 40px;
   }
@@ -1383,6 +1380,7 @@ a {
   }
   .features__text-container button {
     width: 100%;
+    align-self: center;
   }
   .exchange__content {
     width: 100% !important;
