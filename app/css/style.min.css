@@ -1311,6 +1311,9 @@ a {
     align-items: center;
     flex-direction: column-reverse;
   }
+  .about__line {
+    right: 30%;
+  }
 }
 @media screen and (max-width: 1158px) {
   .wrapper {
