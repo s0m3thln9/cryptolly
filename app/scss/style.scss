@@ -514,7 +514,7 @@ a {
             height: 60px;
             @include flex(space-between, center);
             border-bottom: 1px solid $text-grey-80;
-            .converter_wallet {
+            .converter__wallet {
                 @include flex(space-between, center);
             }
             input {

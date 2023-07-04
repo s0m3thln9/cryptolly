@@ -686,7 +686,7 @@ a {
   flex-direction: row;
   border-bottom: 1px solid #34384C;
 }
-.converter .converter__row-container .converter__row .converter_wallet {
+.converter .converter__row-container .converter__row .converter__wallet {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1550,6 +1550,9 @@ a {
   }
   .converter a {
     font-size: 12px !important;
+  }
+  .converter .converter__wallet span {
+    font-size: 14px !important;
   }
 }
 @media screen and (max-width: 375px) {
