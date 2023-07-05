@@ -42,7 +42,7 @@ function styles() {
     return src('app/scss/style.scss')
         .pipe(postcss([ autoPrefixer() ]))
         .pipe(concat('style.min.css'))
-        .pipe(scss({ outputStyle: 'compressed' }))
+        .pipe(scss(/*{ outputStyle: 'compressed' }*/))
         .pipe(dest('app/css'))
         .pipe(browserSync.stream());
 }
