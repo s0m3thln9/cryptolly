@@ -1701,6 +1701,9 @@ a {
     height: 32px;
     width: 32px;
   }
+  .about__list .about__item .about__text-block {
+    margin-left: 16px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
