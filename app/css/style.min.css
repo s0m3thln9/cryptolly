@@ -1621,6 +1621,9 @@ a {
   .mobile__img-block img {
     width: 100%;
   }
+  .mobile__buttons {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {
