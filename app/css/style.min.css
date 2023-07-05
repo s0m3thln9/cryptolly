@@ -1759,13 +1759,16 @@ a {
   }
   .media h2 {
     font-size: 28px;
-    width: 100%;
+    width: auto;
   }
   .media #feedback {
     font-size: 20px;
   }
   .media #author {
     font-size: 16px;
+  }
+  .media__text-container {
+    width: auto;
   }
   .media__image-container {
     width: 328px;
