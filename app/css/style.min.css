@@ -1433,6 +1433,9 @@ a {
     align-items: center;
     flex-direction: column-reverse;
   }
+  .mobile__content .mobile__get-app {
+    transform: translateY(580px);
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */
