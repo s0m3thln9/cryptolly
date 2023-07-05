@@ -178,6 +178,9 @@
     .media__text-container .media__button-container button:not(:first-child) {
         margin-left: 0px;
     }
+    .mobile {
+        padding-top: 64px;
+    }
     .mobile__wrap {
         @include flex(start, center, column-reverse)
     }
