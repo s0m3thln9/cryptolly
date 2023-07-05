@@ -1263,23 +1263,11 @@ a {
     left: -50%;
     transform: none;
   }
-  .exchange__container {
-    width: 100%;
-  }
   /* Features */
   .features__text-container img {
     left: auto;
     right: 0;
     z-index: -1;
-  }
-  .exchange__container {
-    width: 100%;
-  }
-  .about__container {
-    width: 100%;
-  }
-  .mobile__container {
-    width: 100%;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -1298,6 +1286,15 @@ a {
     top: -10%;
     left: -50%;
     transform: none;
+  }
+  .exchange__container {
+    width: 100%;
+  }
+  .about__container {
+    width: 100%;
+  }
+  .mobile__container {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1345px) {
