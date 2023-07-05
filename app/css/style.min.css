@@ -1404,7 +1404,7 @@ a {
   }
   .media__button-container {
     transform: translateY(365px);
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: start;
