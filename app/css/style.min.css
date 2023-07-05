@@ -1436,8 +1436,8 @@ a {
   .mobile__content > h2 {
     text-align: center;
   }
-  .mobile__content > p {
-    width: 100%;
+  .mobile__content .mobile__paragraph {
+    width: 70%;
     text-align: center;
   }
   .mobile__content .mobile__get-app {
