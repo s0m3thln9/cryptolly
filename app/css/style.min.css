@@ -1622,7 +1622,10 @@ a {
     width: 100%;
   }
   .mobile__buttons {
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 540px) {
