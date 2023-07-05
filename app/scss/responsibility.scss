@@ -156,11 +156,14 @@
     }
     .media__button-container {
         transform: translateY(365px);
-        width: 100%;
-        justify-content: space-between;
+        width: 80%;
+        @include flex(space-between)
     }
     .media__image-container {
         transform: translateY(-190px);
+    }
+    .media__text-container .media__button-container button:not(:first-child) {
+        margin-left: 0px;
     }
 }
 

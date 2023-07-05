@@ -1404,11 +1404,17 @@ a {
   }
   .media__button-container {
     transform: translateY(365px);
-    width: 100%;
+    width: 80%;
+    display: flex;
     justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
   }
   .media__image-container {
     transform: translateY(-190px);
+  }
+  .media__text-container .media__button-container button:not(:first-child) {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 980px) {
