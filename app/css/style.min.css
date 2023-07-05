@@ -1709,6 +1709,7 @@ a {
     overflow: hidden;
   }
   .about__line {
+    width: 70%;
     left: 30%;
   }
   .about__list .about__item .about__item__img-block {
