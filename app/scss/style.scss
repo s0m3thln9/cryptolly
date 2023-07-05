@@ -608,6 +608,9 @@ a {
 
 
 /* Media */
+.media {
+    padding-top: 120px;
+}
 .media__wrap {
     @include flex(space-between, start);
 }

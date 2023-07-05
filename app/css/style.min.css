@@ -806,6 +806,10 @@ a {
 }
 
 /* Media */
+.media {
+  padding-top: 120px;
+}
+
 .media__wrap {
   display: flex;
   justify-content: space-between;
