@@ -1350,10 +1350,9 @@ a {
   }
   .exchange__wrap .exchange__content {
     width: 600px;
-    margin-bottom: 20px;
   }
   .exchange__converter-container {
-    margin: 0;
+    margin: 20px 0 0 0;
   }
 }
 @media screen and (max-width: 980px) {
