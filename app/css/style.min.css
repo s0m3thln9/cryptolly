@@ -433,7 +433,7 @@ a {
 }
 
 .features {
-  margin: 120px 0;
+  padding: 120px 0 0 0;
 }
 
 .features__wrap {
