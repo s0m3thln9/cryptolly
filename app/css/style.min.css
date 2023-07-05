@@ -433,7 +433,7 @@ a {
 }
 
 .features {
-  padding: 120px 0;
+  margin: 120px 0;
 }
 
 .features__wrap {
@@ -1321,7 +1321,7 @@ a {
   }
   /* Features */
   .features {
-    padding: 64px 0 0 0;
+    margin: 64px 0 0 0;
   }
   .features__wrap {
     width: 70%;
