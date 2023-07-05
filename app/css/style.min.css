@@ -1436,6 +1436,9 @@ a {
   .mobile__content .mobile__get-app {
     transform: translateY(580px);
   }
+  .mobile__content .mobile__buttons {
+    transform: translateY(580px);
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */
