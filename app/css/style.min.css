@@ -1321,6 +1321,9 @@ a {
     left: auto;
     right: 0;
   }
+  .mobile__container .grid__bg {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1158px) {
   .wrapper {
