@@ -1349,7 +1349,12 @@ a {
     align-items: center;
   }
   .exchange__wrap .exchange__content {
-    width: 600px;
+    width: 70%;
+    text-align: center;
+  }
+  .exchange__wrap .exchange__content p {
+    margin: 25px auto 0;
+    width: 70%;
   }
   .exchange__converter-container {
     margin: 20px 0 0 0;
@@ -1484,6 +1489,12 @@ a {
     top: 275px;
     left: 0;
     z-index: -1;
+  }
+  .exchange__wrap .exchange__content {
+    width: 100%;
+  }
+  .exchange__wrap .exchange__content p {
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {

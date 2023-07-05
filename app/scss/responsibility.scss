@@ -107,7 +107,12 @@
         flex-direction: column;
         align-items: center;
         .exchange__content {
-            width: 600px;
+            width: 70%;
+            text-align: center;
+            p {
+                margin: 25px auto 0;
+                width: 70%;
+            }
         }
     }
     .exchange__converter-container {
@@ -258,6 +263,14 @@
         .ellipse {
             @include position-left(275px, 0);
             z-index: -1;
+        }
+    }
+    .exchange__wrap {
+        .exchange__content {
+            width: 100%;
+            p {
+                width: 100%;
+            }
         }
     }
 }
