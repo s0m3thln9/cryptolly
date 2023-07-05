@@ -1439,6 +1439,9 @@ a {
   .mobile__content .mobile__buttons {
     transform: translateY(580px);
   }
+  .mobile__img-block {
+    transform: translateY(-280px);
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */
