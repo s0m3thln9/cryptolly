@@ -1503,6 +1503,9 @@ a {
   .exchange__wrap .exchange__content p {
     width: 100%;
   }
+  .about h2 {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */
