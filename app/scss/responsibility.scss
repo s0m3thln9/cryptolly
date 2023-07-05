@@ -76,7 +76,7 @@
 @media screen and (max-width: 1158px) {
     .wrapper {
         padding: 0 24px;
-        width: 70%;
+        width: 100%;
     }
     /* Hero */
     .header__wrap {
@@ -87,6 +87,7 @@
         margin: 64px 0 0 0;
     }
     .features__wrap {
+        width: 70%;
         @include flex(center, center, column-reverse);
     }
     .features__text-container {
@@ -210,9 +211,6 @@
 
 
 @media screen and (max-width: 680px) {
-    .wrapper {
-        width: 100%;
-    }
     /* Features */
     .features__card-container {
         flex-direction: column;
@@ -224,6 +222,7 @@
         }
     }
     .features__wrap {
+        width: 100%;
         overflow: hidden;
     }
     .features__text-container {
