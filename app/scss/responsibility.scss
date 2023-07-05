@@ -319,6 +319,10 @@
     }
     .about__img-block {
         overflow: hidden;
+        height: fit-content;
+        img {
+            transform: scale(1.2);
+        }
     }
 }
 
