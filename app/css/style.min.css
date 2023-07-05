@@ -1850,6 +1850,9 @@ a {
     transform: translateY(225px);
     width: 70%;
   }
+  .mobile__content {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
