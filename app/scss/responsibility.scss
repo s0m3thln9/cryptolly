@@ -407,9 +407,13 @@
                         height: 32px;
                     }
                 }
+                &:not(:first-child) {
+                    margin-top: 16px;
+                }
             }
         }
     }
+
 }
 
 

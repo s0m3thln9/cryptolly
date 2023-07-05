@@ -1645,6 +1645,9 @@ a {
     width: 32px;
     height: 32px;
   }
+  .exchange__content .exchange-list__container .exchange__item:not(:first-child) {
+    margin-top: 16px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
