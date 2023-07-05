@@ -1475,6 +1475,9 @@ a {
   .about__img-block img {
     width: 100%;
   }
+  .about__line {
+    right: 0;
+  }
 }
 @media screen and (max-width: 680px) {
   /* Features */
