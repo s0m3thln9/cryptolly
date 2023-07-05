@@ -4,7 +4,6 @@
 @media screen and (max-width: 1480px) {
     /* Hero */
     .hero__container {
-        padding: 0 30px;
         .hero__image {
             img {
                 @include position-left(-10%, -50%);
@@ -14,7 +13,6 @@
     }
     .exchange__container {
         width: 100%;
-        padding: 0 30px;
     }
     /* Features */
     .features__text-container {
@@ -30,7 +28,6 @@
     }
     .about__container {
         width: 100%;
-        padding: 0 20px;
     }
 }
 

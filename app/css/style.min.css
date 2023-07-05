@@ -1252,9 +1252,6 @@ a {
 /* Responsibility */
 @media screen and (max-width: 1480px) {
   /* Hero */
-  .hero__container {
-    padding: 0 30px;
-  }
   .hero__container .hero__image img {
     position: absolute;
     top: -10%;
@@ -1263,7 +1260,6 @@ a {
   }
   .exchange__container {
     width: 100%;
-    padding: 0 30px;
   }
   /* Features */
   .features__text-container img {
@@ -1276,7 +1272,6 @@ a {
   }
   .about__container {
     width: 100%;
-    padding: 0 20px;
   }
 }
 @media screen and (max-width: 1440px) {
