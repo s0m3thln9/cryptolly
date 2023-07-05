@@ -546,6 +546,7 @@ a {
 }
 
 .exchange {
+  padding-top: 120px;
   position: relative;
 }
 .exchange .ellipse {
