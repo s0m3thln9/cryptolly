@@ -1440,7 +1440,7 @@ a {
     transform: translateY(580px);
   }
   .mobile__img-block {
-    transform: translateY(-280px);
+    transform: translateY(-180px);
   }
 }
 @media screen and (max-width: 980px) {
