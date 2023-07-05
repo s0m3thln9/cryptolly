@@ -301,6 +301,12 @@
             width: 100%;
         }
     }
+    .about__content {
+        width: 100%;
+        & > p {
+            width: 100%;
+        }
+    }
 }
 
 

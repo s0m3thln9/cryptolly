@@ -1525,6 +1525,12 @@ a {
   .about p {
     width: 100%;
   }
+  .about__content {
+    width: 100%;
+  }
+  .about__content > p {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */
