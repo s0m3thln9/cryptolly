@@ -210,6 +210,9 @@
 
 
 @media screen and (max-width: 680px) {
+    .wrapper {
+        width: 100%;
+    }
     /* Features */
     .features__card-container {
         flex-direction: column;
@@ -221,7 +224,6 @@
         }
     }
     .features__wrap {
-        width: 100%;
         overflow: hidden;
     }
     .features__text-container {
