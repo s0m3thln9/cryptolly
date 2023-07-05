@@ -123,10 +123,10 @@
         margin: 0 auto;
         @include flex(start, center, column);
         text-align: center;
-        h2 {
+        & > h2 {
             width: 100%;
         }
-        p {
+        & > p {
             width: 70%;
         }
     }
