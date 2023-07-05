@@ -1439,6 +1439,13 @@ a {
     text-align: center;
     width: auto;
   }
+  .about__img-block {
+    transform: none;
+    width: 100%;
+  }
+  .about__img-block img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 840px) {
   /* Hero */
@@ -1467,13 +1474,6 @@ a {
     top: 7%;
     left: 0;
     transform: none;
-  }
-  .about__img-block {
-    transform: none;
-    width: 100%;
-  }
-  .about__img-block img {
-    width: 100%;
   }
   .about__line {
     right: 0;

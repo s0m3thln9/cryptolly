@@ -201,6 +201,13 @@
             width: auto;
         }
     }
+    .about__img-block {
+        transform: none;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 
@@ -231,13 +238,6 @@
             width: 100%;
             @include position-left(7%, 0);
             transform: none;
-        }
-    }
-    .about__img-block {
-        transform: none;
-        width: 100%;
-        img {
-            width: 100%;
         }
     }
     .about__line {
