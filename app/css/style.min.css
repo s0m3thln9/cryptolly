@@ -1626,6 +1626,7 @@ a {
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    gap: 16px;
   }
 }
 @media screen and (max-width: 540px) {

@@ -408,6 +408,7 @@
     .mobile__content {
         .mobile__buttons {
             @include flex(start, center, column);
+            gap: 16px;
         }
     }
 }
