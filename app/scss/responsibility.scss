@@ -440,7 +440,14 @@
             }
         }
     }
-
+    .about__list {
+        .about__item {
+            .about__item__img-block {
+                height: 72px;
+                width: 72px;
+            }
+        }
+    }
 }
 
 

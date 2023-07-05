@@ -1671,6 +1671,10 @@ a {
   .exchange__content .exchange-list__container .exchange__item:not(:first-child) {
     margin-top: 16px;
   }
+  .about__list .about__item .about__item__img-block {
+    height: 72px;
+    width: 72px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
