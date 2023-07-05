@@ -121,6 +121,7 @@
     .about__content {
         width: 70%;
         margin: 0 auto;
+        @include flex(start, center, column);
     }
 }
 
