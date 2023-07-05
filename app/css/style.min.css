@@ -1378,6 +1378,9 @@ a {
     width: 70%;
     text-align: center;
   }
+  .about__img-block {
+    transform: none;
+  }
 }
 @media screen and (max-width: 980px) {
   /* Hero */
