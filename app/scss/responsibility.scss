@@ -143,6 +143,22 @@
     //Media
     .media__wrap {
         flex-direction: column;
+        align-items: center;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    .media__content {
+        transform: translateY(430px);
+    }
+    .media__button-container {
+        transform: translateY(365px);
+    }
+    .media__image-container {
+        transform: translateY(-190px);
     }
 }
 

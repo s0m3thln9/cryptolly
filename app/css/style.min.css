@@ -874,13 +874,13 @@ a {
   margin-left: 24px;
 }
 
-.media_image-container {
+.media__image-container {
   position: relative;
   height: 100%;
   width: 512px;
   height: 380px;
 }
-.media_image-container .media__company-circle {
+.media__image-container .media__company-circle {
   position: absolute;
   border-radius: 50%;
   background: #1A82FF;
@@ -896,7 +896,7 @@ a {
   align-items: center;
   flex-direction: row;
 }
-.media_image-container .media__company-circle .media__company-inner-circle {
+.media__image-container .media__company-circle .media__company-inner-circle {
   width: 102%;
   height: 102%;
   display: flex;
@@ -907,7 +907,7 @@ a {
   border-radius: 50%;
   transition: all 0.2s;
 }
-.media_image-container .media__company-circle:nth-child(1) {
+.media__image-container .media__company-circle:nth-child(1) {
   height: 245px;
   width: 245px;
   left: 0;
@@ -915,11 +915,11 @@ a {
   transform: translateY(-50%);
   color: #CC2229;
 }
-.media_image-container .media__company-circle:nth-child(1) .media__company-inner-circle {
+.media__image-container .media__company-circle:nth-child(1) .media__company-inner-circle {
   width: calc(100% - 4px);
   height: calc(100% - 4px);
 }
-.media_image-container .media__company-circle:nth-child(2) {
+.media__image-container .media__company-circle:nth-child(2) {
   height: 111px;
   width: 111px;
   left: 50%;
@@ -927,7 +927,7 @@ a {
   transform: translateX(-50%);
   font-size: 30px;
 }
-.media_image-container .media__company-circle:nth-child(3) {
+.media__image-container .media__company-circle:nth-child(3) {
   height: 185px;
   width: 185px;
   right: 0;
@@ -935,7 +935,7 @@ a {
   transform: translateY(-50%);
   font-size: 30px;
 }
-.media_image-container .media__company-circle:nth-child(4) {
+.media__image-container .media__company-circle:nth-child(4) {
   height: 93px;
   width: 93px;
   left: 53%;
@@ -1391,6 +1391,22 @@ a {
   }
   .media__wrap {
     flex-direction: column;
+    align-items: center;
+  }
+  .media__wrap h2 {
+    text-align: center;
+  }
+  .media__wrap p {
+    text-align: center;
+  }
+  .media__content {
+    transform: translateY(430px);
+  }
+  .media__button-container {
+    transform: translateY(365px);
+  }
+  .media__image-container {
+    transform: translateY(-190px);
   }
 }
 @media screen and (max-width: 980px) {
