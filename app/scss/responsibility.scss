@@ -475,6 +475,7 @@
         .about__item {
             .about__text-block {
                 margin-left: 16px;
+                width: calc(100% - 88px);
             }
         }
     }

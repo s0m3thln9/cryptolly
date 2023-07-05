@@ -1703,6 +1703,7 @@ a {
   }
   .about__list .about__item .about__text-block {
     margin-left: 16px;
+    width: calc(100% - 88px);
   }
 }
 @media screen and (max-width: 375px) {
