@@ -1757,6 +1757,9 @@ a {
     margin-left: 16px;
     width: calc(100% - 88px);
   }
+  .media h2 {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
