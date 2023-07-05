@@ -433,7 +433,7 @@ a {
 }
 
 .features {
-  padding: 120px 0 0 0;
+  padding-top: 120px;
 }
 
 .features__wrap {
@@ -739,7 +739,7 @@ a {
 }
 
 .about {
-  padding: 160px 0;
+  padding-top: 160px;
 }
 .about h2 {
   width: 636px;
