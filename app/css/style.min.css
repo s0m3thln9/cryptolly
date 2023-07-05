@@ -1766,6 +1766,11 @@ a {
   .media #author {
     font-size: 16px;
   }
+  .media__image-container .media__company-circle:nth-child(1) {
+    width: 155px;
+    height: 155px;
+    font-size: 26px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
