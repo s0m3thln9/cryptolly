@@ -1675,6 +1675,10 @@ a {
     height: 72px;
     width: 72px;
   }
+  .about__list .about__item .about__item__img-block img {
+    height: 32px;
+    width: 32px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */

@@ -445,6 +445,10 @@
             .about__item__img-block {
                 height: 72px;
                 width: 72px;
+                img {
+                    height: 32px;
+                    width: 32px;
+                }
             }
         }
     }
