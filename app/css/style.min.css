@@ -1366,13 +1366,14 @@ a {
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    text-align: center;
   }
   .about__content > h2 {
     width: 100%;
+    text-align: center;
   }
   .about__content > p {
     width: 70%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 980px) {

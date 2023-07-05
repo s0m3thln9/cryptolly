@@ -122,12 +122,13 @@
         width: 70%;
         margin: 0 auto;
         @include flex(start, center, column);
-        text-align: center;
         & > h2 {
             width: 100%;
+            text-align: center;
         }
         & > p {
             width: 70%;
+            text-align: center;
         }
     }
 }
