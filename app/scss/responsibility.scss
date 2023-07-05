@@ -76,7 +76,7 @@
 @media screen and (max-width: 1158px) {
     .wrapper {
         padding: 0 24px;
-        width: 100%;
+        width: 70%;
     }
     /* Hero */
     .header__wrap {
@@ -87,7 +87,6 @@
         margin: 64px 0 0 0;
     }
     .features__wrap {
-        width: 70%;
         @include flex(center, center, column-reverse);
     }
     .features__text-container {
