@@ -1760,6 +1760,12 @@ a {
   .media h2 {
     font-size: 28px;
   }
+  .media #feedback {
+    font-size: 20px;
+  }
+  .media #author {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
