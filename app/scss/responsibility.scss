@@ -280,8 +280,13 @@
             }
         }
     }
-    .about h2 {
-        width: 100%;
+    .about {
+        h2 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
     }
 }
 

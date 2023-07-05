@@ -1506,6 +1506,9 @@ a {
   .about h2 {
     width: 100%;
   }
+  .about p {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   /* Hero */
