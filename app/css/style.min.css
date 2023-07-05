@@ -1438,7 +1438,7 @@ a {
   }
   .mobile__content .mobile__paragraph {
     width: 70%;
-    margin: 0 auto;
+    margin: 16px auto 0;
     text-align: center;
   }
   .mobile__content .mobile__get-app {
@@ -1448,7 +1448,7 @@ a {
     transform: translateY(580px);
   }
   .mobile__img-block {
-    transform: translateY(-180px);
+    transform: translateY(-140px);
   }
 }
 @media screen and (max-width: 980px) {
