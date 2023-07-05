@@ -1621,7 +1621,7 @@ a {
   .mobile__img-block img {
     width: 100%;
   }
-  .mobile__buttons {
+  .mobile__content .mobile__buttons {
     display: flex;
     justify-content: start;
     align-items: center;

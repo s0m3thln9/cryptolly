@@ -405,8 +405,10 @@
             width: 100%;
         }
     }
-    .mobile__buttons {
-        @include flex(start, center, column);
+    .mobile__content {
+        .mobile__buttons {
+            @include flex(start, center, column);
+        }
     }
 }
 
