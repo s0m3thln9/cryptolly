@@ -1443,6 +1443,13 @@ a {
     left: 0;
     transform: none;
   }
+  .about__img-block {
+    transform: none;
+    width: 100%;
+  }
+  .about__img-block img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 680px) {
   /* Features */
@@ -1494,13 +1501,6 @@ a {
     width: 100%;
   }
   .exchange__wrap .exchange__content p {
-    width: 100%;
-  }
-  .about__img-block {
-    transform: none;
-    width: 100%;
-  }
-  .about__img-block img {
     width: 100%;
   }
 }

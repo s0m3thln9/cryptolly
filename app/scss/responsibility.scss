@@ -211,6 +211,13 @@
             transform: none;
         }
     }
+    .about__img-block {
+        transform: none;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 
@@ -271,13 +278,6 @@
             p {
                 width: 100%;
             }
-        }
-    }
-    .about__img-block {
-        transform: none;
-        width: 100%;
-        img {
-            width: 100%;
         }
     }
 }
