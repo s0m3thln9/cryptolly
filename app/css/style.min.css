@@ -1278,6 +1278,9 @@ a {
   .about__container {
     width: 100%;
   }
+  .mobile__container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1440px) {
   /* Hero */
