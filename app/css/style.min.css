@@ -1615,6 +1615,12 @@ a {
   .hero__container {
     padding: 0;
   }
+  .mobile__img-block {
+    width: 100%;
+  }
+  .mobile__img-block img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {

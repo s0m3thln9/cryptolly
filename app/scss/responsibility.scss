@@ -399,6 +399,12 @@
     //         transform: scale(1.2);
     //     }
     // }
+    .mobile__img-block {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 
