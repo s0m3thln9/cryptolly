@@ -1404,6 +1404,8 @@ a {
   }
   .media__button-container {
     transform: translateY(365px);
+    width: 100%;
+    justify-content: space-between;
   }
   .media__image-container {
     transform: translateY(-190px);
