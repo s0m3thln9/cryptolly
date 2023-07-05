@@ -406,7 +406,7 @@ a {
   width: -moz-fit-content;
   width: fit-content;
   transition: all 0.5s;
-  opacity: 1;
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: start;
