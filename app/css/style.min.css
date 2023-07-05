@@ -1359,6 +1359,9 @@ a {
   .exchange__converter-container {
     margin: 20px 0 0 0;
   }
+  .about {
+    padding: 90px 0 0 0;
+  }
   .about__content {
     width: 70%;
     margin: 0 auto;
