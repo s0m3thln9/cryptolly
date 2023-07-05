@@ -1540,9 +1540,6 @@ a {
   .about__img-block {
     overflow: hidden;
   }
-  .about__img-block img {
-    transform: scale(1.2);
-  }
 }
 @media screen and (max-width: 540px) {
   h2 {
