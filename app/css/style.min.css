@@ -1309,6 +1309,9 @@ a {
   .about__line {
     right: 30%;
   }
+  .about__img-block {
+    transform: none;
+  }
 }
 @media screen and (max-width: 1158px) {
   .wrapper {
@@ -1377,9 +1380,6 @@ a {
   .about__content > p {
     width: 70%;
     text-align: center;
-  }
-  .about__img-block {
-    transform: none;
   }
 }
 @media screen and (max-width: 980px) {
