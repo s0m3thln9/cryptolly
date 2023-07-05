@@ -1771,6 +1771,21 @@ a {
     height: 155px;
     font-size: 26px;
   }
+  .media__image-container .media__company-circle:nth-child(2) {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .media__image-container .media__company-circle:nth-child(3) {
+    width: 117px;
+    height: 117px;
+    font-size: 20px;
+  }
+  .media__image-container .media__company-circle:nth-child(4) {
+    width: 58px;
+    height: 58px;
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 375px) {
   /* Hero */
