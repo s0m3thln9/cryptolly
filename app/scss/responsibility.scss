@@ -307,6 +307,7 @@
             width: 100%;
         }
     }
+
 }
 
 
@@ -315,6 +316,12 @@
     /* Hero */
     .hero__container {
         padding: 0;
+    }
+    .about__img-block {
+        overflow: hidden;
+        img {
+            transform: scale(1.2);
+        }
     }
 }
 
