@@ -1517,7 +1517,7 @@ a {
     width: 100%;
   }
   .contact__container h2 {
-    width: auto;
+    width: 90%;
   }
 }
 @media screen and (max-width: 840px) {
@@ -1638,6 +1638,9 @@ a {
   }
   .mobile__content .mobile__buttons button:first-child {
     margin-right: 0;
+  }
+  .contact__container .contact__line-bg {
+    width: 80%;
   }
 }
 @media screen and (max-width: 540px) {

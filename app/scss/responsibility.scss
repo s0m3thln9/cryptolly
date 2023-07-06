@@ -278,7 +278,7 @@
     }
     //Contact
     .contact__container h2 {
-        width: auto;
+        width: 90%;
     }
 }
 
@@ -423,6 +423,10 @@
     }
     .mobile__content .mobile__buttons button:first-child {
         margin-right: 0;
+    }
+    //Contact
+    .contact__container .contact__line-bg {
+        width: 80%;
     }
 }
 
