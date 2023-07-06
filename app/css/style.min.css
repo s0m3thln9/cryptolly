@@ -1622,6 +1622,9 @@ a {
   .hero__container {
     padding: 0;
   }
+  .media__wrap h2 {
+    width: auto;
+  }
   .mobile__img-block {
     width: 100%;
     transform: translateY(-220px);
