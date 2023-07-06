@@ -1892,6 +1892,8 @@ a {
   }
   .contact__container .contact__form input {
     padding-left: 24px;
+    width: 202px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 480px) {
