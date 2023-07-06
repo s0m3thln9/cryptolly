@@ -1872,6 +1872,9 @@ a {
   .mobile__img-block {
     transform: translateY(-160px);
   }
+  .contact {
+    padding-top: 40px;
+  }
   .contact__container p {
     font-size: 14px;
   }
