@@ -817,6 +817,7 @@ a {
         border: 1px solid $text-grey-80;
         border-radius: 100px;
         @include flex(space-between, center);
+        backdrop-filter: blur(2px);
         input {
             padding-left: 32px;
             height: 100%;

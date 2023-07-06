@@ -1083,6 +1083,8 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 .contact__container .contact__form input {
   padding-left: 32px;
