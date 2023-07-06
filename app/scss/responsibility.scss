@@ -405,7 +405,7 @@
         img {
             width: 100%;
         }
-        transform: translateY(-240px)
+        transform: translateY(-220px)
     }
     .mobile__content {
         .mobile__buttons {
@@ -636,8 +636,12 @@
         transform: translateY(225px);
         width: 70%;
     }
+    //Mobile
     .mobile__content {
         width: 100%;
+    }
+    .mobile__img-block {
+        transform: translateY(-160px)
     }
 }
 
