@@ -444,6 +444,14 @@
         .footer__copyright {
             @include flex(start, center, column-reverse);
         }
+        .footer__main-container {
+            margin-top: 96px;
+            .footer__item {
+                &:not(:first-child) {
+                    margin-top: 40px;
+                }
+            }
+        }
     }
 }
 
