@@ -1629,6 +1629,9 @@ a {
     flex-direction: column;
     gap: 16px;
   }
+  .mobile__content .mobile__buttons button:first-child {
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {
