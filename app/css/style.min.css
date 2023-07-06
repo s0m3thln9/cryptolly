@@ -1861,6 +1861,33 @@ a {
     transform: translateY(-160px);
   }
 }
+@media screen and (max-width: 480px) {
+  .mobile__img-block {
+    transform: translateY(-200px);
+  }
+  .mobile__content .mobile__get-app {
+    transform: translateY(520px);
+  }
+  .mobile__content .mobile__buttons {
+    transform: translateY(520px);
+  }
+}
+@media screen and (max-width: 440px) {
+  .mobile__content .mobile__get-app {
+    transform: translateY(460px);
+  }
+  .mobile__content .mobile__buttons {
+    transform: translateY(460px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .mobile__content .mobile__get-app {
+    transform: translateY(420px);
+  }
+  .mobile__content .mobile__buttons {
+    transform: translateY(420px);
+  }
+}
 @media screen and (max-width: 375px) {
   /* Hero */
   .logo p {
@@ -1877,5 +1904,17 @@ a {
   .features__text-container button {
     width: 197px;
     padding: 12px 24px;
+  }
+  .mobile__content .mobile__get-app {
+    transform: translateY(400px);
+  }
+  .mobile__content .mobile__buttons {
+    transform: translateY(400px);
+  }
+  .mobile__content .mobile__buttons button {
+    width: 100%;
+  }
+  .mobile__content .mobile__paragraph {
+    width: 100%;
   }
 }

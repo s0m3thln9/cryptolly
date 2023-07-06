@@ -645,7 +645,38 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    //Mobile
+    .mobile__img-block {
+        transform: translateY(-200px)
+    }
+    .mobile__content .mobile__get-app {
+        transform: translateY(520px);
+    }
+    .mobile__content .mobile__buttons {
+        transform: translateY(520px);
+    }
+}
 
+@media screen and (max-width: 440px) {
+    //Mobile
+    .mobile__content .mobile__get-app {
+        transform: translateY(460px);
+    }
+    .mobile__content .mobile__buttons {
+        transform: translateY(460px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    //Mobile
+    .mobile__content .mobile__get-app {
+        transform: translateY(420px);
+    }
+    .mobile__content .mobile__buttons {
+        transform: translateY(420px);
+    }
+}
 
 @media screen and (max-width: 375px) {
     /* Hero */
@@ -669,5 +700,17 @@
             padding: 12px 24px;
         }
     }
-    //поменяй расположение линии на фоне и сетку(она должна заканчиваться после слайдера)
+    //Mobile
+    .mobile__content .mobile__get-app {
+        transform: translateY(400px);
+    }
+    .mobile__content .mobile__buttons {
+        transform: translateY(400px);
+    }
+    .mobile__content .mobile__buttons button {
+        width: 100%;
+    }
+    .mobile__content .mobile__paragraph {
+        width: 100%;
+    }
 }
