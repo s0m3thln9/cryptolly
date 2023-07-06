@@ -1653,14 +1653,14 @@ a {
   .contact__container .contact__line-bg {
     width: 80%;
   }
+  .footer__wrap {
+    margin-top: 96px;
+  }
   .footer__wrap .footer__copyright {
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column-reverse;
-  }
-  .footer__wrap .footer__main-container {
-    margin-top: 96px;
   }
   .footer__wrap .footer__main-container .footer__item:not(:first-child) {
     margin-top: 40px;
