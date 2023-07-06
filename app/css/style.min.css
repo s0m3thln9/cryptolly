@@ -1908,6 +1908,12 @@ a {
     top: 20px;
     left: -100px;
   }
+  .footer__wrap .footer__copyright {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }
 @media screen and (max-width: 480px) {
   .mobile__img-block {

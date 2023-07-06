@@ -695,6 +695,12 @@
         top: 20px;
         left: -100px;
     }
+    //Footer
+    .footer__wrap {
+        .footer__copyright {
+            @include flex(start, center, column-reverse);
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {
