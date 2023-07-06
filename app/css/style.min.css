@@ -1521,6 +1521,12 @@ a {
   .contact__container h2 {
     width: 90%;
   }
+  .footer__wrap .footer__main-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 840px) {
   /* Hero */

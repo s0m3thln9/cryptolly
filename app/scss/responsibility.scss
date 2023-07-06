@@ -280,6 +280,12 @@
     .contact__container h2 {
         width: 90%;
     }
+    //Footer
+    .footer__wrap {
+        .footer__main-container {
+            @include flex(start, center, column);
+        }
+    }
 }
 
 
