@@ -1896,6 +1896,10 @@ a {
     width: 202px;
     font-size: 14px;
   }
+  .contact__container .contact__line-bg {
+    top: 20px;
+    left: -100px;
+  }
 }
 @media screen and (max-width: 480px) {
   .mobile__img-block {
