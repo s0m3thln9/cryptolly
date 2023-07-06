@@ -948,6 +948,10 @@ a {
   width: 1440px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .mobile__container .grid__bg {
   position: absolute;

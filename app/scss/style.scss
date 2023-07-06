@@ -724,6 +724,7 @@ a {
     width: 1440px;
     margin: 0 auto;
     position: relative;
+    @include flex(center, center);
     .grid__bg {
         @include position-left(0, 50%);
         transform: translateX(-50%);
