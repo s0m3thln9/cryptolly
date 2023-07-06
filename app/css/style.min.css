@@ -1653,6 +1653,12 @@ a {
   .contact__container .contact__line-bg {
     width: 80%;
   }
+  .footer__wrap .footer__copyright {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {
@@ -1907,12 +1913,6 @@ a {
   .contact__container .contact__line-bg {
     top: 20px;
     left: -100px;
-  }
-  .footer__wrap .footer__copyright {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 480px) {

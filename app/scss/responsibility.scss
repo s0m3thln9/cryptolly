@@ -439,6 +439,12 @@
     .contact__container .contact__line-bg {
         width: 80%;
     }
+    //Footer
+    .footer__wrap {
+        .footer__copyright {
+            @include flex(start, center, column-reverse);
+        }
+    }
 }
 
 
@@ -694,12 +700,6 @@
     .contact__container .contact__line-bg {
         top: 20px;
         left: -100px;
-    }
-    //Footer
-    .footer__wrap {
-        .footer__copyright {
-            @include flex(start, center, column-reverse);
-        }
     }
 }
 
