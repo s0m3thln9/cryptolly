@@ -1888,6 +1888,7 @@ a {
   .contact__container .contact__form button {
     padding: 8px 16px;
     border-radius: 40px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 480px) {
