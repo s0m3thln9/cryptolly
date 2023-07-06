@@ -1872,7 +1872,8 @@ a {
     transform: translateY(520px);
   }
   .mobile__container .vector111 {
-    left: 100px;
+    top: 0;
+    width: 70%;
   }
 }
 @media screen and (max-width: 440px) {
