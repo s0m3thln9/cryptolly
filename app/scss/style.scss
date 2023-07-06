@@ -794,7 +794,7 @@ a {
         @include position-left(106px, 0);
         z-index: -1;
     }
-    .contact__contant-container {
+    .contact__content-container {
         @include flex(space-between, center);
         flex-direction: column;
     }
