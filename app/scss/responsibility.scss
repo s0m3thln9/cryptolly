@@ -670,6 +670,17 @@
     .contact__container h2 {
         font-size: 28px;
     }
+    .contact__container .contact__form {
+        width: 327px;
+        height: 55px;
+        padding: 4px 8px 4px 0;
+        border: 1px solid #34384C;
+        border-radius: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width: 480px) {
