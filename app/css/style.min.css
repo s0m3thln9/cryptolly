@@ -1622,7 +1622,7 @@ a {
   .hero__container {
     padding: 0;
   }
-  .media__wrap h2 {
+  .media__text-container {
     width: auto;
   }
   .mobile__img-block {
@@ -1871,6 +1871,12 @@ a {
   }
   .mobile__img-block {
     transform: translateY(-160px);
+  }
+  .contact__container p {
+    font-size: 14px;
+  }
+  .contact__container h2 {
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 480px) {

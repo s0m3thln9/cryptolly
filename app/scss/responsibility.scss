@@ -409,11 +409,10 @@
     //     }
     // }
     //Media 
-    .media__wrap {
-        h2 {
-            width: auto;
-        }
+    .media__text-container {
+        width: auto;
     }
+    //Mobile
     .mobile__img-block {
         width: 100%;
         img {
@@ -660,6 +659,13 @@
     }
     .mobile__img-block {
         transform: translateY(-160px)
+    }
+    //Contact
+    .contact__container p {
+        font-size: 14px;
+    }
+    .contact__container h2 {
+        font-size: 28px;
     }
 }
 
