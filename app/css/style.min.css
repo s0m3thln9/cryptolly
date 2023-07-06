@@ -1618,6 +1618,7 @@ a {
   }
   .mobile__img-block {
     width: 100%;
+    transform: translateY(-240px);
   }
   .mobile__img-block img {
     width: 100%;
