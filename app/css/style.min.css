@@ -1952,6 +1952,9 @@ a {
   .mobile__content .mobile__buttons {
     transform: translateY(460px);
   }
+  .footer__wrap .footer__main-container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 400px) {
   .mobile__content .mobile__get-app {
