@@ -454,6 +454,9 @@
                 &:nth-child(3) {
                     .contact__form {
                         width: 100%;
+                        input {
+                            width: calc(100% - 100px);
+                        }
                     }
                 }
             }
