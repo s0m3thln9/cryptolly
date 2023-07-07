@@ -465,6 +465,9 @@
             }
         }.footer__copyright {
             margin-top: 40px;
+            & > p {
+                margin-top: 16px;
+            }
         }
     }
 }

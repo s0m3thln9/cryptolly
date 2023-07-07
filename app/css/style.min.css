@@ -1684,6 +1684,9 @@ a {
   .footer__wrap .footer__copyright {
     margin-top: 40px;
   }
+  .footer__wrap .footer__copyright > p {
+    margin-top: 16px;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {
