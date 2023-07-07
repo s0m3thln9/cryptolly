@@ -455,6 +455,23 @@
                         margin-top: 24px;
                     }
                 }
+                &:nth-child(3) {
+                    .contact__form {
+                        width: 100%;
+                        input {
+                            padding-left: 24px;
+                            height: 100%;
+                            width: 211px;
+                            background: transparent;
+                            outline: none;
+                            border: none;
+                            @include font('Graphik', 14px, 400, 22.4px, $white);
+                            &::-webkit-input-placeholder {
+                                color: $text-grey-60;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
