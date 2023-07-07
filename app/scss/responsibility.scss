@@ -452,6 +452,9 @@
                     }
                 }
                 &:nth-child(3) {
+                    & > p {
+                        width: 100%;
+                    }
                     .contact__form {
                         width: 100%;
                         input {

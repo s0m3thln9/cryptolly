@@ -1672,6 +1672,9 @@ a {
   .footer__wrap .footer__main-container .footer__item:nth-child(1) .footer__socials {
     margin-top: 24px;
   }
+  .footer__wrap .footer__main-container .footer__item:nth-child(3) > p {
+    width: 100%;
+  }
   .footer__wrap .footer__main-container .footer__item:nth-child(3) .contact__form {
     width: 100%;
   }
