@@ -440,7 +440,7 @@
             @include flex(start, center, column-reverse);
         }
         .footer__main-container {
-            width: 70%;
+            width: 75%;
             margin: 0 auto;
             .footer__item {
                 &:not(:first-child) {
