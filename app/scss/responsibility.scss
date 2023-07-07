@@ -288,8 +288,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 840px) {
     /* Hero */
     .hero__container {
@@ -322,8 +320,6 @@
         right: 0;
     }
 }
-
-
 
 @media screen and (max-width: 680px) {
     /* Features */
@@ -400,8 +396,6 @@
 
 }
 
-
-
 @media screen and (max-width: 600px) {
     /* Hero */
     .hero__container {
@@ -453,9 +447,18 @@
             }
         }
     }
+    .footer__wrap {
+        .footer__main-container {
+            .footer__item {
+                &:nth-child(1) {
+                    .footer__socials {
+                        margin-top: 24px;
+                    }
+                }
+            }
+        }
+    }
 }
-
-
 
 @media screen and (max-width: 540px) {
     h2 {
