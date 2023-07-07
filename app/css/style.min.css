@@ -1664,6 +1664,7 @@ a {
   }
   .footer__wrap .footer__main-container {
     width: 70%;
+    margin: 0 auto;
   }
   .footer__wrap .footer__main-container .footer__item:not(:first-child) {
     margin-top: 40px;

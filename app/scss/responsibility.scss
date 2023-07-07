@@ -441,6 +441,7 @@
         }
         .footer__main-container {
             width: 70%;
+            margin: 0 auto;
             .footer__item {
                 &:not(:first-child) {
                     margin-top: 40px;
