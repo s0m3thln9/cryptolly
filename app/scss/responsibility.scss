@@ -440,16 +440,11 @@
             @include flex(start, center, column-reverse);
         }
         .footer__main-container {
+            width: 70%;
             .footer__item {
                 &:not(:first-child) {
                     margin-top: 40px;
                 }
-            }
-        }
-    }
-    .footer__wrap {
-        .footer__main-container {
-            .footer__item {
                 &:nth-child(1) {
                     .footer__socials {
                         margin-top: 24px;
