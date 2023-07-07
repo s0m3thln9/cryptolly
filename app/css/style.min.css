@@ -1681,6 +1681,9 @@ a {
   .footer__wrap .footer__main-container .footer__item:nth-child(3) .contact__form input {
     width: calc(100% - 100px);
   }
+  .footer__wrap .footer__copyright {
+    margin-top: 40px;
+  }
 }
 @media screen and (max-width: 540px) {
   h2 {
