@@ -283,7 +283,7 @@
     //Footer
     .footer__wrap {
         .footer__main-container {
-            @include flex(start, center, column);
+            @include flex(start, start, column);
         }
     }
 }
