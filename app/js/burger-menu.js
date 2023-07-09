@@ -2,24 +2,21 @@ const burgerMenu = document.querySelector('.burger__menu');
 const blur = document.querySelector('.blur');
 const body = document.querySelector('body');
 const div = document.createElement('div');
-let countOfOpen = 0;
 div.style.overflowY = 'scroll';
 div.style.width = '50px';
 div.style.height = '50px';
 document.body.append(div);
 const scrollWidth = div.offsetWidth - div.clientWidth;
 div.remove();
-console.log(scrollWidth)
 
 const burgerMenuToggler = () => {
-    countOfOpen++;
     burgerMenu.classList.toggle('burger__menu-shown');
     blur.classList.toggle('blur-visible');
     body.classList.toggle('unscrollable');
-    if (countOfOpen % 2 == 0) {
-        body.style.paddingRight = `0px`;
-    } else {
+    if (body.classList.contains('unscrollable')) {
         body.style.paddingRight = `${scrollWidth}px`;
+    } else {
+        body.style.paddingRight = `0px`;
     }
 }
 

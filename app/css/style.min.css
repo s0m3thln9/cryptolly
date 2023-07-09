@@ -111,7 +111,6 @@ a {
   width: 100%;
   overflow: hidden;
   position: relative;
-  min-height: 100vh;
 }
 .hero .grid__bg {
   position: absolute;
@@ -195,7 +194,7 @@ a {
 }
 .header__wrap .burger__button {
   display: none;
-  z-index: 2;
+  z-index: 3;
 }
 
 .burger__menu {
@@ -209,7 +208,7 @@ a {
   position: absolute;
   top: 0;
   right: -100%;
-  z-index: 2;
+  z-index: 3;
 }
 .burger__menu li {
   list-style: none;
