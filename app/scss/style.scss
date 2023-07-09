@@ -677,7 +677,10 @@ a {
         } 
         position: absolute;
         border-radius: 50%;
-        background: $blue;
+        background: $dark-hex;
+        &:first-child {
+            background: $blue;
+        }
         overflow: hidden;
         transition: all .2s;
         @include font('Sofia Pro', 40px, 700, 110%, $text-grey-100);

@@ -886,7 +886,7 @@ a {
 .media__image-container .media__company-circle {
   position: absolute;
   border-radius: 50%;
-  background: #1A82FF;
+  background: #21232B;
   overflow: hidden;
   transition: all 0.2s;
   font-family: "Sofia Pro";
@@ -909,6 +909,9 @@ a {
   background: #21232B;
   border-radius: 50%;
   transition: all 0.2s;
+}
+.media__image-container .media__company-circle:first-child {
+  background: #1A82FF;
 }
 .media__image-container .media__company-circle:nth-child(1) {
   height: 245px;
