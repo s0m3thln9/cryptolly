@@ -85,7 +85,6 @@ a {
 
 .hero {
     width: 100%;
-    overflow: hidden;
     position: relative;
     .grid__bg {
         @include position-left(0, 50%);

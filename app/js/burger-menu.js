@@ -1,6 +1,7 @@
 const burgerMenu = document.querySelector('.burger__menu');
 const blur = document.querySelector('.blur');
 const body = document.querySelector('body');
+const hero = document.querySelector('.hero');
 const div = document.createElement('div');
 div.style.overflowY = 'scroll';
 div.style.width = '50px';
@@ -13,6 +14,7 @@ const burgerMenuToggler = () => {
     burgerMenu.classList.toggle('burger__menu-shown');
     blur.classList.toggle('blur-visible');
     body.classList.toggle('unscrollable');
+    hero.classList.toggle('unscrollable');
     if (body.classList.contains('unscrollable')) {
         body.style.paddingRight = `${scrollWidth}px`;
     } else {
@@ -27,7 +29,8 @@ window.addEventListener("resize", () => {
     }
     burgerMenu.classList.remove('burger__menu-shown');
     blur.classList.remove('blur-visible');
-    body.classList.remove('unscrollable')
+    body.classList.remove('unscrollable');
+    hero.classList.add('unscrollable');
     body.style.paddingRight = `0px`;
 })
 
@@ -35,5 +38,6 @@ blur.addEventListener("click", () => {
     burgerMenu.classList.remove('burger__menu-shown');
     blur.classList.remove('blur-visible');
     body.classList.remove('unscrollable');
+    hero.classList.add('unscrollable');
     body.style.paddingRight = `0px`;
 })

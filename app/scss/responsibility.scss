@@ -306,7 +306,6 @@
         }
     }
     .hero {
-        overflow: hidden;
         .line__hero {
             width: 100%;
             @include position-left(7%, 0);
@@ -502,7 +501,6 @@
         }
     }
     .hero {
-        overflow: hidden;
         .line__hero {
             width: 500px;
         }
