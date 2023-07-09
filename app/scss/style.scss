@@ -83,6 +83,7 @@ a {
     width: 100%;
     overflow: hidden;
     position: relative;
+    min-height: 100vh;
     .grid__bg {
         @include position-left(0, 50%);
         transform: translateX(-50%);
