@@ -1284,7 +1284,7 @@ a {
 }
 @media screen and (max-width: 1440px) {
   .hero > img {
-    width: 95%;
+    object-fit: contain;
   }
   .slider__main-container {
     width: 100%;
