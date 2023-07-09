@@ -19,6 +19,8 @@ const mediaSliderToLeft = () => {
         companyCircles[currentCompany].querySelector(".media__company-inner-circle").style.width = "calc(100% - 4px)";
         companyCircles[currentCompany].querySelector(".media__company-inner-circle").style.height = "calc(100% - 4px)";
         companyCircles[previousCompany].style.color = "#7D7D7D";
+        companyCircles[previousCompany].style.background = "#21232B";
+        companyCircles[currentCompany].style.background = "#1A82FF";
         companyCircles[previousCompany].querySelector(".media__company-inner-circle").style.width = "102%";
         companyCircles[previousCompany].querySelector(".media__company-inner-circle").style.height = "102%";
     }
@@ -37,6 +39,8 @@ const mediaSliderToRight = () => {
         companyCircles[currentCompany].querySelector(".media__company-inner-circle").style.width = "calc(100% - 4px)";
         companyCircles[currentCompany].querySelector(".media__company-inner-circle").style.height = "calc(100% - 4px)";
         companyCircles[previousCompany].style.color = "#7D7D7D";
+        companyCircles[previousCompany].style.background = "#21232B";
+        companyCircles[currentCompany].style.background = "#1A82FF";
         companyCircles[previousCompany].querySelector(".media__company-inner-circle").style.width = "102%";
         companyCircles[previousCompany].querySelector(".media__company-inner-circle").style.height = "102%";
     }
