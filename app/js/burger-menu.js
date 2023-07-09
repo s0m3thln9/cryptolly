@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 const burgerMenuToggler = () => {
     burgerMenu.classList.toggle('burger__menu-shown');
     blur.classList.toggle('blur-visible');
-    body.classList.add('unscrollable')
+    body.classList.toggle('unscrollable')
 }
 
 
