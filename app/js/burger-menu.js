@@ -17,6 +17,7 @@ const burgerMenuToggler = () => {
     hero.classList.toggle('unscrollable');
     if (body.classList.contains('unscrollable')) {
         body.style.paddingRight = `${scrollWidth}px`;
+        burgerMenu.style.transform = `translateX(${scrollWidth}px)`;
     } else {
         body.style.paddingRight = `0px`;
     }
