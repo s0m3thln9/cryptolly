@@ -119,6 +119,9 @@ a {
             a {
                 text-decoration: none;
                 color: $white;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
         .menu__button-container {

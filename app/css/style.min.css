@@ -160,6 +160,9 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
+.header__wrap .header__menu li a:hover {
+  text-decoration: underline;
+}
 .header__wrap .header__menu .menu__button-container {
   margin-left: 32px;
   display: flex;
