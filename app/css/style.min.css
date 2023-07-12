@@ -2019,6 +2019,6 @@ a {
 [data-aos=custom-line1] path {
   animation: none;
 }
-[data-aos=custom-line1] path .aos-animate {
+[data-aos=custom-line1] .aos-animate path {
   animation: lineDraw 2s ease forwards;
 }
