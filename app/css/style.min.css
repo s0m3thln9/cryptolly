@@ -554,10 +554,10 @@ a {
 }
 
 [data-aos=line-anim1] {
-  animation: lineDraw 2s ease forwards;
+  animation: none;
 }
 [data-aos=line-anim1].aos-animate {
-  animation: none;
+  animation: lineDraw 2s ease forwards;
 }
 
 .exchange__container,
