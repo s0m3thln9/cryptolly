@@ -454,7 +454,6 @@ a {
     .features__line {
         @include position-left(277px, 100px);
         z-index: -1;
-
         path {
             stroke-dasharray: 1012;
             stroke-dashoffset: 1012;
