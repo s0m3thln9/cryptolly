@@ -123,7 +123,7 @@ a {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 20;
+  z-index: -1;
 }
 
 @keyframes lineDraw {
@@ -132,8 +132,8 @@ a {
   }
 }
 path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
+  stroke-dasharray: 2007;
+  stroke-dashoffset: 2007;
   animation: lineDraw 5s linear forwards;
 }
 
