@@ -553,10 +553,10 @@ a {
   color: #ffffff;
 }
 
-[data-aos=line-anim1] {
+[data-aos=custom-line1] {
   animation: none;
 }
-[data-aos=line-anim1].aos-animate {
+[data-aos=custom-line1].aos-animate {
   animation: lineDraw 2s ease forwards;
 }
 

@@ -475,7 +475,7 @@ a {
     }
 }
 
-[data-aos="line-anim1"] {
+[data-aos="custom-line1"] {
     animation: none;
     &.aos-animate {
         animation: lineDraw 2s ease forwards;
