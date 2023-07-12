@@ -2019,5 +2019,5 @@ a {
 [data-aos=custom-line1].aos-animate svg path {
   stroke-dasharray: 1012;
   stroke-dashoffset: 0;
-  transition: all 2s;
+  transition: all 1s;
 }
