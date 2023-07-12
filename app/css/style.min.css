@@ -519,13 +519,13 @@ a {
   flex-direction: column;
   position: relative;
 }
-.features__text-container img {
+.features__text-container .features__line {
   position: absolute;
   top: 277px;
   left: 100px;
   z-index: -1;
 }
-.features__text-container img path {
+.features__text-container .features__line path {
   stroke-dasharray: 1012;
   stroke-dashoffset: 1012;
   animation: lineDraw 2s ease forwards;

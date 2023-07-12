@@ -395,7 +395,7 @@ a {
     @include flex(center, start);
     flex-direction: column;
     position: relative;
-    img {
+    .features__line {
         @include position-left(277px, 100px);
         z-index: -1;
         path {
