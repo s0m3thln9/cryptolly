@@ -476,10 +476,10 @@ a {
 }
 
 [data-aos="line-anim1"] {
-    animation: none;
+    animation: lineDraw 2s ease forwards;
 
     &.aos-animate {
-        animation: lineDraw 2s ease forwards;
+        animation: none;
     }
 }
 
