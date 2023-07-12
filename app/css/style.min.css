@@ -525,6 +525,11 @@ a {
   left: 100px;
   z-index: -1;
 }
+.features__text-container img path {
+  stroke-dasharray: 1012;
+  stroke-dashoffset: 1012;
+  animation: lineDraw 2s ease forwards;
+}
 .features__text-container p {
   font-family: "Graphik";
   font-size: 16px;
