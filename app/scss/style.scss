@@ -450,7 +450,17 @@ a {
     @include flex(center, start);
     flex-direction: column;
     position: relative;
+    // .line__hero {
+    //     @include position-left(0, 50%);
+    //     transform: translateX(-50%);
+    //     z-index: -1;
 
+    //     path {
+    //         stroke-dasharray: 2007;
+    //         stroke-dashoffset: 2007;
+    //         animation: lineDraw 3s ease forwards;
+    //     }
+    // }
     .features__line {
         @include position-left(277px, 100px);
         z-index: -1;
