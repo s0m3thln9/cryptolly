@@ -415,6 +415,16 @@ a {
         @include font('Sofia Pro', 16px, 600, 160%, $white);
     }
 }
+[data-aos="line-anim1"] {
+    path {
+        animation: none;
+    }
+    &.aos-animate {
+        path {
+            animation: lineDraw 2s ease forwards;
+        }
+    }
+  }
 
 // Exchange
 .exchange__container,

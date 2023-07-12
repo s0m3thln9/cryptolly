@@ -553,6 +553,13 @@ a {
   color: #ffffff;
 }
 
+[data-aos=line-anim1] path {
+  animation: none;
+}
+[data-aos=line-anim1].aos-animate path {
+  animation: lineDraw 2s ease forwards;
+}
+
 .exchange__container,
 .about__container {
   width: 1440px;
