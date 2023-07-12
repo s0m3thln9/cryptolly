@@ -2,7 +2,7 @@
     & path {
         animation: none;
     }
-    & .aos-animate path {
+    &.aos-animate path {
         animation: lineDraw 2s ease forwards;
     }
 }
