@@ -1,8 +1,12 @@
 [data-aos="custom-line1"] {
     & path {
+        stroke-dasharray: 1012;
+        stroke-dashoffset: 1012;
         animation: none;
     }
     &.aos-animate path {
-        animation: lineDraw 2s ease forwards;
+        stroke-dasharray: 1012;
+        stroke-dashoffset: 0;
+        transition: all .2s;
     }
 }

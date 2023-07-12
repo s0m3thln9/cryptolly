@@ -2016,8 +2016,12 @@ a {
   }
 }
 [data-aos=custom-line1] path {
+  stroke-dasharray: 1012;
+  stroke-dashoffset: 1012;
   animation: none;
 }
 [data-aos=custom-line1].aos-animate path {
-  animation: lineDraw 2s ease forwards;
+  stroke-dasharray: 1012;
+  stroke-dashoffset: 0;
+  transition: all 0.2s;
 }
