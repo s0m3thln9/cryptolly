@@ -2021,5 +2021,4 @@ a {
 }
 [data-aos=custom-line1].aos-animate {
   animation: lineDraw 2s ease forwards;
-  background: red;
 }
