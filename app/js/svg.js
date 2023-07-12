@@ -1,2 +1,2 @@
-let path = document.querySelector('.hero path');
+let path = document.querySelector('.svg-box path');
         console.log(path.getTotalLength());
