@@ -64,6 +64,12 @@ a {
     }
 }
 
+@keyframes lineDraw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
 .blur {
     width: 100%;
     height: 100vh;
@@ -100,12 +106,6 @@ a {
             stroke-dashoffset: 2007;
             animation: lineDraw 3s ease forwards;
         }
-    }
-}
-
-@keyframes lineDraw {
-    100% {
-        stroke-dashoffset: 0;
     }
 }
 
