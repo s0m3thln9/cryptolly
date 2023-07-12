@@ -1,2 +1,2 @@
-let path = document.querySelector('.line__hero path');
+let path = document.querySelector('.hero path');
         console.log(path.getTotalLength());
