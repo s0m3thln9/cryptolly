@@ -770,6 +770,12 @@ a {
   width: 546px;
 }
 
+.about__container {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .about__wrap {
   display: flex;
   justify-content: space-between;
