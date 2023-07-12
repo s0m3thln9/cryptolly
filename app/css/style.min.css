@@ -132,7 +132,6 @@ a {
   }
 }
 path {
-  stroke-dasharray: 2007;
   stroke-dashoffset: 2007;
   animation: lineDraw 3s ease forwards;
 }
