@@ -525,10 +525,6 @@ a {
   left: 100px;
   z-index: -1;
 }
-.features__text-container .features__line path {
-  stroke-dasharray: 1012;
-  stroke-dashoffset: 1012;
-}
 .features__text-container p {
   font-family: "Graphik";
   font-size: 16px;
