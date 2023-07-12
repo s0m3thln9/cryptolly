@@ -2036,7 +2036,7 @@ a {
 [data-aos=custom-line3].aos-animate svg path {
   stroke-dasharray: 678;
   stroke-dashoffset: 0;
-  transition: all 1s;
+  transition: all 2s;
 }
 
 [data-aos=custom-line4] svg path {
@@ -2047,5 +2047,5 @@ a {
 [data-aos=custom-line4].aos-animate svg path {
   stroke-dasharray: 5064;
   stroke-dashoffset: 0;
-  transition: all 1s;
+  transition: all 3s;
 }
