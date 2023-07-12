@@ -25,15 +25,15 @@
 //     }
 // }
 
-// [data-aos="custom-line3"] {
-//     & svg path {
-//         stroke-dasharray: 678;
-//         stroke-dashoffset: 678;
-//         animation: none;
-//     }
-//     &.aos-animate svg path {
-//         stroke-dasharray: 678;
-//         stroke-dashoffset: 0;
-//         transition: all 1s;
-//     }
-// }
+[data-aos="custom-line3"] {
+    & svg path {
+        stroke-dasharray: 678;
+        stroke-dashoffset: 678;
+        animation: none;
+    }
+    &.aos-animate svg path {
+        stroke-dasharray: 678;
+        stroke-dashoffset: 0;
+        transition: all 1s;
+    }
+}
