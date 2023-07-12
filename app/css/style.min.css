@@ -528,7 +528,6 @@ a {
 .features__text-container .features__line path {
   stroke-dasharray: 1012;
   stroke-dashoffset: 1012;
-  animation: none;
 }
 .features__text-container p {
   font-family: "Graphik";
