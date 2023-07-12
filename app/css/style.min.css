@@ -125,17 +125,18 @@ a {
   transform: translateX(-50%);
   z-index: 20;
 }
-.hero .line__hero path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: lineDraw 5s linear forwards;
-}
 
 @keyframes lineDraw {
   100% {
     stroke-dashoffset: 0;
   }
 }
+path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: lineDraw 5s linear forwards;
+}
+
 /* Header */
 .header__wrap {
   padding: 24px 0;

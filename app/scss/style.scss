@@ -95,11 +95,6 @@ a {
         @include position-left(0, 50%);
         transform: translateX(-50%);
         z-index: 20;
-        path {
-            stroke-dasharray: 2000;
-            stroke-dashoffset: 2000;
-            animation: lineDraw 5s linear forwards;
-        }
     }
 }
 
@@ -107,6 +102,11 @@ a {
     100% {
         stroke-dashoffset: 0;
     }
+}
+path {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: lineDraw 5s linear forwards;
 }
 
 /* Header */
