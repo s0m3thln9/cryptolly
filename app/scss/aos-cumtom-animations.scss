@@ -37,3 +37,16 @@
         transition: all 1s;
     }
 }
+
+[data-aos="custom-line4"] {
+    & svg path {
+        stroke-dasharray: 5064;
+        stroke-dashoffset: 5064;
+        animation: none;
+    }
+    &.aos-animate svg path {
+        stroke-dasharray: 5064;
+        stroke-dashoffset: 0;
+        transition: all 1s;
+    }
+}
