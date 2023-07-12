@@ -553,13 +553,6 @@ a {
   color: #ffffff;
 }
 
-[data-aos=custom-line1] {
-  animation: none;
-}
-[data-aos=custom-line1].aos-animate {
-  animation: lineDraw 2s ease forwards;
-}
-
 .exchange__container,
 .about__container {
   width: 1440px;

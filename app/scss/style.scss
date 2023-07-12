@@ -475,13 +475,6 @@ a {
     }
 }
 
-[data-aos="custom-line1"] {
-    animation: none;
-    &.aos-animate {
-        animation: lineDraw 2s ease forwards;
-    }
-}
-
 // Exchange
 .exchange__container,
 .about__container {
