@@ -1,8 +1,8 @@
 [data-aos="custom-line1"] {
-    path {
+    & path {
         animation: none;
     }
-    .aos-animate path {
+    & .aos-animate path {
         animation: lineDraw 2s ease forwards;
     }
 }
