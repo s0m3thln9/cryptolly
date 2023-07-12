@@ -2019,5 +2019,5 @@ a {
 [data-aos=custom-line1].aos-animate path {
   stroke-dasharray: 1012;
   stroke-dashoffset: 0;
-  transition: all 0.2s;
+  transition: all 2s;
 }
