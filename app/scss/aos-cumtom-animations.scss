@@ -2,5 +2,6 @@
     animation: none;
     &.aos-animate {
         animation: lineDraw 2s ease forwards;
+        background: red;
     }
 }
