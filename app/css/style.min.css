@@ -1295,6 +1295,9 @@ a {
     right: 0;
     z-index: -1;
   }
+  .features__text-container .features__line {
+    left: 0;
+  }
   .exchange__container {
     width: 100%;
   }
@@ -1331,6 +1334,9 @@ a {
   }
   .hero__container .hero__image {
     display: none;
+  }
+  .features__text-container .features__line {
+    left: -40px;
   }
   .about__wrap {
     display: flex;
@@ -1380,6 +1386,9 @@ a {
   }
   .features__card-container {
     margin-top: 40px;
+  }
+  .features__text-container .features__line {
+    left: 40px;
   }
   .exchange {
     margin-top: 40px;
@@ -2004,6 +2013,9 @@ a {
   .features__text-container button {
     width: 197px;
     padding: 12px 24px;
+  }
+  .features__text-container .features__line {
+    left: 0;
   }
   .mobile__content .mobile__get-app {
     transform: translateY(400px);

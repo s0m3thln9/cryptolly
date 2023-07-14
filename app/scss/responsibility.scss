@@ -19,6 +19,9 @@
             z-index: -1;
         }
     }
+    .features__text-container .features__line {
+        left: 0;
+    }
     //Exchange 
     .exchange__container {
         width: 100%;
@@ -63,6 +66,10 @@
         .hero__image {
             display: none;
         }
+    }
+    //Features
+    .features__text-container .features__line {
+        left: -40px;
     }
     //About
     .about__wrap {
@@ -113,6 +120,9 @@
     }
     .features__card-container {
         margin-top: 40px;
+    }
+    .features__text-container .features__line {
+        left: 40px;
     }
     //Exchange
     .exchange {
@@ -787,6 +797,9 @@
             width: 197px;
             padding: 12px 24px;
         }
+    }
+    .features__text-container .features__line {
+        left: 0;
     }
     //Mobile
     .mobile__content .mobile__get-app {
