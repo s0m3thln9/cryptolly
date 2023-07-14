@@ -209,8 +209,7 @@ a {
   z-index: 3;
 }
 .header__wrap .burger__button:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  transform: translateX(-5px) !important;
 }
 
 .burger__menu {
@@ -238,6 +237,9 @@ a {
   color: #ffffff;
   width: 100%;
   padding: 12px 0;
+}
+.burger__menu li a:hover {
+  text-decoration: underline;
 }
 .burger__menu .menu__button-container {
   margin-top: 24px;
