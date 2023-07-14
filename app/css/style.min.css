@@ -208,6 +208,10 @@ a {
   display: none;
   z-index: 3;
 }
+.header__wrap .burger__button:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 .burger__menu {
   height: 100vh;
@@ -1167,6 +1171,9 @@ a {
 .footer__wrap .footer__main-container .footer__item:nth-child(1) .footer__socials a:not(:first-child) {
   margin-left: 44px;
 }
+.footer__wrap .footer__main-container .footer__item:nth-child(1) .footer__socials a:hover {
+  transform: scale(1.1);
+}
 .footer__wrap .footer__main-container .footer__item:nth-child(2) .footer__links-container {
   margin-top: 24px;
   display: flex;
@@ -1193,6 +1200,10 @@ a {
 }
 .footer__wrap .footer__main-container .footer__item:nth-child(2) .footer__links-container .footer__links-col a:not(:first-child) {
   margin-top: 24px;
+}
+.footer__wrap .footer__main-container .footer__item:nth-child(2) .footer__links-container .footer__links-col a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 .footer__wrap .footer__main-container .footer__item:nth-child(3) > h4 {
   font-family: "Sofia Pro";

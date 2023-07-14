@@ -178,6 +178,10 @@ a {
     .burger__button {
         display: none;
         z-index: 3;
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -1019,6 +1023,9 @@ a {
                         &:not(:first-child) {
                             margin-left: 44px;
                         }
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
@@ -1041,6 +1048,11 @@ a {
 
                             &:not(:first-child) {
                                 margin-top: 24px;
+                            }
+
+                            &:hover {
+                                color: $white;
+                                text-decoration: underline;
                             }
                         }
                     }
