@@ -2054,6 +2054,17 @@ a {
   transition: all 1s;
 }
 
+[data-aos=custom-line2] svg path {
+  stroke-dasharray: 1055;
+  stroke-dashoffset: 1055;
+  animation: none;
+}
+[data-aos=custom-line2].aos-animate svg path {
+  stroke-dasharray: 1055;
+  stroke-dashoffset: 0;
+  transition: all 1s;
+}
+
 [data-aos=custom-line3] svg path {
   stroke-dasharray: 678;
   stroke-dashoffset: 678;
