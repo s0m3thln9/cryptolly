@@ -28,11 +28,13 @@
     & svg path {
         stroke-dasharray: 678;
         stroke-dashoffset: 678;
+        stroke: #000;
         animation: none;
     }
     &.aos-animate svg path {
         stroke-dasharray: 678;
         stroke-dashoffset: 0;
+        stroke: #000;
         transition: all 2s;
     }
 }
