@@ -995,9 +995,7 @@ a {
   z-index: -1;
 }
 .mobile__container .vector111 path {
-  stroke-dasharray: 678;
-  stroke-dashoffset: 0;
-  transition: all 3s;
+  stroke: #000;
 }
 
 .mobile__wrap {
