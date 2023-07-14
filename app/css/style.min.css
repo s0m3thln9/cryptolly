@@ -2077,12 +2077,12 @@ a {
 }
 
 [data-aos=custom-line4] svg path {
-  stroke-dasharray: 5064;
-  stroke-dashoffset: 5064;
+  stroke-dasharray: 678;
+  stroke-dashoffset: 678;
   animation: none;
 }
 [data-aos=custom-line4].aos-animate svg path {
-  stroke-dasharray: 5064;
+  stroke-dasharray: 678;
   stroke-dashoffset: 0;
   transition: all 3s;
 }
