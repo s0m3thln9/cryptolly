@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+		<title>Cryptolly</title>
+		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link href="css/aos.css" rel="stylesheet">
+		<script src="js/main.min.js" defer></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	</head>
+<body>
+	<section class="hero unscrollable">
+	    <img src="img/GridBg.svg" alt="grid_bg" class="grid__bg">
+	    <svg xmlns="http://www.w3.org/2000/svg" width="1380" height="650" fill="none" class="line__hero">
+	        <path stroke="url(#a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1378.95-17.466c-43.03 199.636-84.03 367.659-173.18 403.848-89.15 36.188-155.98-63.684-219.646-46.845-63.669 16.839-81.065 75.484-88.988 128.472-7.924 52.987-24.217 157.278-101.375 177.685-77.158 20.407-141.2-68.942-171.646-105.477-30.446-36.534-105.177-109.545-177.479-90.422-72.302 19.122-81.017 73.484-151.166 85.467-70.149 11.983-114.18-56.272-185.403-37.435-71.223 18.837-43.133 72.658-109.5 90.21"/>
+	        <defs>
+	            <linearGradient id="a" x1="1419.5" x2="-58.992" y1="-51.5" y2="362.842" gradientUnits="userSpaceOnUse">
+	                <stop stop-color="#FF59F8" stop-opacity="0"/>
+	                <stop offset=".345" stop-color="#AE72FF"/>
+	                <stop offset=".491" stop-color="#90E9ED"/>
+	                <stop offset=".683" stop-color="#5CD167"/>
+	                <stop offset="1" stop-color="#FE0" stop-opacity="0"/>
+	            </linearGradient>
+	        </defs>
+	    </svg>
+	    <div class="burger__menu">
+	        <nav>
+	            <ul>
+	                <li><a href="#">Exchange</a></li>
+	                <li><a href="#">Pricing</a></li>
+	                <li><a href="#">Wallet</a></li>
+	                <li><a href="#">Company</a></li>
+	                <li><a href="#">Blog</a></li>
+	            </ul>
+	        </nav>
+	        <div class="menu__button-container">
+	            <button>Sign in</button>
+	            <button>Get Started</button>
+	        </div>
+	    </div>
+	    <header>
+	        <div class="wrapper header__wrap">
+	            <div class="logo" data-aos="fade-right">
+	                <img src="img/Logo.svg" alt="logo">
+	                <p>Cryptolly<span>.</span></p>
+	            </div>
+	            <div class="header__menu" data-aos="fade-left">
+	                <nav>
+	                    <ul>
+	                        <li><a href="#">Exchange</a></li>
+	                        <li><a href="#">Pricing</a></li>
+	                        <li><a href="#">Wallet</a></li>
+	                        <li><a href="#">Company</a></li>
+	                        <li><a href="#">Blog</a></li>
+	                    </ul>
+	                </nav>
+	                <div class="menu__button-container">
+	                    <button>Sign in</button>
+	                    <button>Get Started</button>
+	                </div>
+	            </div>
+	            <div class="burger__button" data-aos="fade-left">
+	                <button onclick="burgerMenuToggler()">
+	                    <img src="img/burgerButton.svg" alt="burger">
+	                </button>
+	            </div>
+	        </div>
+	    </header>
+	    <div class="hero__main-container">
+	        <div class="wrapper hero__wrap">
+	            <div class="hero__container">
+	                <div class="hero__text" data-aos="fade-right">
+	                    <h1>A trusted and secure cryptocurrency exchange.</h1>
+	                    <p>Your guide to the world of an open financial system. Get started with the easiest and most secure platform to buy and trade cryptocurrency.</p>
+	                    <button class="button">
+	                        Get Started Now
+	                    </button>
+	                </div>
+	                <div class="hero__image" data-aos="fade-left">
+	                    <img src="img/hero-img.png" alt="hero">
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="slider__main-container" data-aos="fade-up">
+	        <div class="slider">
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_1.svg" alt="logo">
+	                        <p>Bitcoin</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_1.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowUp.svg" alt="arrow">
+	                            <p>2.11%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 53,260.20</h3>
+	                    <p>BTC</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_2.svg" alt="logo">
+	                        <p>Ethereum</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_2.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowDown.svg" alt="arrow">
+	                            <p class="slider__minus">0.32%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 32,231.57</h3>
+	                    <p>ETH</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_3.svg" alt="logo">
+	                        <p>Tether</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_3.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowUp.svg" alt="arrow">
+	                            <p>1.34%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 0.9999</h3>
+	                    <p>USDT</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_4.svg" alt="logo">
+	                        <p>Binance</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_4.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowDown.svg" alt="arrow">
+	                            <p class="slider__minus">0.67%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 0,2567</h3>
+	                    <p>XRP</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_1.svg" alt="logo">
+	                        <p>Bitcoin</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_1.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowUp.svg" alt="arrow">
+	                            <p>2.11%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 53,260.20</h3>
+	                    <p>BTC</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_2.svg" alt="logo">
+	                        <p>Ethereum</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_2.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowDown.svg" alt="arrow">
+	                            <p class="slider__minus">0.32%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 32,231.57</h3>
+	                    <p>ETH</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_3.svg" alt="logo">
+	                        <p>Tether</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_3.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowUp.svg" alt="arrow">
+	                            <p>1.34%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 0.9999</h3>
+	                    <p>USDT</p>
+	                </div>
+	            </div>
+	            <div class="slider__item">
+	                <div class="slider__info">
+	                    <div class="slider__left">
+	                        <img src="img/logos/Logo_4.svg" alt="logo">
+	                        <p>Binance</p>
+	                    </div>
+	                    <div class="slider__right">
+	                        <img src="img/graph/Graph_4.svg" alt="">
+	                        <div class="slider__indicator">
+	                            <img src="img/icons/ArrowDown.svg" alt="arrow">
+	                            <p class="slider__minus">0.67%</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="slider__balance">
+	                    <h3>USD 0,2567</h3>
+	                    <p>XRP</p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="slider__cover"></div>
+	    </div>
+	    <div class="slider__indicator-container">
+	        <div class="indicator-item"></div>
+	        <div class="indicator-item"></div>
+	        <div class="indicator-item"></div>
+	        <div class="indicator-item"></div>
+	        <div class="indicator-active-item"></div>
+	    </div>
+	</section>
+	<section class="features">
+	    <div class="wrapper features__wrap">
+	        <div class="features__card-container">
+	            <div class="features__column">
+	                <div class="features__card" data-aos="fade-down-right">
+	                    <div class="card__img-block">
+	                        <img src="img/Graph.svg" alt="Graph">
+	                    </div>
+	                    <h3>Portfolio Manager</h3>
+	                    <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
+	                </div>
+	                <div class="features__card" data-aos="fade-up-right">
+	                    <div class="card__img-block">
+	                        <img src="img/Smartphone.svg" alt="Smartphone">
+	                    </div>
+	                    <h3>Mobile Apps</h3>
+	                    <p>Stay on top of the markets with the Cryptolly app for Android or iOS.</p>
+	                </div>
+	            </div>
+	            <div class="features__column">
+	                <div class="features__card" data-aos="fade-right">
+	                    <div class="card__img-block">
+	                        <img src="img/Lock.svg" alt="Lock">
+	                    </div>
+	                    <h3>Vault protection</h3>
+	                    <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="features__text-container" data-aos="custom-line1">
+	            <svg width="507" height="225" viewBox="0 0 507 225" fill="none" xmlns="http://www.w3.org/2000/svg" class="features__line" >
+	                <path
+	                    d="M788 30.9178C692.705 38.0549 664.799 -0.288894 606.91 1.03347C549.02 2.35583 503.599 30.9176 477.475 70.5833C439.51 128.226 435.616 210.998 389.899 222.9C344.181 234.802 310.931 145.948 220.98 158.641C131.029 171.334 158.637 75.3433 113.217 30.9176C67.7955 -13.508 1 30.9176 1 30.9176"
+	                    stroke="url(#paint0_linear_298_35)" stroke-width="2" />
+	                <defs>
+	                    <linearGradient id="paint0_linear_298_35" x1="1" y1="225.735" x2="543" y2="219"
+	                        gradientUnits="userSpaceOnUse">
+	                        <stop stop-color="#FF59F8" stop-opacity="0" />
+	                        <stop offset="0.197917" stop-color="#AE72FF" />
+	                        <stop offset="0.40625" stop-color="#90E9ED" />
+	                        <stop offset="0.637667" stop-color="#5CD167" />
+	                        <stop offset="0.825321" stop-color="#FFEE00" stop-opacity="0" />
+	                    </linearGradient>
+	                </defs>
+	            </svg>
+	            <h2>The most trusted cryptocurrency platform.</h2>
+	            <p>Cryptolly has a variety of features that make it the best place to start trading</p>
+	            <button>Let’s Trade Now</button>
+	        </div>
+	    </div>
+	</section>
+	<section class="exchange">
+	    <div class="exchange__container" data-aos="custom-line2">
+	        <svg width="152" height="338" viewBox="0 0 152 338" fill="none" xmlns="http://www.w3.org/2000/svg" class="ellipse">
+	            <!-- <circle cx="169" cy="169" r="168" transform="matrix(-1 0 0 1 152 0)"
+	                stroke="url(#paint0_linear_298_37)" stroke-width="2" /> -->
+	            <path id="Imported Path" fill="none" stroke="url(#paint0_linear_298_37)" stroke-width="2"  d="M -185.00,169.00 C -185.00,261.78 -109.78,337.00 -17.00,337.00 75.78,337.00 151.00,261.78 151.00,169.00 151.00,76.22 75.78,1.00 -17.00,1.00 -109.78,1.00 -185.00,76.22 -185.00,169.00 Z" />
+	            <defs>
+	                <linearGradient id="paint0_linear_298_37" x1="0" y1="340.63" x2="321.552" y2="340.63"
+	                    gradientUnits="userSpaceOnUse">
+	                    <stop offset="0" stop-color="#AE72FF" stop-opacity="0" />
+	                    <stop offset="0.40625" stop-color="#FF59F8"/>
+	                    <stop offset="0.619792" stop-color="#5CD167" />
+	                    <stop offset="1" stop-color="#FFEE00" stop-opacity="0" />
+	                </linearGradient>
+	            </defs>
+	        </svg>
+	        <div class="wrapper exchange__wrap">
+	            <div class="exchange__content">
+	                <h2 data-aos="fade-right">One click, instant payout with credit or debit card.</h2>
+	                <p data-aos="fade-right">Become a crypto owner in minutes using your debit or credit card and quickly purchase top cryptocurrencies.</p>
+	                <div class="exchange-list__container">
+	                    <div class="exchange__item" data-aos="fade-right" data-aos-delay="100">
+	                        <div class="exchange__img-block">
+	                            <img src="img/User.svg" alt="User">
+	                        </div>
+	                        <h3>Create an account</h3>
+	                    </div>
+	                    <div class="exchange__item" data-aos="fade-right" data-aos-delay="200">
+	                        <div class="exchange__img-block">
+	                            <img src="img/Bank.svg" alt="Bank">
+	                        </div>
+	                        <h3>Link your bank account</h3>
+	                    </div>
+	                    <div class="exchange__item" data-aos="fade-right" data-aos-delay="300">
+	                        <div class="exchange__img-block">
+	                            <img src="img/wallet.svg" alt="wallet">
+	                        </div>
+	                        <h3>Start buying & selling</h3>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="exchange__converter-container">
+	                <div class="converter" data-aos="zoom-in">
+	                    <div class="converter__choice">
+	                        <button class="convert active" id="buy">Buy</button>
+	                        <button class="convert" id="sell">Sell</button>
+	                    </div>
+	                    <p>1 BTC is roughly</p>
+	                    <div class="converter__rate">
+	                        <h3>28,964.90</h3>
+	                        <span>USD</span>
+	                        <a href="">Claim <strong>$10</strong> in Rewards</a>
+	                    </div>
+	                    <div class="converter__row-container">
+	                        <div class="converter__row" id="row1">
+	                            <input type="text" value="4.000" name="usdInput">
+	                            <div class="converter__wallet">
+	                                <div class="converter__item">
+	                                    <img id="wallet__logo"  src="img/USD.svg" alt="USD">
+	                                    <span>USD</span>
+	                                </div>
+	                                <div class="converter__arrow">
+	                                    <img src="img/Arrow.svg" alt="Arrow">
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <div class="converter__row" id="row2">
+	                            <input type="text" value="0.000138" name="bitcoinInput" readonly>
+	                            <div class="converter__wallet">
+	                                <div class="converter__item">
+	                                    <img id="wallet__logo" src="img/Bitcoin.svg" alt="Bitcoin">
+	                                    <span>BTC</span>
+	                                </div>
+	                                <div class="converter__arrow">
+	                                    <img src="img/Arrow.svg" alt="Arrow">
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <button class="converter__button">Buy Now</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class="about">
+	    <div class="about__container">
+	        <div class="svg-box" data-aos="custom-line3">
+	            <svg width="345" height="286" viewBox="0 0 345 286" fill="none" xmlns="http://www.w3.org/2000/svg" class="about__line">
+	                <path
+	                    d="M359.5 1C359.5 1 135.478 54.3904 182 125C201.678 154.867 249.331 138.862 260 173C274.812 220.392 195 263 169.5 271.5C144 280 67.551 300.372 27.5 264.5C13.7835 252.215 7.37039 242.777 1 225.5"
+	                    stroke="url(#paint0_linear_298_43)" stroke-width="2" />
+	                <defs>
+	                    <linearGradient id="paint0_linear_298_43" x1="19" y1="292" x2="359.417" y2="294.87"
+	                        gradientUnits="userSpaceOnUse">
+	                        <stop stop-color="#FF59F8" stop-opacity="0" />
+	                        <stop offset="0.345487" stop-color="#AE72FF" />
+	                        <stop offset="0.491082" stop-color="#90E9ED" />
+	                        <stop offset="0.683074" stop-color="#5CD167" />
+	                        <stop offset="0.99968" stop-color="#FFEE00" stop-opacity="0" />
+	                    </linearGradient>
+	                </defs>
+	            </svg>
+	        </div>
+	        <script>
+	            //var path = document.querySelector('.about__line path');
+	                //console.log(path.getTotalLength());
+	        </script>
+	        <div class="wrapper about__wrap">
+	            <div class="about__img-block">
+	                <img src="img/about.png" alt="about" data-aos="fade-right">
+	            </div>
+	            <div class="about__content">
+	                <h2 data-aos="fade-left">We are the most trusted cryptocurrency platform.</h2>
+	                <p data-aos="fade-left">We believe Cryptolly is here to stay — and that a future worth building is one which opens its doors and invites everyone in.</p>
+	                <div class="about__list">
+	                    <div class="about__item" data-aos="fade-down" data-aos-delay="100">
+	                        <div class="about__item__img-block">
+	                            <img src="img/Show.svg" alt="Show" class="hyperimg">
+	                        </div>
+	                        <div class="about__text-block">
+	                            <h3>Clarity</h3>
+	                            <p>We help you make sense of the coins, the terms, the dense charts and market changes.</p>
+	                        </div>
+	                    </div>
+	                    <div class="about__item" data-aos="fade-down" data-aos-delay="200">
+	                        <div class="about__item__img-block">
+	                            <img src="img/Shield.svg" alt="Shield">
+	                        </div>
+	                        <div class="about__text-block">
+	                            <h3>Confidence</h3>
+	                            <p>Our markets are always up to date, sparking curiosity with real-world relevance.</p>
+	                        </div>
+	                    </div>
+	                    <div class="about__item" data-aos="fade-down" data-aos-delay="300">
+	                        <div class="about__item__img-block">
+	                            <img src="img/Users.svg" alt="Users">
+	                        </div>
+	                        <div class="about__text-block">
+	                            <h3>Community</h3>
+	                            <p>We supports the crypto community, putting data in the hands which need it most.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class="media">
+	    <div class="wrapper media__wrap">
+	        <div class="media__text-container">
+	            <h2 data-aos="fade-right" data-aos="fade-right">What media says about Cryptolly?</h2>
+	            <div class="media__content">
+	                <div class="media__slider" data-aos="fade-right">
+	                    <div class="media__slider-item">
+	                        <p id="feedback">“Derivative exchange America-based Cryptolly believes they will continue to grow in 2020.”</p>
+	                        <p id="author">Newweeks, 2020</p>
+	                    </div>
+	                    <div class="media__slider-item">
+	                        <p id="feedback">“Derivative exchange America-based Cryptolly believes they will continue to grow in 2020.”</p>
+	                        <p id="author">Fores, 2020</p>
+	                    </div>
+	                    <div class="media__slider-item">
+	                        <p id="feedback">“Derivative exchange America-based Cryptolly believes they will continue to grow in 2020.”</p>
+	                        <p id="author">MetroNew, 2020</p>
+	                    </div>
+	                    <div class="media__slider-item">
+	                        <p id="feedback">“Derivative exchange America-based Cryptolly believes they will continue to grow in 2020.”</p>
+	                        <p id="author">EuroNew, 2020</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="media__button-container">
+	                <button onclick="mediaSliderToLeft()"><img src="img/icons/Arrow-LeftCircle.svg" alt="left__arrow" data-aos="fade-right"></button>
+	                <button onclick="mediaSliderToRight()"><img src="img/icons/Arrow-RightCircle.svg" alt="right__arrow" data-aos="fade-right"></button>
+	            </div>
+	        </div>
+	        <div class="media__image-container">
+	            <div class="media__company-circle">
+	                <div class="media__company-inner-circle">
+	                    Newweeks
+	                </div>
+	            </div>
+	            <div class="media__company-circle">
+	                <div class="media__company-inner-circle">
+	                    Fores
+	                </div>
+	            </div>
+	            <div class="media__company-circle">
+	                <div class="media__company-inner-circle">
+	                    MetroNew
+	                </div>
+	            </div>
+	            <div class="media__company-circle">
+	                <div class="media__company-inner-circle">
+	                    EuroNew
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class="mobile">
+	    <div class="mobile__container">
+	        <img src="img/GridBg.svg" alt="grid_bg" class="grid__bg">
+	        <div class="svg-box" data-aos="custom-line4">
+	            <svg class="vector111" width="448" height="702" viewBox="0 0 448 702" fill="none" xmlns="http://www.w3.org/2000/svg">
+	                <path fill="url(#paint0_linear_298_41)" stroke-width="2" d="M903.539 352.342C906.017 349.269 908.441 346.214 910.812 343.177C953.849 288.052 977.607 241.526 981.424 204.888C985.071 169.886 970.149 144.936 937.075 130.734C834.928 81.0289 741.226 51.7082 672.807 30.2981C645.676 21.8085 622.245 14.4769 603.671 7.56875C571.009 -4.51733 520.163 -0.105039 464.17 19.6728C407.003 39.8657 353.116 73.4074 316.327 111.698C245.557 189.307 125.799 271.463 44.4736 314.96C20.0107 328.079 5.19509 349.501 1.62724 376.912C-4.60988 424.819 24.1372 485.517 76.6497 535.317L76.6468 535.314C129.549 585.996 181.882 634.075 240.406 665.294C271.959 682.126 302.853 692.877 334.855 698.161C370.405 704.031 406.363 703.045 444.784 695.146C479.244 688.639 528.371 665.724 586.843 628.88C642.505 593.806 704.254 547.324 760.715 497.997C817.106 448.73 866.256 398.587 903.539 352.342ZM19.9465 337.182C26.6032 328.925 35.0977 321.97 45.3108 316.494C126.762 272.929 246.718 190.632 317.61 112.887C354.204 74.8019 407.845 41.4183 464.764 21.3124C520.377 1.66869 570.789 -2.74628 603.072 9.1993C621.688 16.1215 645.139 23.4599 672.294 31.9573C740.659 53.3509 834.289 82.6489 936.355 132.313C968.679 146.194 983.245 170.542 979.687 204.697C975.903 241.007 952.266 287.237 909.431 342.103C871.429 390.75 819.616 444.216 759.558 496.685C703.162 545.956 641.49 592.38 585.902 627.408C527.613 664.136 478.693 686.97 444.434 693.441C406.213 701.298 370.464 702.281 335.13 696.446C303.322 691.194 272.605 680.503 241.224 663.763C182.897 632.649 130.665 584.659 77.8554 534.065L77.8524 534.062C25.7392 484.64 -2.80388 424.514 3.36263 377.148C5.36442 361.755 10.9919 348.289 19.9465 337.182Z" />
+	                <defs>
+	                    <linearGradient id="paint0_linear_298_41" x1="470.5" y1="18.5" x2="506.931" y2="680.904"
+	                        gradientUnits="userSpaceOnUse">
+	                        <stop stop-color="#FF59F8" stop-opacity="0" />
+	                        <stop offset="0.345487" stop-color="#AE72FF" />
+	                        <stop offset="0.491082" stop-color="#90E9ED" />
+	                        <stop offset="0.683074" stop-color="#5CD167" />
+	                        <stop offset="1" stop-color="#FFEE00" stop-opacity="0" />
+	                    </linearGradient>
+	                </defs>
+	            </svg>
+	        </div>
+	        <script>
+	            let path = document.querySelector('.svg-box path');
+	            console.log(path.getTotalLength());
+	        </script>
+	        <div class="wrapper mobile__wrap">
+	            <div class="mobile__img-block">
+	                <img src="img/Phone.png" alt="" data-aos="fade-right">
+	            </div>
+	            <div class="mobile__content">
+	                <h2 data-aos="fade-up">Build your crypto portfolio anywhere.</h2>
+	                <p class="mobile__paragraph" data-aos="fade-up">A powerful cryptocurrency exchange in your pocket. Buy,
+	                    sell and trade crypto on the go.</p>
+	                <p class="mobile__get-app">Get the Cryptolly Wallet Mobile App Now!</p>
+	                <div class="mobile__buttons">
+	                    <button data-aos="fade-up" data-aos-delay="100">
+	                        <img src="img/google-play.svg" alt="">
+	                        <div class="mobile__button__txt-block">
+	                            <p class="button__first-txt">GET IT ON</p>
+	                            <p class="button__second-txt">Google Play</p>
+	                        </div>
+	                    </button>
+	                    <button data-aos="fade-up" data-aos-delay="200">
+	                        <img src="img/app-store.svg" alt="">
+	                        <div class="mobile__button__txt-block">
+	                            <p class="button__first-txt">Download on the</p>
+	                            <p class="button__second-txt">App Store</p>
+	                        </div>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class="contact">
+	    <div class="contact__container">
+	        <div class="box-svg" data-aos="custom-line5">
+	            <svg class="contact__line-bg" width="555" height="280" viewBox="0 0 555 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="daf">
+	                <path d="M -25.00,278.59
+	                C 66.77,202.82 155.50,127.17 210.00,84.59
+	                  264.50,42.00 315.00,49.50 334.00,84.59
+	                  355.36,124.02 360.00,164.50 307.50,199.00
+	                  255.00,233.50 177.00,243.00 199.00,145.50
+	                  221.00,48.00 340.23,-19.66 456.00,7.59
+	                  497.91,17.45 521.64,29.68 554.00,58.09"
+	                    stroke="url(#paint0_linear_298_42)" stroke-width="2" />
+	                <defs>
+	                    <linearGradient id="paint0_linear_298_42" x1="-43.6467" y1="291.254" x2="554.067"
+	                        y2="285.178" gradientUnits="userSpaceOnUse">
+	                        <stop stop-color="#FF59F8" stop-opacity="0" />
+	                        <stop offset="0.345487" stop-color="#AE72FF" />
+	                        <stop offset="0.491082" stop-color="#90E9ED" />
+	                        <stop offset="0.683074" stop-color="#5CD167" />
+	                        <stop offset="0.99968" stop-color="#FFEE00" stop-opacity="0" />
+	                    </linearGradient>
+	                </defs>
+	            </svg>
+	        </div>
+	        <script>
+	            // let path = document.querySelector('.box-svg path');
+	            // console.log(path.getTotalLength());
+	        </script>
+	        <div class="contact__content-container">
+	            <p data-aos="fade-up">Ready to start trading cryptocurrency?</p>
+	            <h2 data-aos="fade-up">New users can earn up to $80 in crypto rewards.</h2>
+	            <form method="POST" action="index.html" data-aos="fade-down">
+	                <div class="contact__form">
+	                    <input type="email" name="email" placeholder="Enter your email address">
+	                    <button>
+	                        Get Started
+	                    </button>
+	                </div>
+	            </form>
+	        </div>
+	    </div>
+	</section>
+	    <div class="wrapper footer__wrap">
+	        <div class="footer__main-container">
+	            <div class="footer__item">
+	                <div class="logo">
+	                    <img src="img/Logo.svg" alt="logo">
+	                    <p>Cryptolly<span>.</span></p>
+	                </div>
+	                <p>Your best crypto partner.</p>
+	                <div class="footer__socials">
+	                    <a href="#">
+	                        <img src="img/LinkedIn.svg" alt="LinkedIn">
+	                    </a>
+	                    <a href="#">
+	                        <img src="img/Facebook.svg" alt="LinkedIn">
+	                    </a>
+	                    <a href="#">
+	                        <img src="img/Instagram.svg" alt="LinkedIn">
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="footer__item">
+	                <h4>Quick Links.</h4>
+	                <div class="footer__links-container">
+	                    <div class="footer__links-col">
+	                        <a href="#">Buy/Sell</a>
+	                        <a href="#">Trade Now</a>
+	                        <a href="#">Pricing</a>
+	                    </div>
+	                    <div class="footer__links-col">
+	                        <a href="#">Wallets</a>
+	                        <a href="#">Company</a>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="footer__item">
+	                <h4>Submit for updates.</h4>
+	                <p>Subscribe to get update and notify our exchange and products</p>
+	                <form method="POST" action="index.html">
+	                    <div class="contact__form">
+	                        <input type="email" name="email" placeholder="Enter your email address">
+	                        <button>
+	                            Send
+	                        </button>
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+	        <div class="footer__copyright">
+	            <p>Cryptolly ©. All rights reserved.</p>
+	            <div class="copyright__left">
+	                <p>Term of Service</p>
+	                <div class="vertical-line"></div>
+	                <p>Privacy Policy</p>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	<div class="blur"></div>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
