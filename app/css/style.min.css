@@ -994,6 +994,11 @@ a {
   left: 65%;
   z-index: -1;
 }
+.mobile__container .vector111 path {
+  stroke-dasharray: 678;
+  stroke-dashoffset: 0;
+  transition: all 3s;
+}
 
 .mobile__wrap {
   display: flex;
@@ -2074,17 +2079,6 @@ a {
   stroke-dasharray: 678;
   stroke-dashoffset: 0;
   transition: all 2s;
-}
-
-[data-aos=custom-line4] svg path {
-  stroke-dasharray: 678;
-  stroke-dashoffset: 678;
-  animation: none;
-}
-[data-aos=custom-line4].aos-animate svg path {
-  stroke-dasharray: 678;
-  stroke-dashoffset: 0;
-  transition: all 3s;
 }
 
 [data-aos=custom-line5] svg path {

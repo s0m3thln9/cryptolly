@@ -879,6 +879,11 @@ a {
     .vector111 {
         @include position-left(-15%, 65%);
         z-index: -1;
+        path {
+            stroke-dasharray: 678;
+            stroke-dashoffset: 0;
+            transition: all 3s;
+        }
     }
 }
 
