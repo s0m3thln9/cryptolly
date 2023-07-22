@@ -153,6 +153,7 @@ a {
         .menu__button-container {
             margin-left: 32px;
             @include flex(start, center);
+            transition: 0.5s;
 
             button {
                 height: 100%;
