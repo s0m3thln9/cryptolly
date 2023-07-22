@@ -1023,6 +1023,10 @@ a {
             margin-left: 10px;
             @include button(16px, 32px);
             @include font('Sofia Pro', 16px, 600, 160%, $white);
+            transition: 0.2s;
+            &:hover {
+                transform: translateX(-5px);
+            }
         }
     }
 }
@@ -1127,6 +1131,10 @@ a {
                         margin-left: 10px;
                         @include button(12px, 24px);
                         @include font('Sofia Pro', 14px, 600, 22.4px, $white);
+                        transition: 0.2s;
+                        &:hover {
+                            transform: translateX(-5px);
+                        }
                     }
                 }
             }
