@@ -153,9 +153,8 @@ a {
         .menu__button-container {
             margin-left: 32px;
             @include flex(start, center);
-            transition: 0.5s;
-
             button {
+                transition: 0.2s;
                 height: 100%;
                 padding: 12px 24px;
                 border-radius: 100px;
@@ -217,6 +216,7 @@ a {
         @include flex(end, start);
 
         button {
+            transition: 0.2s;
             height: 100%;
             padding: 12px 24px;
             border-radius: 100px;
@@ -233,6 +233,9 @@ a {
             &:last-child {
                 margin-left: 16px;
                 @include button(12px, 24px);
+            }
+            &:hover {
+                transform: translateY(5px);
             }
         }
     }
