@@ -260,6 +260,10 @@ a {
         button {
             margin-top: 48px;
             @include font('Graphik', 18px, 400, 27px, $text-grey-20);
+            transition: 0.2s;
+            &:hover {
+                transform: translateY(5px);
+            }
         }
     }
 
@@ -478,6 +482,10 @@ a {
         margin-top: 32px;
         @include button(16px, 54.5px);
         @include font('Sofia Pro', 16px, 600, 160%, $white);
+        transition: 0.2s;
+        &:hover {
+            transform: translateY(5px);
+        }
     }
 }
 
@@ -581,9 +589,7 @@ a {
                 color: $dark-blue;
             }
 
-            &:hover {
-                cursor: pointer;
-            }
+            
         }
     }
 
@@ -663,6 +669,10 @@ a {
         @include button(18px, 32px);
         width: 386px;
         height: 65px;
+        transition: 0.2s;
+        &:hover {
+            transform: translateY(5px);
+        }
     }
 }
 
@@ -790,6 +800,10 @@ a {
             background: transparent;
             border: none;
             cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+                transform: scale(1.1);
+            }
 
             &:not(:first-child) {
                 margin-left: 24px;
@@ -926,6 +940,10 @@ a {
             border: 1px solid $white;
             border-radius: 100px;
             background: transparent;
+            transition: 0.2s;
+            &:hover {
+                transform: translateY(5px);
+            }
 
             &:first-child {
                 margin-right: 16px;
