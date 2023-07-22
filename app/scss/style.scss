@@ -171,6 +171,9 @@ a {
                     margin-left: 16px;
                     @include button(12px, 24px);
                 }
+                &&:hover {
+                    transform: translateY(5px);
+                }
             }
         }
     }
