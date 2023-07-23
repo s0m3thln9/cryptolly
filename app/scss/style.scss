@@ -96,7 +96,7 @@ a {
 .hero {
     width: 100%;
     position: relative;
-
+    overflow: hidden;
     .grid__bg {
         @include position-left(0, 50%);
         transform: translateX(-50%);
