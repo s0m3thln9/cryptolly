@@ -107,6 +107,7 @@ function building() {
         src([
             'app/img/**/*.*',
             'app/css/style.min.css',
+            'app/css/aos.css',
             'app/css/fonts.css',
             'app/js/main.min.js',
             'app/fonts/*.*',
